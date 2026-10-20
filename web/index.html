@@ -114,7 +114,7 @@
   <details class="help">
     <summary>How saving works</summary>
     <ul>
-      <li><b>Save</b> from the in-game toolbar, then pick one of three slots. You can't save during a conversation, a scene, or while a text-message date is pending.</li>
+      <li><b>Save</b> with the Save/Quit button on the in-game toolbar, then pick one of three slots. You can save while walking around town, but not inside a place or during a conversation or scene. Picking a filled slot asks you to click it again before replacing it.</li>
       <li><b>Autosave</b> happens every morning when you wake up, in its own slot.</li>
       <li><b>Load</b> from the title screen. You get the same slot list, including the autosave.</li>
       <li>Saves stay in this browser on this computer. Use <b>Export saves</b> for a backup file and <b>Import saves</b> to bring one back (this replaces the saves here and restarts the game).</li>
@@ -177,7 +177,8 @@
     player = ruffle.createPlayer();
     const stage = document.getElementById("stage");
     stage.replaceChildren(player);
-    const flashvars = params.has("debug") ? "debug=1" : "";
+    // test switches: ?debug=1 (log to console), ?fasttime=1 (30x game clock)
+    const flashvars = ["debug", "fasttime"].filter((k) => params.has(k)).map((k) => k + "=1").join("&");
     player.ruffle().load({ url: "hookup.swf", parameters: flashvars }).catch((e) => {
       stage.replaceChildren(Object.assign(document.createElement("div"), {
         id: "fallback",
@@ -220,7 +221,9 @@
     const payload = { format: EXPORT_FORMAT, version: 1, exportedAt: new Date().toISOString(), entries };
     const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
     const a = document.createElement("a");
-    const stamp = new Date().toISOString().slice(0, 16).replace(/[:T]/g, "-");
+    const d = new Date();
+    const pad = (n) => String(n).padStart(2, "0");
+    const stamp = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}-${pad(d.getHours())}${pad(d.getMinutes())}`;
     a.href = URL.createObjectURL(blob);
     a.download = `hookup-saves-${stamp}.json`;
     document.body.append(a);

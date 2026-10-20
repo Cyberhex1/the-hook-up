@@ -1,6 +1,25 @@
 # The Hook-Up: plan to make it fully playable
 
-Status: **plan only, nothing implemented yet.** All analysis was read-only. The original files in `The Hook-Up/` have not been touched.
+## Status (2026-10-20)
+
+Implemented, and tested in the browser (Ruffle 0.7.1):
+- three save slots, autosave each morning, a slot picker inside Flash;
+- export/import of saves on the web page;
+- pending text-message appointments are saved, so they no longer block saving;
+- Ruffle upgrade (fixes select-all and the caret in the name field);
+- fixes: duplicate `Game.init()`, the load-state timer and listener leak, the `NPCScheduleItemPosition` and `ScriptedEvent` listener leaks, info prompts unfreezing the game, the placeholder billboard URL.
+
+Build with `python -I tools/fetch_deps.py` once, then `python -I tools/build.py`, which writes `dist/`.
+
+Not yet verified: the patched SWF in `flashplayer_32_sa.exe`. Computer use can't attach to the portable exe, so this needs a manual check.
+
+Freeze: with these fixes and Ruffle 0.7.1, the longest main-thread task measured was about 150 ms during startup, loading a save, and entering a location. The original 15 s freeze wasn't reproduced; it was most likely the old Ruffle build plus the duplicate init.
+
+Decisions taken: both targets, three slots plus autosave, export/import. Publishing comes later.
+
+---
+
+The original plan follows.
 
 ---
 

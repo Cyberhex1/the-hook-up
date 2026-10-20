@@ -472,6 +472,76 @@ HS.restorePhones = function(top) {
 	}
 };
 
+// ---- GameStateStartLoadGame fixes ------------------------------------------
+// The original lost `this` in two callbacks: the map listener never removed
+// itself, so every later map change re-ran mapLoadComplete(), and
+// setInterval(this.stateComplete, 3000) could never be cleared. After loading a
+// save, each map change stacked another timer re-applying the outfit every 3s.
+// Same steps as the original, with the references fixed.
+
+var LS = com.thup.dboy.GameStateStartLoadGame.prototype;
+LS.loadingDone = function() {
+	com.thup.dboy.DebugHandler.msg("ENDING FINISH LOAD", com.thup.dboy.DebugHandler.DEBUG);
+	_root.intro._visible = false;
+	_root.loader._visible = false;
+	_root.customize._visible = false;
+	com.thup.dboy.SoundManager.killAll();
+	com.thup.dboy.Game.mapManager.enterMap("town", 0);
+	var me = this;
+	this._listener = new Object();
+	this._listener.onMapInit = function() {
+		com.thup.dboy.Game.mapManager.removeListener(me._listener);
+		me.mapLoadComplete();
+	};
+	com.thup.dboy.Game.mapManager.addListener(this._listener);
+};
+LS.mapLoadComplete = function() {
+	clearInterval(this._interval);
+	this._interval = setInterval(this, "stateComplete", 3000);
+	com.thup.dboy.ThinkManager.freeze = false;
+	if (com.thup.dboy.Game.saveManager.GAME_VERSION != com.thup.dboy.Game.saveManager.PLAYER_SAVE_VERSION) {
+		new com.thup.dboy.Prompt("Your save is from an old version. You can continue to play, but you may run into issues. Or you can reload and start a new game.", true);
+	}
+	com.thup.dboy.Game.gsm.setState(new com.thup.dboy.GameStateWorldWalk());
+};
+LS.stateComplete = function() {
+	clearInterval(this._interval);
+	com.thup.dboy.Game.mapManager.removeListener(this._listener);
+	com.thup.dboy.DebugHandler.msg("STATE COMPLETE SET", com.thup.dboy.DebugHandler.DEBUG);
+	com.thup.dboy.Game.player.anim.setOutfit("GAME STATE LOAD");
+};
+
+// ---- listener leaks ---------------------------------------------------------
+// NPCScheduleItemPosition.listenForMapChange() registered a map listener that
+// used `this` (the listener object) instead of the schedule item, so it never
+// spawned anything and never removed itself. One more dead listener piled up on
+// every call, and every map change walked all of them. Keep what it effectively
+// did (the first two lines) and stop registering the dead listener.
+com.thup.dboy.NPCScheduleItemPosition.prototype.listenForMapChange = function(aSpawnOutsideLoc) {
+	this._npc.removeListener(this._mapListener);
+	this._npc.anim.destroy();
+};
+
+// ScriptedEvent.doStep() had the same mistake: the onComplete listener tried to
+// remove itself through `this`, so listeners stayed on each command and fired
+// again (calling commandDone() extra times) whenever an event played again.
+com.thup.dboy.ScriptedEvent.prototype.doStep = function() {
+	if (com.thup.dboy.Game.locationManager.currentLocation == null) {
+		_root.location_filter._visible = false;
+	}
+	this.currentCommand = this.steps[this.commandIndex];
+	var me = this;
+	var cmd = this.currentCommand;
+	var listener = new Object();
+	this._listener = listener;
+	listener.onComplete = function(args) {
+		cmd.removeListener(listener);
+		me.commandDone();
+	};
+	cmd.addListener(listener);
+	cmd.start();
+};
+
 // ---- loading from the title screen ---------------------------------------
 
 var G = com.thup.dboy.Game;
@@ -523,6 +593,20 @@ HS.requestAutosave = function() {
 		}
 	};
 };
+
+// ---- debug helpers -------------------------------------------------------
+// fasttime=1 FlashVar (index.html?fasttime=1): the game clock runs 30x faster,
+// for testing nights, mornings and appointments. Off for players.
+if (_root.fasttime == "1") {
+	var fastClock = _root.createEmptyMovieClip("__hsFastTime", 1048000);
+	fastClock.onEnterFrame = function() {
+		var c = com.thup.dboy.Game.gameClock;
+		var sm = com.thup.dboy.Game.saveManager;
+		if (c.rate != undefined && !sm._isloading) {
+			c.rate = com.thup.dboy.Clock.RATE * 30;
+		}
+	};
+}
 
 // ---- logging ---------------------------------------------------------------
 // The original sends every message to the Alcon debugger over LocalConnection,
