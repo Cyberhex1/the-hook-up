@@ -1,0 +1,121 @@
+<?xml version="1.0"?><CONVERSATION ID="17" NAME="Get Dylan to Apologize" SUCCESS_METER_MAX="20" WINNING_CS_ID="614" LOSING_CS_ID="616" NPC="Dylan">
+<DESCRIP><![CDATA[Dylan ruined his chances at getting his music heard by humiliating Megan. Get him to apologize to her.<br>CONFIDENCE-Restore Dylan's confidence in his music so he doesn't blow it again.<br>GUILT-Give Dylan some guilt over what he did to Megan.]]></DESCRIP>
+				<AXIS AXIS_ID="9" NAME="guilt" />
+				<AXIS AXIS_ID="2" NAME="confident" />
+
+
+<CARD CARD_ID="268" REQ_NUGGET_ID="0" NAME="Did you see her crying?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[How could you laugh while Megan was crying?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="320" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="238" REQ_NUGGET_ID="0" NAME="Guilt Trip" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[You're an expert in the guilt trip, all your cards that increase guilt are stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="282" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="9"  />
+		</CARD>
+<CARD CARD_ID="240" REQ_NUGGET_ID="0" NAME="I loved your mix" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Your mix CD was awesome, don't you want more people to hear it?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="284" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="239" REQ_NUGGET_ID="0" NAME="Megan deserves better" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Megan is such a sweet girl, she deserves better.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="283" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="236" REQ_NUGGET_ID="0" NAME="Motivational Speaker" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[Your words are inspiring, all your dialog that adds to confidence is stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="280" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="2"  />
+		</CARD>
+<CARD CARD_ID="267" REQ_NUGGET_ID="0" NAME="Secret: Dylan gives his mix CD to all the girls" USER="pc" SCOPE="all" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[You always hand your music to the girls you like because that's how you communicate best. You missed a chance to share that with everyone.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to guilt, +2 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="318" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="319" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="233" REQ_NUGGET_ID="122" NAME="Secret: Megan was going to help" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[Megan was going to give you a big break, a shot at greatness, and you totally blew it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, +2 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="275" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="276" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="235" REQ_NUGGET_ID="130" NAME="Secret: You knew Megan was trying to help" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[You knew Megan was trying to help you, and you pissed her off on purpose. Why ruin your chances at fame?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to guilt, +1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="278" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="3"  />
+		<EFFECT EFFECT_ID="279" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="237" REQ_NUGGET_ID="61" NAME="Secret: Your cheated on Megan" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[Haven't you done enough to poor Megan? ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="281" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="234" REQ_NUGGET_ID="129" NAME="Secret: Your dad said you were nothing" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[It's not true, what your dad said, he was just bitter. You're so talented, I wish you'd see that.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="277" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="266" REQ_NUGGET_ID="0" NAME="Why people like you" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Dylan, people like you for who you are, not for your pranking.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="317" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="1"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="269" NAME="Carefree" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Dylan is hard to guilt.  All his cards that reduce guilt are stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="321" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="9"  />
+		</CARD>
+<CARD CARD_ID="278" NAME="It's a hard knock life." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[The music business is cut throat, full of sharks and users.  Everyone's lookin' out for number one.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="331" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="277" NAME="Keeping it real." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I make my music for me, it's a pure thing. I don't need some hotshot telling me how to do what I do.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, -1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="329" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="330" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="271" NAME="Megan knows I was joking" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[She knows I kid around, we used to do pranks together!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="323" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="274" NAME="My pranks are funny!" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Didn't you see everyone laughing in the club?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="326" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="273" NAME="My sound is not that original" USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[There's a dozen other guys who sound like me.  None as good looking, though, I'll give you that.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="325" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="276" NAME="People b.s. me." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Everyone says to my face that my stuff is good, but it seems they are just saying that because they don't have the guts to tell me what they really think.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="328" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="275" NAME="Rumor: Megan has a thing for me." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Megan has a good sense of humor, I think she's mad because she's still in love with me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="327" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="270" NAME="Self Deprecating" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Dylan isn't feeling too good about himself right now, all his dialog that reduces confidence is stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="322" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="2"  />
+		</CARD>
+<CARD CARD_ID="272" NAME="Tuff Luv wouldn't have listened anyway" USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[He wouldn't have liked my music anyway. For all the game I talk, I know it's really nothing special.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="324" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-3"  />
+		</CARD>
+
+</CONVERSATION>

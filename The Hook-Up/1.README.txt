@@ -1,0 +1,9 @@
+The Hookup v1.5.2 (8/14/2007)
+----
+How to play:
+
+1) Launch flashplayer_32_sa.exe, this is a standalone Flash player.
+
+2) File -> Open -> Browse... to hookup.swf
+
+NOTE: This game requires a web server for saving and loading to work using the original code here. The game is fully playable without that feature.

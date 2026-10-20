@@ -1,0 +1,153 @@
+<?xml version="1.0"?><CONVERSATION ID="14" NAME="Mess with Melissa's Confidence" SUCCESS_METER_MAX="20" WINNING_CS_ID="445" LOSING_CS_ID="447" NPC="Melissa">
+<DESCRIP><![CDATA[Melissa is planning to confess her feelings to Matthew on stage, winning him over with a song. Stop her.<br>UNSURE: Give Melissa a case of stage fright.<br>HUMILATED: Remind Melissa of her flaws so she loses her nerve.]]></DESCRIP>
+				<AXIS AXIS_ID="5" NAME="unsure" />
+				<AXIS AXIS_ID="8" NAME="humilated" />
+
+
+<CARD CARD_ID="150" REQ_NUGGET_ID="0" NAME="Break a leg!" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Hey, good luck up there. You know, if you're considering bowing out, there's still time.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="172" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="151" REQ_NUGGET_ID="0" NAME="Hopeless." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Begging Matthew for attention in front of everyone. You don't think it's going to come across as a little pathetic? ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="173" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="162" REQ_NUGGET_ID="0" NAME="Insecurity" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[All your dialog making Melissa unsure is stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="187" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="164" REQ_NUGGET_ID="0" NAME="No ambition." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Matthew is a driven guy, what would he want with someone who spends her whole day doing nothing but sitting around?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="189" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="163" REQ_NUGGET_ID="0" NAME="Out of tune" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Last time you sang I heard you were totally out of tune. I guess you had a cold or something, right?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="188" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="161" REQ_NUGGET_ID="84" NAME="Rumor: Everyone knows about your scar." USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[You know everyone knows about that nasty scar right? They're all out there pity the poor deformed drunk girl on stage.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="186" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="155" REQ_NUGGET_ID="75" NAME="Rumor: Melissa's drinking problem." USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[You sure you're not too nervous to get up there? Maybe you should have a drink?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to humilated, +2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="178" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="179" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="160" REQ_NUGGET_ID="0" NAME="Rumor: Melissa's many boyfriends." USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[I've heard stage fright can be cured by imagining everyone in the audience is naked, which should be easy for you since you've slept with all of them.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="185" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="157" REQ_NUGGET_ID="83" NAME="Secret: Melissa's mom." USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[You're setting yourself up for a big failure here. It's so self-destructive. You're totally following the same path as your mom.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="182" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="158" REQ_NUGGET_ID="81" NAME="Secret: Melissa's performance anxiety" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[I don't know how you do it, going up there in front of all those people. Your stomach must be knots the whole time. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="183" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="159" REQ_NUGGET_ID="79" NAME="Secret: Melissa's scar" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm betting Matthew doesn't know about that nasty scar of yours.  I think I'm going to go tell him.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="184" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="156" REQ_NUGGET_ID="82" NAME="Secret: Melissa's secret love?" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[You've been "secretly" in love with him for how long? He already knows Melissa, and why hasn't he said anything? Maybe he doesn't feel the same? Maybe he doesn't want to humilate you.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, +1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="180" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		<EFFECT EFFECT_ID="181" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="172" REQ_NUGGET_ID="0" NAME="Singer or Dancer?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You're kind of out of you element huh? Have you even been on a stage without a pole?
+]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="198" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="153" REQ_NUGGET_ID="0" NAME="So much for a happy ending?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You don't think it's a little much -- a big on stage confession? These things don't always have a happy ending. This isn't a movie you know.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to humilated, +1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="175" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="176" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="152" REQ_NUGGET_ID="0" NAME="Stage Fright" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Boy, I do not envy you.  All those eyes watching your every move, all those people waiting, wondering "Is she any good?  What makes her think she's so special?". That's so intense!  Good luck!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="174" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="154" REQ_NUGGET_ID="0" NAME="What if it doesn't work?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[What are you going to do if this doesn't work?  Matthew is going to be embarrassed for you, and everyone else will be laughing at you.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="177" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="170" NAME="Defiant." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Who are you to give me advice? No guy wants you!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="195" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="169" NAME="I'm not afraid" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Whatever happens is meant to happen. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="194" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="174" NAME="I'm not listening!" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I can do this.  I can do this. I can do this. I can do this.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, -1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="200" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="201" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="165" NAME="I'm talented" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Everyone tells me how much they like my songs.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="190" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="175" NAME="Like you could do better" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[If you think you could do better be my guest, you don't have a talented bone in your body.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="202" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="171" NAME="Matthew likes me for being me" USER="npc" TYPE="secret" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Matthew already knows about all my issues, and he still loves me for who I am.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to humilated, -2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="196" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-2"  />
+		<EFFECT EFFECT_ID="197" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="173" NAME="Practice makes me perfect." USER="npc" TYPE="statement" SCOPE="" DURATION="">
+<DESCRIPTION><![CDATA[I've been practicing forever and this is my moment to shine, I don't care what you say.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="199" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="168" NAME="Pride" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Melissa is feeling proud, improving any of her dialog that decreases humilation.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="193" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="8"  />
+		</CARD>
+<CARD CARD_ID="167" NAME="Rumor: Matthew's been waiting" USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You know why Matthew hasn't had a girlfriend in so long? He's been waiting for me to confess my feelings. I know it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="192" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="166" NAME="We have a real connection" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Matthew and I have a strong and real connection! You two have nothing in common.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="191" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="176" NAME="You've got your own agenda" USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You've always been trying to come between Matthew and me, why should I care what you have to say?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="203" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-3"  />
+		</CARD>
+
+</CONVERSATION>

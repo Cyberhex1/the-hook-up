@@ -1,0 +1,5 @@
+# downloaded dev tooling (fetched by tools/fetch_deps.py)
+.tools/
+# generated build output
+dist/
+__pycache__/

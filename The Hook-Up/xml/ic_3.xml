@@ -1,0 +1,90 @@
+<?xml version="1.0"?><CONVERSATION ID="3" NAME="Break up Megan and Kyle" SUCCESS_METER_MAX="20" WINNING_CS_ID="" LOSING_CS_ID="" NPC="">
+<DESCRIP><![CDATA[Try and brak up Megan and Kyle.]]></DESCRIP>
+				<AXIS AXIS_ID="4" NAME="happy" />
+				<AXIS AXIS_ID="3" NAME="believe" />
+
+
+<CARD CARD_ID="36" REQ_NUGGET_ID="" NAME="A spoonful of Sugar" USER="pc" SCOPE="self" TYPE="meta" DURATION="perm">
+<DESCRIPTION><![CDATA[Say it sweetly, soften the anger caused by a statement.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[*0 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="37" SCOPE="all" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="0" IS_MULTIPLIER="1"  />
+		</CARD>
+<CARD CARD_ID="38" REQ_NUGGET_ID="" NAME="Backhanded Compliment" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You’re too good for a dog like Kyle anyway]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, +1 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="41" SCOPE="all" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="42" SCOPE="all" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="22" REQ_NUGGET_ID="" NAME="Everyone loves kyle" USER="pc" SCOPE="all" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[“It seems like everyone has a crush on Kyle.  That must be hard...”]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="17" SCOPE="all" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="18" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="40" REQ_NUGGET_ID="" NAME="Hannah’s Rep" USER="pc" SCOPE="all" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[We all know Hannah gets around, you heard she hooked up with 3 guys in one night on that spring break trip?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="44" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="21" REQ_NUGGET_ID="" NAME="It's a Fact" USER="all" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[Make your points with authority.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all cards in play of believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="16" SCOPE="all" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="3"  />
+		</CARD>
+<CARD CARD_ID="45" REQ_NUGGET_ID="" NAME="I’m on your side" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Look, we’re friends, am just worried you might be getting hurt]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to happy, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="53" SCOPE="all" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="54" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="44" REQ_NUGGET_ID="" NAME="Megan hooked up Hannah’s ex-bf, Nick." USER="pc" SCOPE="all" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[Maybe Hannah is trying to get revenge for Nick or something? What a bitch!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, +4 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="51" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="52" SCOPE="all" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="4"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="34" NAME="Hannah doesn’t deserve her rep" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Those stories about Hannah just aren’t true, she’s really not like that]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="35" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="35" NAME="I heard Hannah was actually a lesbian now" USER="npc" TYPE="rumor" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[...]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-4 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="36" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-4"  />
+		</CARD>
+<CARD CARD_ID="30" NAME="I’m better… I think" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[“I’m so much smarter than Hannah, and Kyle likes smart girls.”]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-4 to unsure, +2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="28" SCOPE="all" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-4"  />
+		<EFFECT EFFECT_ID="29" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="31" NAME="Kyle and I are planning a trip" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Kyle and I are going snowboarding next month. We just talked about how awesome it’s going to be]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="30" SCOPE="all" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="33" NAME="Kyle is a good guy" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[You’ve got no idea what you’re talking about, Kyle is so sweet]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, -1 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="33" SCOPE="all" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="34" SCOPE="all" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="28" NAME="Kyle turned down Jessica" USER="npc" TYPE="secret" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[I know for a fact that ho Jessica was trying to put the moves on Kyle, and he pushed her off.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to unsure, -2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="25" SCOPE="all" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-3"  />
+		<EFFECT EFFECT_ID="26" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="32" NAME="What Justin Told Me" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin told me after I left Hannah was hitting on him and wasn’t even talking to Kyle.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, -1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="31" SCOPE="all" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="32" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+
+</CONVERSATION>

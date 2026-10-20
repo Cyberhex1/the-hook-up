@@ -1,0 +1,173 @@
+<?xml version="1.0"?><CONVERSATION ID="9" NAME="Make Dylan Stop His Player Ways" SUCCESS_METER_MAX="18" WINNING_CS_ID="527" LOSING_CS_ID="526" NPC="Dylan">
+<DESCRIP><![CDATA[Dylan stood you up at the movie theater and claims it's because he's not wired for monogamy.<BR>LIKE-Remind Dylan just how much he likes you.<br>BELIEVE-Make a convincing argument why Dylan shouldn't be a player<br>UNSURE-Get Dylan's ego under control.]]></DESCRIP>
+				<AXIS AXIS_ID="5" NAME="unsure" />
+				<AXIS AXIS_ID="1" NAME="like" />
+				<AXIS AXIS_ID="3" NAME="believe" />
+
+
+<CARD CARD_ID="209" REQ_NUGGET_ID="0" NAME="A little advice." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[The less people trust you the less you trust yourself.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="243" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="211" REQ_NUGGET_ID="0" NAME="Grow up." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Steady relationships are a sign of maturity, they show that you know what you want and how to keep it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="245" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="246" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="213" REQ_NUGGET_ID="119" NAME="I totally saw you flirting!" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[At the bookstore? With that tramp in the CBGB shirt? What was up with that?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to like, +1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="248" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="249" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="205" REQ_NUGGET_ID="0" NAME="I'm the best." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Think about it, how are you going to find a girl as cool as me who also appreciates your enormous talent?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="238" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="210" REQ_NUGGET_ID="0" NAME="Monogamy is cool." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Do you really think you are going to get anywhere without someone by your side?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="244" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="202" REQ_NUGGET_ID="0" NAME="Player hater." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You think it's cool to be a player, but smart people see through that and recognize it for what it is, a cry for help.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="234" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="220" REQ_NUGGET_ID="0" NAME="Rumor: Dylan's Rep" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[Yeah, you've got a rep. And you're proud of that? Nobody likes a manwhore.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="260" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="261" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="221" REQ_NUGGET_ID="118" NAME="Rumor: Standing up girls is Dylan's MO" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[Don't play me. I know your game. You thought standing me up would make me want you more. Think again.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="262" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="203" REQ_NUGGET_ID="0" NAME="Search your feelings." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Why don't you take a few minutes and think about what you're doing.  Deep down inside I know you're better than this.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to like, +1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="235" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="236" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="215" REQ_NUGGET_ID="113" NAME="Secret: Megan has your mix CD" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[ I found out Megan has the same mix CD you gave me. I thought that was a personal message to me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="252" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="253" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="216" REQ_NUGGET_ID="114" NAME="Secret: Melissa has your mix CD" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[ I found out Melissa has the same mix CD you gave me. I thought that was a personal message to me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, +1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="254" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="255" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="214" REQ_NUGGET_ID="115" NAME="Secret: Stefanie has your mix CD" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[I found out Stefanie has the same mix CD you gave me. I thought that was a personal message to me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="250" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="251" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="217" REQ_NUGGET_ID="61" NAME="Secret: You did the same to Megan." USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[Megan told me you used to check out other girls all the time when you were with her. You don't see a pattern here?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="256" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="212" REQ_NUGGET_ID="0" NAME="Seduction" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[Make Dylan understand what he'll be missing. All your dialog that increases like is stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="247" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="1"  />
+		</CARD>
+<CARD CARD_ID="208" REQ_NUGGET_ID="0" NAME="Sweet lies?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Remember all those sweet things you said to me? Remember how you said I was special?  Were those just lies so you could get what you want?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="242" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="207" REQ_NUGGET_ID="0" NAME="This isn't the real you, right?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I think the real Dylan is a sweet honest guy, not this selfish monster you're pretending to be.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to like, +1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="240" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="241" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="219" REQ_NUGGET_ID="63" NAME="Two can play that game" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[While I was waiting for you at the movies, I met this guy who seemed really cool.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="258" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="206" REQ_NUGGET_ID="0" NAME="You don't know what you're missing" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I am the best thing that ever happened to you. Why can't you realize that?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="239" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="218" REQ_NUGGET_ID="40" NAME="You said I was special" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You said I was special, don't you remember that? Were those just words?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="257" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="204" REQ_NUGGET_ID="0" NAME="You're scared." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Listen, I get it.  You say you don't want a serious relationship because you need to be free, but really you are just scared of 
+measuring up.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="237" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="231" NAME="Born to it." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I've been a player since I first started talking, I'm not going to change now.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="273" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="230" NAME="Commited Player" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Dylan is hard to convince, he holds his "convictions" strongly. All his dialog reducing belief is stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="272" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="3"  />
+		</CARD>
+<CARD CARD_ID="228" NAME="Don't smother me" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You've got to give me my space, girl.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="269" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="222" NAME="I'm a wild stallion" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I need to run free, babe. Don't try to fence me in.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="263" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="225" NAME="It's only natural" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[If we were supposed to be with just one person, why do I think other girls are hot?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="266" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="223" NAME="My phone died" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I totally meant to call you and tell you I was going to be late, but my phone died!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="264" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="229" NAME="Rumor: You're doing the same." USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I heard you were scoping out all the guys in town. We're the same, you and me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, -2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="270" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="271" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="227" NAME="Secret: Too much love" USER="npc" TYPE="secret" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I've got too much love, it just seems wrong not to share it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="268" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="226" NAME="Set in his ways." USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Dylan has been a player a long time. All his cards that reduce unsure are stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="267" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="224" NAME="You're only young once" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[What, you want to, like, get married? Come on! We're young, let's just have fun.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="265" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+
+</CONVERSATION>

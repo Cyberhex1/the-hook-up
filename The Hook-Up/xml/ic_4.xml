@@ -1,0 +1,140 @@
+<?xml version="1.0"?><CONVERSATION ID="4" NAME="Talk Stef down from her freakout." SUCCESS_METER_MAX="16" WINNING_CS_ID="17" LOSING_CS_ID="17" NPC="Stefanie">
+<DESCRIP><![CDATA[Stefanie is freaking out in Pretty Vacant.<BR>HUMILIATE: Make Stef realize how crazy she looks.<br>CALM: Defuse the situation and calm her down.]]></DESCRIP>
+				<AXIS AXIS_ID="8" NAME="humilated" />
+				<AXIS AXIS_ID="6" NAME="calm" />
+
+
+<CARD CARD_ID="76" REQ_NUGGET_ID="0" NAME="Biting words" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[Say it with extra venom. Gives a bonus to all your humilating dialog.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="87" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="8"  />
+		</CARD>
+<CARD CARD_ID="60" REQ_NUGGET_ID="0" NAME="Drink much?" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Have you been drinking? I swear you smell you just stepped out of a keg.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="69" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="54" REQ_NUGGET_ID="0" NAME="Freak" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Do you always act like such a freak?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="63" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="58" REQ_NUGGET_ID="0" NAME="Offer some sympathy." USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You've obviously had a really awful day, I'm sorry, but there's no reason to take it out on people you don't know.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="71" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="55" REQ_NUGGET_ID="0" NAME="Relax!" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Take a deep breath.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="64" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="74" REQ_NUGGET_ID="8" NAME="Rumor: Stefanie is a Kleptomaniac." USER="pc" SCOPE="all" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[I just got to this town and I already know you're a klepto, ever think the problem might be you?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="85" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="59" REQ_NUGGET_ID="0" NAME="Stop Screaming!" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You know, I could hear you screaming all the way over in the park.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="70" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="57" REQ_NUGGET_ID="0" NAME="Stop, thief!" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Look, it's clear you stole something. You should just give it back or this is going to get a lot worse for you.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="72" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="75" REQ_NUGGET_ID="0" NAME="Voice of reason" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[Calm, cool, and collected, that's you. Unwind the situation, giving a bonus to all your dialog in play that increases calm.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="86" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="6"  />
+		</CARD>
+<CARD CARD_ID="61" REQ_NUGGET_ID="0" NAME="Where will you shop?" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[This town's got a grand total of *one* clothing store, do you really want to be left wearing a canvas sack around town?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="68" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="56" REQ_NUGGET_ID="0" NAME="You'll end up in Jail." USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Do you really want a police record at your age?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to humilated, +1 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="65" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="66" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="63" REQ_NUGGET_ID="0" NAME="You're crazy." USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Well it's nice to know I've already met the town lunatic. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="73" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="62" REQ_NUGGET_ID="0" NAME="You're making a scene!" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Stop and think about what you're doing; people are literally running away from this place in fear.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="67" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="280" REQ_NUGGET_ID="0" NAME="You're making it worse" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[The more you screech and flail around like an idiot, the worse you're making it for yourself.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to humilated, +1 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="333" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="334" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="279" REQ_NUGGET_ID="0" NAME="You're overreacting" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Don't you think you're being a little melodramatic?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="332" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="1"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="66" NAME="Blind rage" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Stefanie is on a huge rant, there's no calming her down. Makes all her dialog that reduces calm stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all cards in play of calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="81" SCOPE="all" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="6"  />
+		</CARD>
+<CARD CARD_ID="67" NAME="Crying!" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Stefanie starts crying and making pathetic little gasping sobs.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="80" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="65" NAME="I can't take it anymore!" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Please, can you just stop, okay? I can't take anymore! I'm seriously ready to throw myself in front of the next bus that passes by. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="82" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="69" NAME="I don't care" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[At this point, I really don't care what you random people think of me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="78" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="71" NAME="I have a right!" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[I have a right to be angry, how would you like it if you were accused of something you didn't do?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="76" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="64" NAME="I'm losing it!" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Look, I'm not normally like this. You wouldn't believe what's gone down today. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to calm, -1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="83" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="88" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="70" NAME="It's not me, it's this town." USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[This town will drive anyone crazy. Trust me, you'll get there too.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="77" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="73" NAME="The world is an awful place." USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[What's wrong with people? Why are they so evil?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="74" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="72" NAME="Who are you, anyway?" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[You don't even know me! Please, just leave me alone!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="75" SCOPE="all" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="68" NAME="You'd be upset too." USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[You try having your heart broken and being called a thief on the same day. See how calm you are!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="79" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="-1"  />
+		</CARD>
+
+</CONVERSATION>

@@ -1,0 +1,38 @@
+<SCHEDULES>
+	<NPC I="1" NAME="Justin">
+	 <SCHED TIME="0015" DAYS="0123456"  MAP="town" X="3000" LAYER="layer_top"  /> <SCHED TIME="0100" DAYS="0123456"  MAP="town" X="1715" LAYER="layer_top"  /> <SCHED TIME="0130" DAYS="0123456"  MAP="burbs" X="0" LAYER="layer_top"  /> <SCHED TIME="0300" DAYS="0123456"  MAP="burbs" X="616" LAYER="layer_mid"  /> <SCHED TIME="0330" DAYS="0123456"  LOC="void" X="0" Y=""  /> <SCHED TIME="1000" DAYS="0123456"  MAP="warehouse" X="1370" LAYER="layer_top"  /> <SCHED TIME="1015" DAYS="0123456"  LOC="Sk8 Hard" X="0" Y=""  /> <SCHED TIME="1700" DAYS="0123456"  MAP="warehouse" X="1388" LAYER="layer_top"  /> <SCHED TIME="1715" DAYS="0123456"  MAP="warehouse" X="2700" LAYER="layer_top"  /> <SCHED TIME="1800" DAYS="0123456"  MAP="town" X="0" LAYER="layer_top"  /> <SCHED TIME="1815" DAYS="0123456"  LOC="Great Wall" X="0" Y=""  />	</NPC>
+		<NPC I="2" NAME="Stefanie">
+	 <SCHED TIME="0100" DAYS="0123456"  LOC="void" X="0" Y=""  /> <SCHED TIME="0830" DAYS="0123456"  MAP="town" X="2500" LAYER="layer_mid"  /> <SCHED TIME="1000" DAYS="0123456"  MAP="town" X="1193" LAYER="layer_mid"  /> <SCHED TIME="1030" DAYS="0123456"  LOC="The Park" X="0" Y=""  /> <SCHED TIME="1600" DAYS="0123456"  MAP="town" X="1193" LAYER="layer_mid"  /> <SCHED TIME="1615" DAYS="0123456"  LOC="Canard Fou" X="0" Y=""  /> <SCHED TIME="2230" DAYS="0123456"  MAP="town" X="2000" LAYER="layer_top"  /> <SCHED TIME="2330" DAYS="0123456"  MAP="burbs" X="1406" LAYER="layer_mid"  />	</NPC>
+		<NPC I="3" NAME="Sara">
+	 <SCHED TIME="0100" DAYS="0123456"  LOC="void" X="0" Y=""  /> <SCHED TIME="1000" DAYS="0123456"  MAP="town" X="0" LAYER="layer_mid"  /> <SCHED TIME="1015" DAYS="0123456"  LOC="The Beanery" X="0" Y=""  /> <SCHED TIME="2200" DAYS="0123456"  MAP="town" X="0" LAYER="layer_mid"  /> <SCHED TIME="2300" DAYS="0123456"  MAP="warehouse" X="2200" LAYER="layer_mid"  /> <SCHED TIME="2315" DAYS="0123456"  MAP="warehouse" X="329" LAYER="layer_top"  />	</NPC>
+		<NPC I="4" NAME="Clerk">
+		</NPC>
+		<NPC I="5" NAME="Matthew">
+	 <SCHED TIME="0100" DAYS="0123456"  MAP="town" X="1770" LAYER="layer_mid"  /> <SCHED TIME="0115" DAYS="0123456"  MAP="town" X="2500" LAYER="layer_mid"  /> <SCHED TIME="0130" DAYS="0123456"  LOC="void" X="0" Y=""  /> <SCHED TIME="0730" DAYS="0123456"  MAP="burbs" X="1900" LAYER="layer_top"  /> <SCHED TIME="0745" DAYS="0123456"  MAP="burbs" X="0" LAYER="layer_top"  /> <SCHED TIME="0900" DAYS="0123456"  MAP="town" X="2500" LAYER="layer_top"  /> <SCHED TIME="1000" DAYS="0123456"  MAP="town" X="0" LAYER="layer_mid"  /> <SCHED TIME="1130" DAYS="0123456"  MAP="warehouse" X="3000" LAYER="layer_mid"  /> <SCHED TIME="1145" DAYS="0123456"  LOC="Egg Art Gallery" X="0" Y=""  /> <SCHED TIME="1930" DAYS="0123456"  MAP="warehouse" X="1760" LAYER="layer_mid"  /> <SCHED TIME="1945" DAYS="0123456"  MAP="warehouse" X="2200" LAYER="layer_mid"  /> <SCHED TIME="2045" DAYS="0123456"  MAP="town" X="0" LAYER="layer_mid"  /> <SCHED TIME="2100" DAYS="0123456"  LOC="The Beanery" X="0" Y=""  />	</NPC>
+		<NPC I="6" NAME="Dylan">
+	 <SCHED TIME="0100" DAYS="0123456"  LOC="void" X="0" Y=""  /> <SCHED TIME="1000" DAYS="0123456"  MAP="town" X="500" LAYER="layer_top"  /> <SCHED TIME="1015" DAYS="0123456"  LOC="Bookstore" X="0" Y=""  /> <SCHED TIME="1900" DAYS="0123456"  MAP="town" X="0" LAYER="layer_top"  /> <SCHED TIME="1915" DAYS="0123456"  MAP="warehouse" X="2500" LAYER="layer_top"  /> <SCHED TIME="1930" DAYS="0123456"  LOC="The Club" X="0" Y=""  /> <SCHED TIME="2200" DAYS="0123456"  MAP="warehouse" X="1314" LAYER="layer_mid"  /> <SCHED TIME="2345" DAYS="0123456"  MAP="warehouse" X="808" LAYER="layer_top"  />	</NPC>
+		<NPC I="7" NAME="Melissa">
+	 <SCHED TIME="0300" DAYS="0123456"  MAP="burbs" X="0" LAYER="layer_mid"  /> <SCHED TIME="0315" DAYS="0123456"  MAP="burbs" X="164" LAYER="layer_mid"  /> <SCHED TIME="0345" DAYS="0123456"  LOC="void" X="0" Y=""  /> <SCHED TIME="1000" DAYS="0123456"  MAP="town" X="2500" LAYER="layer_mid"  /> <SCHED TIME="1045" DAYS="0123456"  MAP="town" X="0" LAYER="layer_mid"  /> <SCHED TIME="1200" DAYS="0123456"  MAP="warehouse" X="1200" LAYER="layer_top"  /> <SCHED TIME="1215" DAYS="0123456"  LOC="The Ink Well" X="0" Y=""  /> <SCHED TIME="1830" DAYS="0123456"  MAP="warehouse" X="1293" LAYER="layer_mid"  /> <SCHED TIME="1845" DAYS="0123456"  LOC="The Club" X="0" Y=""  /> <SCHED TIME="2300" DAYS=""  MAP="burbs" X="0" LAYER="layer_top"  />	</NPC>
+		<NPC I="8" NAME="Megan">
+	 <SCHED TIME="0100" DAYS="0123456"  LOC="void" X="0" Y=""  /> <SCHED TIME="1000" DAYS="0123456"  MAP="town" X="300" LAYER="layer_top"  /> <SCHED TIME="1015" DAYS="0123456"  LOC="Magilicuttys" X="0" Y=""  /> <SCHED TIME="1800" DAYS="0123456"  MAP="town" X="350" LAYER="layer_top"  /> <SCHED TIME="1815" DAYS="0123456"  LOC="Salon Tempo" X="0" Y=""  /> <SCHED TIME="2145" DAYS="0123456"  MAP="town" X="660" LAYER="layer_mid"  /> <SCHED TIME="2200" DAYS="0123456"  MAP="town" X="3000" LAYER="layer_top"  /> <SCHED TIME="2315" DAYS="0123456"  MAP="burbs" X="0" LAYER="layer_top"  /> <SCHED TIME="2330" DAYS="0123456"  MAP="burbs" X="2000" LAYER="layer_top"  />	</NPC>
+		<NPC I="9" NAME="Claire">
+	 <SCHED TIME="0100" DAYS="0123456"  LOC="void" X="0" Y=""  /> <SCHED TIME="1000" DAYS="0123456"  MAP="burbs" X="3084" LAYER="layer_mid"  /> <SCHED TIME="1130" DAYS="0123456"  MAP="burbs" X="0" LAYER="layer_mid"  /> <SCHED TIME="1330" DAYS="0123456"  MAP="town" X="2500" LAYER="layer_top"  /> <SCHED TIME="1400" DAYS="0123456"  LOC="Salon Tempo" X="0" Y=""  /> <SCHED TIME="2000" DAYS="0123456"  MAP="town" X="660" LAYER="layer_mid"  /> <SCHED TIME="2015" DAYS="0123456"  LOC="The Beanery" X="0" Y=""  /> <SCHED TIME="2245" DAYS="0123456"  MAP="burbs" X="1770" LAYER="layer_mid"  /> <SCHED TIME="2300" DAYS="0123456"  MAP="town" X="2200" LAYER="layer_top"  />	</NPC>
+		<NPC I="10" NAME="Moe">
+		</NPC>
+		<NPC I="11" NAME="Unavailable">
+		</NPC>
+		<NPC I="12" NAME="Customer">
+		</NPC>
+		<NPC I="13" NAME="Oogie">
+		</NPC>
+		<NPC I="14" NAME="Big PBJ">
+		</NPC>
+		<NPC I="15" NAME="Tiny">
+		</NPC>
+		<NPC I="16" NAME="Stinky Joe">
+		</NPC>
+		<NPC I="17" NAME="MC Tuff Luv">
+		</NPC>
+		<NPC I="18" NAME="You">
+		</NPC>
+	</SCHEDULES>

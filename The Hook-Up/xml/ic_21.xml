@@ -1,0 +1,169 @@
+<?xml version="1.0"?><CONVERSATION ID="21" NAME="Get Justin to apologize to Stefanie" SUCCESS_METER_MAX="20" WINNING_CS_ID="825" LOSING_CS_ID="796" NPC="Justin">
+<DESCRIP><![CDATA[If Justin apologizes to Stefanie, she'll owe you - which just might mean she'll get Claire to stop standing in the way of your dating Justin.]]></DESCRIP>
+				<AXIS AXIS_ID="9" NAME="guilt" />
+				<AXIS AXIS_ID="3" NAME="believe" />
+
+
+<CARD CARD_ID="323" REQ_NUGGET_ID="0" NAME="Claire's whole personality changed because of this." USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[Claire's whole personality changed because of this. It really affected her.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to guilt, +2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="432" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="433" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="309" REQ_NUGGET_ID="0" NAME="Don't be morbid" USER="pc" SCOPE="" TYPE="statement" DURATION="">
+<DESCRIPTION><![CDATA[Thinking about dying is no way to live.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to guilt, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="424" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="425" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="332" REQ_NUGGET_ID="0" NAME="Help me out here." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Help me out here. Claire will keep making my life miserable.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="415" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="324" REQ_NUGGET_ID="0" NAME="I can't get to know you this way" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I can't get to know you with Claire on the warpath against me. And Stephanie can help call her off.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="428" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="429" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="322" REQ_NUGGET_ID="0" NAME="I care. Deal with it." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I care. Deal with it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="420" SCOPE="" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="327" REQ_NUGGET_ID="0" NAME="It wouldn mean a lot." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[It would mean a lot to a whole lot of people if you'd just apologize.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="419" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="334" REQ_NUGGET_ID="0" NAME="Love is the best medicine" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You're worried about getting sick again? Love is the best medicine.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="414" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="310" REQ_NUGGET_ID="0" NAME="No excuses" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You're using your past sickness as an excuse for hurting people - not cool.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="423" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="316" REQ_NUGGET_ID="0" NAME="Something to live for" USER="pc" SCOPE="" TYPE="statement" DURATION="">
+<DESCRIPTION><![CDATA[Doesn't having something - or someone special in your life make EVERYTHING better?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="421" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="333" REQ_NUGGET_ID="0" NAME="Stefanie deserves better." USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[Stefanie used to be your friend. Doesn't she deserve better from you?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, +2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="430" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="431" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="312" REQ_NUGGET_ID="0" NAME="They're not over it." USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[You may think Claire and Stefanie are totally over it, but they're still hurt.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="422" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="306" REQ_NUGGET_ID="0" NAME="Why would you treat people like that?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[People love you. Why do you treat them badly?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="426" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="328" REQ_NUGGET_ID="0" NAME="Won't you do this for me?" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[Won't you do this for me? Please? (Gives a bonus to all guilt dialog)]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="427" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="9"  />
+		</CARD>
+<CARD CARD_ID="331" REQ_NUGGET_ID="0" NAME="You'll feel much better." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You'll feel much better with this off your conscience.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to believe, +1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="416" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="417" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="330" REQ_NUGGET_ID="0" NAME="You're living in the past." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You're living in the past. You have to move on.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="418" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="321" NAME="Apologies are not my strong suit" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Apologies are not my strong suit. It would just come out sounding fake.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="374" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="311" NAME="Claire's over me." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Claire is so totally over me, so why does it even matter?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="364" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="307" NAME="I did what I had to" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I did the best I could at the time.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="360" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="317" NAME="I have a lot to deal with right now" USER="npc" TYPE="special" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Look, I have a lot to deal with right now. I can't lose focus. Reduces all guilt dialog effects.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="370" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="9"  />
+		</CARD>
+<CARD CARD_ID="326" NAME="I have to save up all my energy." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I have to save up all my energy for this tournament. Don't distract me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="379" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="319" NAME="I haven't always been a nice guy." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I haven't always been a nice guy. Ask anyone.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="372" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="320" NAME="I know I haven't always done the right thing" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I know I haven't always done the right thing, and that's kind of embarrassing to admit. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, -1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="373" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="434" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="329" NAME="If you knew the things I'd done" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[If you knew the things I'd done, you might not like me very much.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="382" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="325" NAME="It's ancient history." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[It's ancient history. Everyone's over it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="378" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="315" NAME="Leave me alone" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[If people really cared, they'd just leave me the hell alone.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="368" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="314" NAME="Maybe I just suck" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Maybe I just suck as a human being. Did you ever consider that?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="367" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="308" NAME="Stephanie would never accept my apology" USER="npc" TYPE="statement" SCOPE="" DURATION="">
+<DESCRIPTION><![CDATA[Stephanie would never accept my apology. Why should I even try?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="361" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="313" NAME="Why bother?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Why should I bother with any of this? I'm just going to get sick again.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, -1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="366" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="435" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="318" NAME="Why do you even care?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Why do you care so much about what happens to me?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="371" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="305" NAME="You don't know what it's like being sick" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Unless you've been sick like me, you'll never know what I've gone through.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="358" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+
+</CONVERSATION>

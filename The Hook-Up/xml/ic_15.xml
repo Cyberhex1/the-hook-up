@@ -1,0 +1,131 @@
+<?xml version="1.0"?><CONVERSATION ID="15" NAME="Defend Melissa from Stefanie" SUCCESS_METER_MAX="20" WINNING_CS_ID="487" LOSING_CS_ID="488" NPC="Stefanie">
+<DESCRIP><![CDATA[Feeling sorry over what you did to Melissa, defend her from Stefanie and stand up for her. It's what Matt would want. <br>CONFIDENT: Rebuild Melissa's confidence, and your own.<br>LIKE: Prove how likeable Melissa actually is.]]></DESCRIP>
+				<AXIS AXIS_ID="1" NAME="like" />
+				<AXIS AXIS_ID="2" NAME="confident" />
+
+
+<CARD CARD_ID="181" REQ_NUGGET_ID="0" NAME="Blunt Insult" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Melissa has some rough edges, but unlike you she's human and doesn't eat her young.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="209" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="186" REQ_NUGGET_ID="0" NAME="Guilty Conscience" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[You're feeling pretty bad about what you did to Melissa. All your dialog that increases like is stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="214" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="1"  />
+		</CARD>
+<CARD CARD_ID="180" REQ_NUGGET_ID="0" NAME="I'm not going to sink that low." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Look, I might have been mean to Melissa but being a full time bitch like you isn't exactly my life goal.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="208" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="189" REQ_NUGGET_ID="0" NAME="I'm not proud of what I did" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Melissa deserves better than that.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="218" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="179" REQ_NUGGET_ID="100" NAME="Melissa is not ashamed" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Even though Melissa has a bad scar, she still posed nude for Matthew's paintings.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="207" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="183" REQ_NUGGET_ID="0" NAME="Melissa is passionate" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Melissa is a passionate sensitive artist, she can't help it if she gets overcome every once in a while.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="211" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="184" REQ_NUGGET_ID="0" NAME="Rumor: Stefanie is a Kleptomaniac." USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[Yeah, I 'd love to hang out with you, let's go out and shoplift some new outfits.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="212" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="177" REQ_NUGGET_ID="81" NAME="Secret: Melissa deals" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[Even though Melissa has bad stage fright, she still gets up and does it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="204" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="187" REQ_NUGGET_ID="82" NAME="Secret: She did it for love" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[Melissa just acts on her own, honest feelings. She is better than me or you.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="215" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="188" REQ_NUGGET_ID="83" NAME="Secret: She has a lot to deal with..." USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[It's not fair to pick on her for drinking.  You'd drink too if you had to suffer what she's suffered through.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to like, +2 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="216" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="217" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="178" REQ_NUGGET_ID="80" NAME="She's dealt with a lot" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[She lost her mom, can you imagine? And she still has the courage to sing about it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="206" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="185" REQ_NUGGET_ID="0" NAME="The rumors are lies." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I don't think Melissa sleeps around, I think everyone is just jealous of the attention she gets for being herself.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="213" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="182" REQ_NUGGET_ID="0" NAME="You're like Claire little dog." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Stephanie, I'd like to see you do anything that required more than trolling around behind Claire picking up her scraps.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="210" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="1"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="192" NAME="Commuity service award" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[The health department should award you with a citation, you've saved the town thousands of dollars in penicillin and topical ointments]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="221" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="199" NAME="Full o' hate" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Stefanie really hates Melissa.  All her dislike dialog is stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="231" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="1"  />
+		</CARD>
+<CARD CARD_ID="194" NAME="Join us!" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[We could always use another cool assertive chick like yourself in our crew.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="223" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="198" NAME="Let me tell it like it is" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Melissa is pathetic, shrill, gimp loser. It was hot to see her get the beat down.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, -1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="229" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="230" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="197" NAME="Me and my ears thank you" USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Hopefully you put an end to that pathetic wailing she calls singing. A song about a scar? Ugh.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to like, -1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="227" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-2"  />
+		<EFFECT EFFECT_ID="228" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="193" NAME="Melissa deserved it" USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[She only has herself to blame, this world is no place for the weak and nasty.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="222" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="191" NAME="Melissa should really go." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Hopefully you did enough damage to run that pathetic trash out of town for good.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="220" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="196" NAME="Nice moves" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Girl, you sure showed some hot moves here, that stuff was devastating.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="226" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="195" NAME="Rumor: Drunks are unpredictable." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Good work, but I'd get armed fast, you ever know what that crazy drunk is going to do next.
+]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-4 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="225" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-4"  />
+		</CARD>
+<CARD CARD_ID="190" NAME="You did good" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You really smacked that skank good, you've done the world a service.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="219" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-2"  />
+		</CARD>
+
+</CONVERSATION>

@@ -1,0 +1,168 @@
+<?xml version="1.0"?><CONVERSATION ID="19" NAME="Get Claire to back off Sara and her poetry" SUCCESS_METER_MAX="20" WINNING_CS_ID="918" LOSING_CS_ID="918" NPC="Claire">
+<DESCRIP><![CDATA[Get Claire to back off and stop saying rude things about Sara and her poetry.]]></DESCRIP>
+				<AXIS AXIS_ID="5" NAME="unsure" />
+				<AXIS AXIS_ID="8" NAME="humilated" />
+
+
+<CARD CARD_ID="372" REQ_NUGGET_ID="0" NAME="Are you illiterate?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Are you illiterate or something? Anyone who can read can see that Sara's incredibly talented.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="458" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="365" REQ_NUGGET_ID="0" NAME="Did a poet kill your family or something?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Did a poet kill your family or something?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="451" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="362" REQ_NUGGET_ID="0" NAME="Do you have a crush on Sara?" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[Seriously -- do you have a crush on Sara or something?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, +2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="447" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="469" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="369" REQ_NUGGET_ID="0" NAME="I wrote you a poem." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I wrote you a poem. Words include "itch", "snitch", and something that rhymes with those.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to humilated, -1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="455" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="4"  />
+		<EFFECT EFFECT_ID="466" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="375" REQ_NUGGET_ID="0" NAME="Insulting rhyme" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[There once was a bitch known as Claire. Her face gave the kids quite a scare. Your turn!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="461" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="373" REQ_NUGGET_ID="0" NAME="Obsessed much?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Wow, for someone who doesn't care about Sara, you're pretty obsessed.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="459" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="371" REQ_NUGGET_ID="0" NAME="Sara has talent" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Sara has more talent in her pinky than you have in your everything!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="457" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="367" REQ_NUGGET_ID="0" NAME="Sara's brave." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Sara's brave, putting herself out there like that.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="453" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="374" REQ_NUGGET_ID="0" NAME="Why are you so crabby?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Who peed on your Sylvia Plath?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, +2 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="460" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="465" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="364" REQ_NUGGET_ID="0" NAME="Why are you so threatened?" USER="pc" SCOPE="self" TYPE="special" DURATION="">
+<DESCRIPTION><![CDATA[Why are you so threatened by Sara? (All cards that make Claire unsure are stronger)]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="449" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="344" REQ_NUGGET_ID="0" NAME="Yawn." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Yaaawwwwn! I'm sorry - were you bitching about something again?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="397" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="370" REQ_NUGGET_ID="0" NAME="You have issues" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You have so many issues, you need a magazine rack.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="456" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="363" REQ_NUGGET_ID="0" NAME="You just spread ugliness" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[At least she's trying to put some beauty into the world. You just spread ugliness.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="448" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="368" REQ_NUGGET_ID="0" NAME="You look gross" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Blood red and blotchy just ISN'T your color.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="454" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="366" REQ_NUGGET_ID="0" NAME="You're just jealous of her talent." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You're just jealous of her talent.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="452" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="376" NAME="Are you in love with Sara?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[What, are you in love with Sara or something?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="462" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="388" NAME="Booooooring." USER="npc" TYPE="rumor" SCOPE="" DURATION="">
+<DESCRIPTION><![CDATA[The only thing more boring than Sara's poetry readings are - wait - it doesn't get more boring than that.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="479" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="382" NAME="Free coffee" USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[The only reason anyone goes to her readings is for the free coffee.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, -2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="471" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="474" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="377" NAME="Jealous? Of what?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Jealous? Of what? Her dorky little poems? Don't make me laugh.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="463" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="361" NAME="Like I have time to waste" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Like I have time to waste on her stupid little nursery rhymes.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="446" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="384" NAME="Making fun" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Wah wah wah. I'm a deep, tortured barista. I'm sooooo sensitive.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="473" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="389" NAME="My chihuahua" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[My Chihuahua could write better poetry than Sara does.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="480" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="387" NAME="Poets aren't cool" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Poetry journals are like US Weekly for ugly people.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="478" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="381" NAME="Rude poem." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[There once was a girl known as Sara. About her I just do not cara.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="470" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="385" NAME="Sara will be poor" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA["Poet" is just a fancy word for "Unemployed Couch-Surfer"]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="475" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="379" NAME="Sara's ugly" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Sara wouldn't know beauty if it came up and slapped her in her stupid lip ring.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="467" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="386" NAME="Sara's untalented" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[If she had one ounce of talent, it would die of loneliness.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, -1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="476" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="481" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="383" NAME="She'll be a failure" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Like anyone will ever pay to read the "deep thoughts" of a coffee slinger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, -1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="472" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="477" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="380" NAME="Um, obsessed much?" USER="npc" TYPE="statement" SCOPE="" DURATION="">
+<DESCRIPTION><![CDATA[Um, obsessed much, freakshow?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="468" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="378" NAME="Yaaawwwwwn." USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Yaaawwwwwn. You were talking or something? (Your insults have less effect on Claire)]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="464" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="8"  />
+		</CARD>
+
+</CONVERSATION>

@@ -1,0 +1,255 @@
+<NUGGETS>
+	<N I="8" T="rumor"><D><![CDATA[Stefanie is a kleptomaniac.]]></D> <NPC N="Stefanie" I="2" /></N>
+		<N I="7" T="invis"><D><![CDATA[Player met Justin (leads to first Justin QS)]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="22" T="invis"><D><![CDATA[Player completed Stef Freakout IC Event]]></D> <NPC N="Stefanie" I="2" /></N>
+		<N I="23" T="rumor"><D><![CDATA[Justin stole Stefanie's portable video player.]]></D> <NPC N="Stefanie" I="2" /> <NPC N="Justin" I="1" /></N>
+		<N I="24" T="fact"><D><![CDATA[Justin rides a motorcycle.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="25" T="fact"><D><![CDATA[Justin does deliveries for Great Wall, the Chinese restaurant.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="26" T="rumor"><D><![CDATA[Justin and Stefanie used to date.]]></D> <NPC N="Stefanie" I="2" /> <NPC N="Justin" I="1" /></N>
+		<N I="27" T="invis"><D><![CDATA[Hack nugget for SES that are triggered (player never knows this)]]></D></N>
+		<N I="28" T="invis"><D><![CDATA[player heard about shouting at pretty vacant.]]></D> <NPC N="Stefanie" I="2" /> <NPC N="Justin" I="1" /></N>
+		<N I="29" T="invis"><D><![CDATA[Player met Claire.]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="30" T="invis"><D><![CDATA[Player met Melissa.]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="31" T="invis"><D><![CDATA[Player met Stefanie.]]></D> <NPC N="Stefanie" I="2" /></N>
+		<N I="32" T="invis"><D><![CDATA[Player met Sara.]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="33" T="invis"><D><![CDATA[Player met Matthew.]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="34" T="invis"><D><![CDATA[Player met Dylan]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="35" T="fact"><D><![CDATA[Justin thinks Matthew hates him.]]></D> <NPC N="Justin" I="1" /> <NPC N="Matthew" I="5" /></N>
+		<N I="36" T="invis"><D><![CDATA[Appointment: Dylan 1st Date]]></D></N>
+		<N I="37" T="fact"><D><![CDATA[Dylan makes hip hop tracks at home.]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="38" T="invis"><D><![CDATA[Player met Megan.]]></D> <NPC N="Megan" I="8" /></N>
+		<N I="39" T="fact"><D><![CDATA[Dylan works at the Book Store]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="40" T="fact"><D><![CDATA[Dylan thinks you're special]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="41" T="invis"><D><![CDATA[Completed Dylan 1st Date]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="42" T="secret"><D><![CDATA[Dylan thinks Claire's a snob]]></D> <NPC N="Dylan" I="6" /> <NPC N="Claire" I="9" /></N>
+		<N I="43" T="fact"><D><![CDATA[Dylan used to go out with Claire.]]></D> <NPC N="Dylan" I="6" /> <NPC N="Claire" I="9" /></N>
+		<N I="44" T="fact"><D><![CDATA[Melissa is actually the one angry with Justin.]]></D> <NPC N="Melissa" I="7" /> <NPC N="Justin" I="1" /></N>
+		<N I="45" T="invis"><D><![CDATA[Player declined looking into Melissa's anger with Justin]]></D> <NPC N="Justin" I="1" /> <NPC N="Melissa" I="7" /></N>
+		<N I="46" T="invis"><D><![CDATA[Player accepted looking into Melissa's anger with Justin]]></D> <NPC N="Justin" I="1" /> <NPC N="Melissa" I="7" /></N>
+		<N I="47" T="invis"><D><![CDATA[Player attempted and failed Melissa angry with Justin IC]]></D> <NPC N="Justin" I="1" /> <NPC N="Melissa" I="7" /></N>
+		<N I="48" T="fact"><D><![CDATA[Thanks to you, Melissa has forgiven Justin for "using" Matthew.]]></D> <NPC N="Melissa" I="7" /> <NPC N="Justin" I="1" /></N>
+		<N I="49" T="invis"><D><![CDATA[Appointment: Dylan 2nd Date: Canard Fou]]></D></N>
+		<N I="50" T="fact"><D><![CDATA[Dylan says he's got a 'rep']]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="51" T="invis"><D><![CDATA[Dylan: Claire IC 1 Complete]]></D></N>
+		<N I="52" T="invis"><D><![CDATA[Dylan: Claire IC 1 Attempted]]></D></N>
+		<N I="53" T="invis"><D><![CDATA[Claire mentions dylan's harem]]></D> <NPC N="Dylan" I="6" /> <NPC N="Claire" I="9" /></N>
+		<N I="54" T="rumor"><D><![CDATA[Dylan's Great Wall prank gave Mr. Chen a heart attack]]></D> <NPC N="Justin" I="1" /> <NPC N="Dylan" I="6" /></N>
+		<N I="55" T="fact"><D><![CDATA[Dylan and Matthew are friends]]></D> <NPC N="Matthew" I="5" /> <NPC N="Dylan" I="6" /></N>
+		<N I="56" T="fact"><D><![CDATA[Megan used to date Dylan]]></D> <NPC N="Dylan" I="6" /> <NPC N="Megan" I="8" /></N>
+		<N I="57" T="invis"><D><![CDATA[Sara suggests finding out about dylan]]></D></N>
+		<N I="58" T="invis"><D><![CDATA[Dylan research complete]]></D></N>
+		<N I="59" T="rumor"><D><![CDATA[Megan thinks she's not pretty]]></D> <NPC N="Megan" I="8" /></N>
+		<N I="60" T="invis"><D><![CDATA[Appointment: Dylan: Meet Megan at PV]]></D></N>
+		<N I="61" T="secret"><D><![CDATA[Dylan used to check out other girls when he was with Megan]]></D> <NPC N="Dylan" I="6" /> <NPC N="Megan" I="8" /></N>
+		<N I="62" T="invis"><D><![CDATA[Appointment: Dylan: 3rd Date]]></D></N>
+		<N I="63" T="fact"><D><![CDATA[Dylan was a no-show at the Cinema]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="64" T="invis"><D><![CDATA[player activated start of justin storyline (PV event)]]></D> <NPC N="Justin" I="1" /> <NPC N="Stefanie" I="2" /></N>
+		<N I="65" T="invis"><D><![CDATA[Matthew intro at Egg]]></D></N>
+		<N I="66" T="fact"><D><![CDATA[Melissa hangs out at The Inkwell]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="67" T="rumor"><D><![CDATA[Melissa and Matthew are seeing each other?]]></D> <NPC N="Melissa" I="7" /> <NPC N="Matthew" I="5" /></N>
+		<N I="68" T="invis"><D><![CDATA[Matthew: 1st claire IC attempted]]></D></N>
+		<N I="69" T="invis"><D><![CDATA[Appointment: Matthew: 1st date @ Great Wall]]></D></N>
+		<N I="70" T="fact"><D><![CDATA[Justin says Matthew is arty]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="71" T="rumor"><D><![CDATA[Matthew's never had a girlfriend]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="72" T="fact"><D><![CDATA[Matthew is one of Dylan's 'boys']]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="73" T="fact"><D><![CDATA[Megan thinks Matthew is sensitive]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="74" T="invis"><D><![CDATA[Start Matthew Gay Quest]]></D></N>
+		<N I="75" T="rumor"><D><![CDATA[Melissa has a drinking problem]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="76" T="invis"><D><![CDATA[Appointment: See Matthew at Egg]]></D></N>
+		<N I="77" T="fact"><D><![CDATA[Matthew is usually at the Art Gallery, but he stops by The Beanery at night and drinks chai]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="78" T="fact"><D><![CDATA[Matthew invited Dylan to your first date]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="79" T="secret"><D><![CDATA[Melissa has a horrible scar on her leg]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="80" T="fact"><D><![CDATA[Melissa's mom died in a car accident]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="81" T="secret"><D><![CDATA[Melissa is nervous about performing in front of people]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="82" T="secret"><D><![CDATA[Melissa has been secretly in love with Matthew]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="83" T="secret"><D><![CDATA[Melissa is scared of ending up like her mom]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="84" T="rumor"><D><![CDATA[Everyone knows about Melissa's scar]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="85" T="invis"><D><![CDATA[Matthew: Attempted Sara IC]]></D></N>
+		<N I="86" T="invis"><D><![CDATA[Matthew: Completed Sara IC]]></D></N>
+		<N I="87" T="invis"><D><![CDATA[Matthew: Melissa research date set]]></D></N>
+		<N I="88" T="invis"><D><![CDATA[Appointment: Matthew: Melissa @ PV]]></D></N>
+		<N I="89" T="invis"><D><![CDATA[Matthew 1st date complete]]></D></N>
+		<N I="90" T="rumor"><D><![CDATA[Matthew got Megan pregnant last year]]></D> <NPC N="Matthew" I="5" /> <NPC N="Megan" I="8" /></N>
+		<N I="91" T="invis"><D><![CDATA[Start find Megan Quest]]></D></N>
+		<N I="92" T="secret"><D><![CDATA[Megan thought she was pregnant]]></D> <NPC N="Megan" I="8" /></N>
+		<N I="93" T="secret"><D><![CDATA[Matthew supported Megan through her pregnancy scare]]></D> <NPC N="Matthew" I="5" /> <NPC N="Megan" I="8" /></N>
+		<N I="94" T="invis"><D><![CDATA[Start quest: Get art book for Matthew]]></D></N>
+		<N I="95" T="invis"><D><![CDATA[Matthew: Art book purchased]]></D></N>
+		<N I="96" T="fact"><D><![CDATA[Matthew isn't gay]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="97" T="invis"><D><![CDATA[Appointment: Matthew 2nd date @ Canard Fou]]></D></N>
+		<N I="98" T="invis"><D><![CDATA[Matthew: Art book given]]></D></N>
+		<N I="99" T="rumor"><D><![CDATA[Matthew has a new series of male nudes]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="100" T="fact"><D><![CDATA[Matthew's new paintings feature Melissa nude.]]></D> <NPC N="Matthew" I="5" /> <NPC N="Melissa" I="7" /></N>
+		<N I="101" T="invis"><D><![CDATA[Start Quest: Find Melissa]]></D></N>
+		<N I="102" T="invis"><D><![CDATA[Matthew: Melissa IC Complete]]></D></N>
+		<N I="103" T="invis"><D><![CDATA[Matthew: Melissa IC Attempted]]></D></N>
+		<N I="104" T="invis"><D><![CDATA[Appointment: Melissa's show at club]]></D></N>
+		<N I="105" T="invis"><D><![CDATA[Melissa's show complete]]></D></N>
+		<N I="106" T="invis"><D><![CDATA[Matthew: Stefanie IC Attempted]]></D></N>
+		<N I="107" T="invis"><D><![CDATA[Made It: Matthew 2nd date]]></D></N>
+		<N I="108" T="invis"><D><![CDATA[Made It: Matthew 1st date]]></D></N>
+		<N I="109" T="invis"><D><![CDATA[Matt's thx @ egg done]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="110" T="invis"><D><![CDATA[Dylan: 2nd IC attempted]]></D></N>
+		<N I="111" T="invis"><D><![CDATA[Dylan: 2nd IC complete]]></D></N>
+		<N I="112" T="invis"><D><![CDATA[Start Mix CD Quest]]></D></N>
+		<N I="113" T="secret"><D><![CDATA[Megan has a copy of Dylan's mix cd]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="114" T="secret"><D><![CDATA[Melissa has a copy of Dylan's mix cd]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="115" T="secret"><D><![CDATA[Stefanie has a copy of Dylan's mix cd]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="116" T="invis"><D><![CDATA[Appointment: Dylan's Confession]]></D></N>
+		<N I="117" T="invis"><D><![CDATA[Made It: Dylan's Confession]]></D></N>
+		<N I="118" T="rumor"><D><![CDATA[Standing up girls is one of Dylan's 'old tricks']]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="119" T="fact"><D><![CDATA[You caught Dylan flirting at the book store]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="120" T="invis"><D><![CDATA[Appointment: Dylan: Night at the Club]]></D></N>
+		<N I="121" T="invis"><D><![CDATA[Made It: Dylan: Night at the Club]]></D></N>
+		<N I="122" T="secret"><D><![CDATA[Megan was going to set up a meeting for Dylan]]></D> <NPC N="Dylan" I="6" /> <NPC N="Megan" I="8" /></N>
+		<N I="123" T="invis"><D><![CDATA[Start Dylan apologize quest]]></D></N>
+		<N I="124" T="invis"><D><![CDATA[Dylan: Apology IC Completed]]></D></N>
+		<N I="125" T="invis"><D><![CDATA[Dylan: Apology IC Attempted]]></D></N>
+		<N I="126" T="invis"><D><![CDATA[Dylan: Apology quest: Talk to matthew]]></D></N>
+		<N I="127" T="rumor"><D><![CDATA[Dylan uses pranks to avoid things]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="128" T="rumor"><D><![CDATA[Dylan uses pranks to get attention]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="129" T="secret"><D><![CDATA[Dylan's dad told him he'd never amount to anything]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="130" T="secret"><D><![CDATA[Dylan knew Megan was going to set up a meeting for him]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="131" T="invis"><D><![CDATA[Dylan: Apology Complete]]></D></N>
+		<N I="132" T="fact"><D><![CDATA[Dylan said he needs to focus on his work.]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="133" T="invis"><D><![CDATA[Dylan: Phone number received]]></D></N>
+		<N I="134" T="invis"><D><![CDATA[Made It: Dylan: MC Tuff Luv]]></D></N>
+		<N I="135" T="invis"><D><![CDATA[Appointment: Dylan: MC Tuff Luv]]></D></N>
+		<N I="136" T="invis"><D><![CDATA[Dylan: Final IC Complete]]></D></N>
+		<N I="137" T="invis"><D><![CDATA[Dylan: Final IC Attempted]]></D></N>
+		<N I="138" T="fact"><D><![CDATA[Justin is usually at Sk8 Hard in the warehouses or at his job at Great Wall in town.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="140" T="fact"><D><![CDATA[Melissa hangs out at the The Ink Well or the The Club, both over in the warehouse district.]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="141" T="fact"><D><![CDATA[Stefanie is usually at the park during the day, or working her job at Canard Fou at night.]]></D> <NPC N="Stefanie" I="2" /></N>
+		<N I="142" T="fact"><D><![CDATA[Megan waits tables at Magilicuttys during lunch, and usually heads to Salon Tempo in the afternoons.]]></D> <NPC N="Megan" I="8" /></N>
+		<N I="143" T="fact"><D><![CDATA[Dylan works long hours at the bookstore in town, then sometimes heads over to Tracks after he's done.]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="144" T="fact"><D><![CDATA[Claire doesn't work. You can sometimes catch her at the Salon or at The Beanery.]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="145" T="invis"><D><![CDATA[tutorial started]]></D></N>
+		<N I="146" T="invis"><D><![CDATA[Endgame: Matthew]]></D></N>
+		<N I="147" T="secret"><D><![CDATA[I am interested in Matthew.]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="148" T="secret"><D><![CDATA[I am interested in Dylan.]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="149" T="invis"><D><![CDATA[Dylan date at Tracks Missed]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="151" T="invis"><D><![CDATA[Dylan player refused date]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="152" T="invis"><D><![CDATA[Player refused Matt Great Wall Date]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="153" T="invis"><D><![CDATA[Matthew: Stefanie IC Complete]]></D></N>
+		<N I="154" T="invis"><D><![CDATA[Dylan: End Party]]></D></N>
+		<N I="155" T="invis"><D><![CDATA[Matthew: Completed Canard Fou Date #2]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="156" T="invis"><D><![CDATA[Dylan Harem Line Done]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="157" T="invis"><D><![CDATA[Dylan ran off scared line done.]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="158" T="invis"><D><![CDATA[Dylan: Megan PV Sidequest Done]]></D> <NPC N="Megan" I="8" /></N>
+		<N I="159" T="invis"><D><![CDATA[Made it: Dylan's 2nd Date]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="161" T="invis"><D><![CDATA[Matthew: Melissa @ PV Event Made It]]></D> <NPC N="Melissa" I="7" /></N>
+		<N I="162" T="fact"><D><![CDATA[Claire was actually the one who pursued Sara rather than vice-versa.]]></D> <NPC N="Claire" I="9" /> <NPC N="Sara" I="3" /></N>
+		<N I="163" T="fact"><D><![CDATA[Matthew and Sara have matching tattoos.]]></D> <NPC N="Matthew" I="5" /> <NPC N="Sara" I="3" /></N>
+		<N I="164" T="fact"><D><![CDATA[Sara is an aspiring poet.]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="165" T="rumor"><D><![CDATA[Sara has dated both genders. Dylan thinks that's hot.]]></D> <NPC N="Dylan" I="6" /> <NPC N="Sara" I="3" /></N>
+		<N I="166" T="fact"><D><![CDATA[Claire's parents own The Coffee Beanery.]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="167" T="fact"><D><![CDATA[Claire is trying to get Sara fired from the Coffee Beanery, even though she's their top employee.]]></D> <NPC N="Claire" I="9" /> <NPC N="Sara" I="3" /></N>
+		<N I="168" T="rumor"><D><![CDATA[Claire thinks she's a talented designer who can make a go of a boutique at the Coffee Beanery space.]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="169" T="fact"><D><![CDATA[Claire's passion for fashion is just in shopping. She's never designed anything.]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="170" T="fact"><D><![CDATA[Moe is all talk. He's a horrible kisser.]]></D> <NPC N="Moe" I="10" /></N>
+		<N I="171" T="fact"><D><![CDATA[You've made enough of an impression on Sara that she's talking about you.]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="172" T="rumor"><D><![CDATA[Claire and Sara used to be a couple.]]></D> <NPC N="Claire" I="9" /> <NPC N="Sara" I="3" /></N>
+		<N I="173" T="fact"><D><![CDATA[Sara and Claire's breakup was bad.]]></D> <NPC N="Claire" I="9" /> <NPC N="Sara" I="3" /></N>
+		<N I="174" T="fact"><D><![CDATA[Sara definitely is thinking of your dinner together as a date.]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="175" T="fact"><D><![CDATA[Claire's trying to stop her parents from selling Sara the Coffee Beanery because she's in deep denial that they dated.]]></D> <NPC N="Claire" I="9" /> <NPC N="Sara" I="3" /></N>
+		<N I="176" T="fact"><D><![CDATA[Dylan thinks it's nice to see Sara interested in someone who isn't a raging bitch like Claire or a player like Moe.]]></D> <NPC N="Moe" I="10" /> <NPC N="Claire" I="9" /> <NPC N="Dylan" I="6" /> <NPC N="Sara" I="3" /></N>
+		<N I="177" T="fact"><D><![CDATA[Justin and Claire used to date.]]></D> <NPC N="Claire" I="9" /> <NPC N="Justin" I="1" /></N>
+		<N I="178" T="fact"><D><![CDATA[Justin had a serious, recurring illness.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="179" T="fact"><D><![CDATA[Justin used skateboarding for recovery both physical and emotional.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="180" T="fact"><D><![CDATA[Justin is not out of the woods yet, health-wise.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="181" T="rumor"><D><![CDATA[Stefanie was somehow involved in the breakup of Claire and Justin.]]></D> <NPC N="Claire" I="9" /> <NPC N="Stefanie" I="2" /> <NPC N="Justin" I="1" /></N>
+		<N I="182" T="fact"><D><![CDATA[Justin is really sweet and wonderful – he just has a hard time getting close to people because he's afraid he'll die on them.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="183" T="fact"><D><![CDATA[Justin and Stephanie hooked up, and it ended up online.]]></D> <NPC N="Stefanie" I="2" /> <NPC N="Justin" I="1" /></N>
+		<N I="184" T="fact"><D><![CDATA[Stefanie feels beholden to Claire for having betrayed her.]]></D> <NPC N="Claire" I="9" /> <NPC N="Stefanie" I="2" /></N>
+		<N I="185" T="rumor"><D><![CDATA[Claire used to be a nice person.]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="186" T="fact"><D><![CDATA[Matthew likes Stefanie.]]></D> <NPC N="Matthew" I="5" /> <NPC N="Stefanie" I="2" /></N>
+		<N I="187" T="fact"><D><![CDATA[Claire is such a psycho about her little dog, because she got it when she and Justin used to volunteer together. She DOES have a soft spot.]]></D> <NPC N="Stefanie" I="2" /> <NPC N="Justin" I="1" /></N>
+		<N I="188" T="fact"><D><![CDATA[Sara is almost always at the Coffee Beanery.]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="189" T="invis"><D><![CDATA[Player may be interested in Sara.]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="190" T="secret"><D><![CDATA[I am interested in Sara.]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="191" T="invis"><D><![CDATA[Player met Justin.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="192" T="invis"><D><![CDATA[Player may be interested in Justin.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="193" T="fact"><D><![CDATA[Claire used to be a nice person, but things with Justin messed her up.]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="194" T="invis"><D><![CDATA[I am interested in Justin.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="195" T="invis"><D><![CDATA[Appointment: Movies with Matthew at 8.]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="196" T="invis"><D><![CDATA[TXT from Matthew about movie date]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="197" T="invis"><D><![CDATA[Justin: Claire IC attempted]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="198" T="invis"><D><![CDATA[Justin: Claire IC won]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="199" T="invis"><D><![CDATA[Appointment: Made it to Movies w/ Matthew]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="200" T="invis"><D><![CDATA[Appointment: Did not make it to Movies w/ Matthew]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="201" T="fact"><D><![CDATA[Stefanie wants Justin to apologize.]]></D> <NPC N="Stefanie" I="2" /></N>
+		<N I="202" T="invis"><D><![CDATA[Spoke with Stefanie about Justin]]></D> <NPC N="Stefanie" I="2" /></N>
+		<N I="203" T="invis"><D><![CDATA[Justin IC about Stefanie attempted]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="204" T="invis"><D><![CDATA[ Justin IC about Stefanie won]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="205" T="invis"><D><![CDATA[ Justin IC about Stefanie lost]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="206" T="invis"><D><![CDATA[Got Justin's TXT about park]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="207" T="invis"><D><![CDATA[Missed Justin's TXT about Park]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="208" T="invis"><D><![CDATA[I am no longer interested in Justin]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="209" T="fact"><D><![CDATA[Justin apologized to Stefanie.]]></D> <NPC N="Justin" I="1" /> <NPC N="Stefanie" I="2" /></N>
+		<N I="210" T="invis"><D><![CDATA[Made it: Met Justin @ Park]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="211" T="invis"><D><![CDATA[Missed it: Missed Justin @ Park]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="212" T="invis"><D><![CDATA[Justin: Claire IC lost]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="213" T="invis"><D><![CDATA[RECEIVED TXT from Matthew about movie date]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="214" T="invis"><D><![CDATA[MISSED TXT from Matthew about movie date]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="215" T="invis"><D><![CDATA[MISSED TXT from Stefanie about Justin's apology]]></D> <NPC N="Stefanie" I="2" /></N>
+		<N I="216" T="invis"><D><![CDATA[RECEIVED TXT from Stefanie about Justin's apology]]></D> <NPC N="Stefanie" I="2" /></N>
+		<N I="217" T="fact"><D><![CDATA[Matthew wants to meet @ Cinema to talk about Justin]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="218" T="invis"><D><![CDATA[Appointment: Meet Justin @ Park]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="219" T="fact"><D><![CDATA[Justin wants you by his side when he gets his test results.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="220" T="invis"><D><![CDATA[You want to be with Justin as he gets his test results.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="221" T="invis"><D><![CDATA[You don't want to be with Justin as he gets his test results.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="222" T="invis"><D><![CDATA[Claire final Justin IC attempted]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="223" T="invis"><D><![CDATA[Claire final Justin IC lost]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="224" T="invis"><D><![CDATA[Claire final Justin IC won]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="225" T="invis"><D><![CDATA[Justin skates away]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="226" T="fact"><D><![CDATA[Justin has fully recovered]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="227" T="invis"><D><![CDATA[Appointment: MADE IT - Skateboarding Tournament]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="228" T="fact"><D><![CDATA[Appointment: MISSED IT - Skateboarding Tournament]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="229" T="fact"><D><![CDATA[Justin filmed his hook-up with Stefanie and posted it online. ]]></D> <NPC N="Justin" I="1" /> <NPC N="Stefanie" I="2" /></N>
+		<N I="230" T="fact"><D><![CDATA[Stefanie talked about you with Claire. Claire agreed to back off.]]></D> <NPC N="Stefanie" I="2" /> <NPC N="Claire" I="9" /></N>
+		<N I="231" T="invis"><D><![CDATA[Appointment: Skate Tournament]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="232" T="fact"><D><![CDATA[Justin wants you to be his party date.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="233" T="invis"><D><![CDATA[Appointment: PARTY]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="234" T="invis"><D><![CDATA[You don't run away from Justin]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="235" T="invis"><D><![CDATA[You run away from Justin.]]></D> <NPC N="Justin" I="1" /></N>
+		<N I="236" T="invis"><D><![CDATA[Player is interested in Sara.]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="237" T="invis"><D><![CDATA[Player turned down Sara's advances]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="238" T="fact"><D><![CDATA[Justin agreed to apologize to Stefanie]]></D> <NPC N="Justin" I="1" /> <NPC N="Stefanie" I="2" /></N>
+		<N I="239" T="fact"><D><![CDATA[Sara is gay]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="240" T="invis"><D><![CDATA[Met Sara to talk about poetry]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="241" T="invis"><D><![CDATA[Missed meeting up w/ Sara to discuss poetry]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="242" T="invis"><D><![CDATA[Trigger Sara: Claire IC #1]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="243" T="rumor"><D><![CDATA[Sara may have hooked up with Matthew when she was "experimenting"]]></D> <NPC N="Sara" I="3" /> <NPC N="Matthew" I="5" /></N>
+		<N I="244" T="invis"><D><![CDATA[Sara: Bookstore visit complete]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="245" T="invis"><D><![CDATA[Player asked Matthew about Sara: Polite]]></D> <NPC N="Sara" I="3" /> <NPC N="Matthew" I="5" /></N>
+		<N I="246" T="invis"><D><![CDATA[Sara: Game Over]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="247" T="invis"><D><![CDATA[Player asked Matthew about Sara: Rude]]></D> <NPC N="Sara" I="3" /> <NPC N="Matthew" I="5" /></N>
+		<N I="248" T="invis"><D><![CDATA[Player asked Matthew about Sara: Very Rude]]></D> <NPC N="Sara" I="3" /> <NPC N="Matthew" I="5" /></N>
+		<N I="249" T="fact"><D><![CDATA[Matthew is very protective of Sara.]]></D> <NPC N="Sara" I="3" /> <NPC N="Matthew" I="5" /></N>
+		<N I="250" T="fact"><D><![CDATA[Sara won't have anything to do with you.]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="251" T="fact"><D><![CDATA[Sara did not hook up with Matthew. They're just friends.]]></D> <NPC N="Sara" I="3" /> <NPC N="Matthew" I="5" /></N>
+		<N I="252" T="fact"><D><![CDATA[You should ask Matthew who he does have feelings for.]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="253" T="fact"><D><![CDATA[Sara knows that Claire is trying to bring her down. Outing Claire is not an option.]]></D> <NPC N="Sara" I="3" /> <NPC N="Claire" I="9" /></N>
+		<N I="254" T="invis"><D><![CDATA[Sara: Won Matthew IC]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="255" T="invis"><D><![CDATA[Sara: Lost Matthew IC]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="256" T="invis"><D><![CDATA[Sara: Attempted Matthew IC]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="257" T="rumor"><D><![CDATA[Claire is a very gifted poet.]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="258" T="fact"><D><![CDATA[Dylan grabbed secret text messages between Sara and Claire]]></D> <NPC N="Sara" I="3" /> <NPC N="Dylan" I="6" /> <NPC N="Claire" I="9" /></N>
+		<N I="259" T="secret"><D><![CDATA[Matthew likes Claire]]></D> <NPC N="Claire" I="9" /> <NPC N="Matthew" I="5" /></N>
+		<N I="260" T="invis"><D><![CDATA[Started confrontation w/ Dylan]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="261" T="invis"><D><![CDATA[Sara: Dylan IC #1 won]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="262" T="invis"><D><![CDATA[Sara: Dylan IC #1 lost]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="263" T="fact"><D><![CDATA[Dylan won't tell anyone about the text messages.]]></D> <NPC N="Dylan" I="6" /></N>
+		<N I="264" T="invis"><D><![CDATA[Final IC w/ Claire lost]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="265" T="invis"><D><![CDATA[Final IC w/ Claire won]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="266" T="invis"><D><![CDATA[Final IC w/ Claire attempted]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="267" T="fact"><D><![CDATA[Sara wants you to talk to Claire]]></D> <NPC N="Sara" I="3" /> <NPC N="Claire" I="9" /></N>
+		<N I="268" T="fact"><D><![CDATA[Claire will clear things with her parents so Sara can have the Beanery]]></D> <NPC N="Sara" I="3" /> <NPC N="Claire" I="9" /></N>
+		<N I="269" T="invis"><D><![CDATA[Sara: Made it to the party]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="270" T="invis"><D><![CDATA[Sara: didn't make it to the party]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="271" T="invis"><D><![CDATA[Sara asked you to the party]]></D> <NPC N="Sara" I="3" /></N>
+		<N I="272" T="invis"><D><![CDATA[Got Stef's call RE Justin]]></D> <NPC N="Justin" I="1" /> <NPC N="Stefanie" I="2" /></N>
+		<N I="273" T="rumor"><D><![CDATA[Claire just might be off your back.]]></D> <NPC N="Claire" I="9" /></N>
+		<N I="274" T="invis"><D><![CDATA[Got sneaky text from Matthew]]></D> <NPC N="Matthew" I="5" /></N>
+		<N I="275" T="invis"><D><![CDATA[Got invite from Justin to tournament]]></D> <NPC N="Justin" I="1" /></N>
+	</NUGGETS>

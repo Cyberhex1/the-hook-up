@@ -1,0 +1,152 @@
+<?xml version="1.0"?><CONVERSATION ID="24" NAME="Get Claire out of the way" SUCCESS_METER_MAX="20" WINNING_CS_ID="989" LOSING_CS_ID="987" NPC="Claire">
+<DESCRIP><![CDATA[Get Claire to get out of the way of her parents selling Sara the Beanery.]]></DESCRIP>
+				<AXIS AXIS_ID="5" NAME="unsure" />
+				<AXIS AXIS_ID="7" NAME="embarassed" />
+
+
+<CARD CARD_ID="427" REQ_NUGGET_ID="0" NAME="Get over yourself." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Get over yourself. I know you were the one who chased down  Sara.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to embarassed, +1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="523" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="524" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="428" REQ_NUGGET_ID="0" NAME="I do actually know someone..." USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[God knows why, but I do actually know someone who has a crush on you. A guy, even.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, +1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="525" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="526" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="423" REQ_NUGGET_ID="0" NAME="I have a name for your..." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I have a name for your new clothing line: Tres Vominique]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="519" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="429" REQ_NUGGET_ID="0" NAME="I hear you're actually..." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I hear you're actually a really good poet.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="527" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="430" REQ_NUGGET_ID="0" NAME="If you had a design studio" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[If you had a design studio, would it be called Bitch Stitch?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="528" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="418" REQ_NUGGET_ID="0" NAME="If you were really..." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[If you were really such a bad-ass bitch as you claim to be, you wouldn't give a damn what anyone else thought of you.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, +1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="512" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="513" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="425" REQ_NUGGET_ID="0" NAME="Look, if you let your parents..." USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[Look, if you let your parents sell Sara the Beanery, I bet she'll give you a little space to sell your stuff.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="521" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="417" REQ_NUGGET_ID="0" NAME="No one CARES" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[No one CARES that you had a fling with a girl! It's not like you'll get a scarlet "L".]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="511" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="422" REQ_NUGGET_ID="0" NAME="Open your heart" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[If you could open your heart like you open your wallet, you'd  actually get somewhere in life.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, +1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="517" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="518" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="426" REQ_NUGGET_ID="0" NAME="Sara was nothing but..." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Sara was nothing but sweet and loving to you. You just can't deal with your own emotions.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="522" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="420" REQ_NUGGET_ID="0" NAME="Stick to spending Mommy" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Stick to spending Mommy and Daddy's money. Everyone knows your designs are a joke.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="515" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="424" REQ_NUGGET_ID="0" NAME="The empress has no style." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[The empress has no style.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="520" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="419" REQ_NUGGET_ID="0" NAME="The only reason they sold..." USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[The only reason they sold your clothes at Pretty Vacant was because they didn't want to lose your business.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="514" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="421" REQ_NUGGET_ID="0" NAME="You know what?" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[You know what? I do like Sara. You used to, too. Deal with it. (Makes all your dialog that increases unsure stronger).]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="516" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="440" NAME="Everyone loves me." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Everyone loves me. They just can't help themselves.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="538" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="436" NAME="I am NOT a poet" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I am NOT a poet, and I know it! (Oh...)]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="534" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="443" NAME="I don't need anyone's love or approval" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[I don't need anyone's love or approval. I do what I want. (All Claire's cards which decrease unsure are stronger)]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="542" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="441" NAME="I don't want to disappoint Prince William." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I don't want to disappoint Prince William. He was so looking forward to being my spokesdog.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to unsure, +1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="539" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-3"  />
+		<EFFECT EFFECT_ID="540" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="434" NAME="If I don't open a boutique" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[If I don't open a boutique, then where will all the Chihuahuas get their sweaters and tiaras? If they freeze to death it's your fault!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="532" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="432" NAME="Me? A poet?!?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Me? A poet?!? You take that back NOW!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="530" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="433" NAME="My clothes RULE!" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[My clothes RULE! Everyone says so.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="531" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="438" NAME="Of course you don't want..." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Of course you don't want me to have a clothing line. It's not like any of it would even fit you.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="536" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="442" NAME="Sara? Please." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Sara? Please. She reeks of chai and milk foam. Not that I ever got close enough to sniff her, of course.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="541" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="439" NAME="What, are you in love with me, too?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[What, are you in love with me, too?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="537" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="435" NAME="Where do you get your clothes?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Where do you get your clothes? Free with 10-gallon purchase?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="533" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="437" NAME="Why should I do anything nice for Sara?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Why should I do anything nice for Sara? She'll just treat you like she treated...um, I wouldn't know anything about her personal life.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="535" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="431" NAME="You are so captivated..." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You are so captivated by my beauty that you can't even see straight!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="529" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+
+</CONVERSATION>

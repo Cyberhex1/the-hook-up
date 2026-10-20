@@ -1,0 +1,150 @@
+<?xml version="1.0"?><CONVERSATION ID="26" NAME="Get Dylan to swear" SUCCESS_METER_MAX="20" WINNING_CS_ID="979" LOSING_CS_ID="978" NPC="Dylan">
+<DESCRIP><![CDATA[Get Dylan to swear he won't out Claire to her parents and apologize for intercepting text messages.]]></DESCRIP>
+				<AXIS AXIS_ID="9" NAME="guilt" />
+				<AXIS AXIS_ID="3" NAME="believe" />
+
+
+<CARD CARD_ID="452" REQ_NUGGET_ID="0" NAME="Creepy stalker, much?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Creepy stalker, much?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="553" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="444" REQ_NUGGET_ID="0" NAME="I know you think..." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I know you think this is all just some big joke, but this is people's lives you're dealing with.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="543" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="544" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="446" REQ_NUGGET_ID="0" NAME="I know you THINK..." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I know you THINK you're gonna get Girls Gone Wild, but keep doing this, and you're gonna get Girls Gone Wild On Dylan's Sorry Ass.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="546" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="454" REQ_NUGGET_ID="0" NAME="If you really want..." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[If you really want to watch girls hook up so much, I'd like you to introduce you to my friend. She's called The Internet.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="555" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="451" REQ_NUGGET_ID="0" NAME="Ooooh. Intercepted text messages." USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[Ooooh. Intercepted text messages. Huge "evidence" there, dude. You'll just come off looking lame.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="552" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="449" REQ_NUGGET_ID="0" NAME="Seriously – get a hobby." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Seriously – get a hobby. Chicks dig guys who, I dunno, scrapbook or something.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="549" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="445" REQ_NUGGET_ID="0" NAME="sooooooo 1990s" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Videos of girls kissing – that's sooooooo 1990s.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="545" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="450" REQ_NUGGET_ID="0" NAME="There really is nothing more fulfilling?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[There really is nothing more fulfilling in your life? Reality television? Parkour? Ferret husbandry?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to guilt, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="550" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="551" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="448" REQ_NUGGET_ID="0" NAME="What did Sara ever do to you?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[What did Sara ever do to you? Or Claire?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="548" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="447" REQ_NUGGET_ID="0" NAME="Why the need for all the attention" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Why the need for all the attention, Dylan? Trying to compensate for some shortcomings?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="547" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="453" REQ_NUGGET_ID="0" NAME="You are thisclose to" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You are thisclose to, like, panty stealing or something. No one likes a panty stealer.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="554" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="456" REQ_NUGGET_ID="0" NAME="You seem like an otherwise nice guy." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You seem like an otherwise nice guy. Don't do this. Please.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="557" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="455" REQ_NUGGET_ID="0" NAME="You'll hurt a lot of people" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You'll hurt a lot of people if you do this. Doesn't that mean anything to you?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="556" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="3"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="469" NAME="Are you threatening me?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Are you threatening me? That's hot.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="571" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="460" NAME="Claire gets what she deserves." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Claire's a bitch. She gets what she deserves.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="561" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="463" NAME="Don't trample on my right to free speech." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Don't trample on my right to free speech.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="564" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="462" NAME="Get this – my master plan" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Get this – my master plan is that if Claire wants me to not tell her parents, she and Sara have to totally make out with me – at the same time.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="563" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="459" NAME="I am SO going to be..." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I am SO going to be the next reality tv mogul.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="560" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="461" NAME="I have a healthy interest" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I have a healthy interest in girls who like girls. So what.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="562" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="458" NAME="I know my boy" USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I know my boy Matthew likes Claire. I figured this would help him.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="559" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="468" NAME="I'm just having fun. Chill." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm just having fun. Chill.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="570" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="470" NAME="I'm tri-sexual." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm tri-sexual. I'll "tri" anything.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="572" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="457" NAME="It was just a joke." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[It was just a joke. Geez – lighten up.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="558" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="465" NAME="It's soooooo boring at the bookstore." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[It's soooooo boring at the bookstore. All work and no play makes Dylan get ideas.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="567" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="464" NAME="The ladies love me" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[The ladies love me – what can I say. I'm just trying to spread the love.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, -1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="565" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="566" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="467" NAME="Why do you care?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Why do you care? Are you in love with them or something? And can I take pictures?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="569" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="466" NAME="Won't it be hilarious?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Won't it be hilarious?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to guilt, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="568" SCOPE="" SINGLE_CARD_AXIS_ID="9" EFFECT_AMOUNT="-1"  />
+		</CARD>
+
+</CONVERSATION>

@@ -1,0 +1,139 @@
+<?xml version="1.0"?><CONVERSATION ID="12" NAME="Convince Sara You Deserve Her Secret" SUCCESS_METER_MAX="16" WINNING_CS_ID="364" LOSING_CS_ID="363" NPC="Sara">
+<DESCRIP><![CDATA[Sara says she knows something about Matthew that you don't. She thinks your quest to find out about Matthew's sexuality is ridiculous. Prove to her that you deserve her secret about Matthew.<br>LIKE: Convince Sara to like you and that you are trustworthy.<br>BELIEVE: Make Sara believe you.]]></DESCRIP>
+				<AXIS AXIS_ID="1" NAME="like" />
+				<AXIS AXIS_ID="3" NAME="believe" />
+
+
+<CARD CARD_ID="131" REQ_NUGGET_ID="0" NAME="Accessories make the outfit" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Those glasses totally go with your lip ring. And those boots! They're your dad's? I'm loving it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="152" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="138" REQ_NUGGET_ID="0" NAME="Apologetic." USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[You are really sorry, making all your likeable dialog stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="159" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="1"  />
+		</CARD>
+<CARD CARD_ID="128" REQ_NUGGET_ID="0" NAME="Compliment" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I bet you didn't know Matthew says you are the smartest coolest lady in town.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to like, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="148" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="149" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="132" REQ_NUGGET_ID="77" NAME="I know Matthew's fav drink" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Let's see... well, I know Matthew drinks a  lot of Chai tea.  That's something.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="153" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="135" REQ_NUGGET_ID="72" NAME="Matthew and Dylan hang out" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I know that Matthew and Dylan are friends.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="156" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="137" REQ_NUGGET_ID="78" NAME="Matthew brought Dylan on our date" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[I got to Great Wall, and Dylan was there! Wouldn't you be a little curious if that happened to you? Dylan even made a pass at me!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="158" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="136" REQ_NUGGET_ID="70" NAME="Matthew is an artist" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I know he's an artist, Justin told me art is pretty much his life.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="157" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="134" REQ_NUGGET_ID="73" NAME="Matthew is sensistive" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Melissa says he really listens to her, not like the other guys around here.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="155" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="127" REQ_NUGGET_ID="0" NAME="Matthew was made for me." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Matthew and I are a perfect match! We compliment each other in so many ways. I'm yin to his yang, like the tattoo on his ankle.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="147" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="139" REQ_NUGGET_ID="0" NAME="Matthew's Morning Coffee" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I know that Matthew comes by here in the morning to get his coffee.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="160" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="125" REQ_NUGGET_ID="0" NAME="Poor me, lucky you" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Matthew's so cool and mysterious and I am so completely scared of getting hurt. I guess someone as together as you wouldn't know what that's like...]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="145" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="133" REQ_NUGGET_ID="71" NAME="Rumor: I had a reason to wonder" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[I mean, Matthew has never had a girlfriend, right? It made me wonder.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="154" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="130" REQ_NUGGET_ID="0" NAME="Thanks for setting me straight" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You really know how to break out the Oprah. I can see now why everyone comes to you with their problems.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="151" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="126" REQ_NUGGET_ID="0" NAME="You're right Sara." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I guess we all have stupid silly insecurities, thanks for having the maturity to help me with mine.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="146" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="129" REQ_NUGGET_ID="0" NAME="You're so secure in your womynhood" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[It's cool how comfortable you are with your sexuality, it's super inspirational.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="150" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="141" NAME="Distrust" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Sara just doesn't seem to trust you, all her -like statements are strengthened.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="162" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="1"  />
+		</CARD>
+<CARD CARD_ID="142" NAME="I'm a pretty big deal." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Yeah, I know a lot about the people in this burg, more than most. It's because they know, I know, they know that I'm trustworthy.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="163" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="149" NAME="Matthew is sensistive" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Matthew IS sensisitive, and he likes people that think about other people's feelings.  Know what I mean?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, -1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="170" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="171" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="143" NAME="Me and Matthew go waaaaay back." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I've known Matthew since we were kids. I only had one piercing when we met!]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="164" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="144" NAME="Not Mattie's Type" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Matthew is a cool discerning guy and one of my oldest friends, you DO NOT seem to be his type.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="165" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="146" NAME="Something strange..." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I dunno...there's something kind of sketchy about you, mostly in the eyes, mouth, nose, face region.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="167" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="147" NAME="Style points." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[The face is nice and the bod's rockin', but all the gossip is more than just a little unconvincing.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="168" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="145" NAME="Words can hurt." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[If you knew how much it hurts to be different you'd think twice before you talked trash about people you don't know anything about.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="166" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="148" NAME="You seem to know the obvious" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Sure, you might know where he hangs out or what he likes to drink.  But that's not really knowing someone, is it?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="169" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="140" NAME="You're so not convincing." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I am totally underwhelmed by your knowledge of the subject. Are we even talking about the same Matthew?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="161" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+
+</CONVERSATION>

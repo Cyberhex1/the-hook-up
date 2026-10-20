@@ -1,0 +1,155 @@
+<?xml version="1.0"?><CONVERSATION ID="7" NAME="Stand Up For Yourself Against Claire" SUCCESS_METER_MAX="16" WINNING_CS_ID="119" LOSING_CS_ID="120" NPC="Claire">
+<DESCRIP><![CDATA[Claire claims she's going out with Dylan and wants you to stop seeing him.<br>CONFIDENCE - Maintain your confidence<br>UNSURE - Try and make Claire unsure of herself<br>HUMILIATE - Try to go after Claire's pride.]]></DESCRIP>
+				<AXIS AXIS_ID="5" NAME="unsure" />
+				<AXIS AXIS_ID="8" NAME="humilated" />
+				<AXIS AXIS_ID="2" NAME="confident" />
+
+
+<CARD CARD_ID="83" REQ_NUGGET_ID="0" NAME="Ah, I recognize you" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You must be the *stupid* Hilton sister.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="97" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="86" REQ_NUGGET_ID="0" NAME="Dylan liked me on first sight" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[As soon as he saw me, Dylan volunteered to show me around town.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="101" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="87" REQ_NUGGET_ID="0" NAME="Dylan opened up to me" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Dylan took me on a very personal tour of his side of town.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="102" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="80" REQ_NUGGET_ID="43" NAME="Dylan said he WAS seeing you" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Dylan told me he went out with you. In the PAST tense.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="93" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="84" REQ_NUGGET_ID="0" NAME="Dylan thinks I'm hot" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Dylan couldn't stop paying me compliments. I didn't hear him mention you once...]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="98" SCOPE="opponent" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="79" REQ_NUGGET_ID="40" NAME="Dylan Thinks I'm Special" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You don't know what you're talking about. There's something special between me and Dylan.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="92" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="90" REQ_NUGGET_ID="0" NAME="High Self Esteem" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[(You're comfortable with who you are. Your confidence makes Claire more unsure of herself.)]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="106" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="201" REQ_NUGGET_ID="0" NAME="I'll take my pick" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I could have have any guy I want in this town.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="233" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="85" REQ_NUGGET_ID="0" NAME="I'm the boss of me" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[No one tells me what to do. Especially not some wanna be pornstar-looking girl.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to confident, +1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="99" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="100" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="91" REQ_NUGGET_ID="0" NAME="It could be love" USER="pc" SCOPE="self" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I know I just met him, but Dylan makes me feel things I've never felt before.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, -1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="107" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		<EFFECT EFFECT_ID="108" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="78" REQ_NUGGET_ID="0" NAME="Nice Chihuahua" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[That whole small-dog-as-accessory thing is so last season.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="91" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="82" REQ_NUGGET_ID="0" NAME="No one told me anything" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Look, I'm new here. Dylan asked ME out. Why not go talk to him?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to confident, -1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="95" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="3"  />
+		<EFFECT EFFECT_ID="96" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="88" REQ_NUGGET_ID="42" NAME="Secret: Dylan doesn't want a rich girl" USER="pc" SCOPE="opponent" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[Someone like Dylan -- real, raw, from the streets -- would never like a rich snob like you. He told me so.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, +2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="103" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		<EFFECT EFFECT_ID="104" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="77" REQ_NUGGET_ID="42" NAME="Secret: Dylan Thinks You're A Snob" USER="pc" SCOPE="opponent" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[You might think you know Dylan, but he told me personally that he thinks you're a snob.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, +2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="89" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="90" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="92" REQ_NUGGET_ID="0" NAME="Want a donut?" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I don't know who told you bony hips were sexy. Here, let me buy you a donut. My treat.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="109" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="232" REQ_NUGGET_ID="0" NAME="Where do you get off?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Go back to Laguna Beach, bitch.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="274" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="81" REQ_NUGGET_ID="0" NAME="You don't know me" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You've got a lot of nerve talking to me like this.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="94" SCOPE="opponent" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="2"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="97" NAME="Charity box much?" USER="npc" TYPE="statement" SCOPE="opponent" DURATION="perm">
+<DESCRIPTION><![CDATA[You know you're supposed to put crappy clothing INTO those metal boxes in front of the supermarket, not pull it out.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="115" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="99" NAME="Dylan needs me" USER="npc" TYPE="statement" SCOPE="opponent" DURATION="perm">
+<DESCRIPTION><![CDATA[You think his crappy job at the book store  will pay for all that sound equipment Dylan needs?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="117" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="94" NAME="Finders keepers" USER="npc" TYPE="statement" SCOPE="opponent" DURATION="perm">
+<DESCRIPTION><![CDATA[I was here first, new girl. You can have Dylan when I'm done with him.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="111" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="101" NAME="Go for it, new girl: Go ahead." USER="npc" TYPE="statement" SCOPE="opponent" DURATION="perm">
+<DESCRIPTION><![CDATA[Dylan will just chew you up and spit you out, just like all the others.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="119" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="93" NAME="How's your bunkbed?" USER="npc" TYPE="statement" SCOPE="opponent" DURATION="perm">
+<DESCRIPTION><![CDATA[I've seen that tiny place you moved into. What's it like sharing a room with your little brother?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="110" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="96" NAME="I'm the bomb" USER="npc" TYPE="statement" SCOPE="opponent" DURATION="perm">
+<DESCRIPTION><![CDATA[A frumpy little thing like you stands no chance against me for Dylan or any guy.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="114" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="100" NAME="Let's make a deal" USER="npc" TYPE="statement" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[I'll buy Dylan from you for $20 and you can buy yourself a new outfit.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="118" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="98" NAME="My new career" USER="npc" TYPE="statement" SCOPE="opponent" DURATION="perm">
+<DESCRIPTION><![CDATA[You should know I've had several offers from major modeling agencies. How many have you had?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to humilated, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="116" SCOPE="" SINGLE_CARD_AXIS_ID="8" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="89" NAME="Superior Attitude" USER="npc" TYPE="special" SCOPE="opponent" DURATION="perm">
+<DESCRIPTION><![CDATA[<i>Claire's big house and fancy clothes make her look down on the little people</i>
+You get less confident when you try to humiliate Claire.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my opponent's cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="105" SCOPE="opponent" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="95" NAME="Watch yourself" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm not sure you know who you're dealing with. You do not want to make me angry.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, -1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="112" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="113" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+
+</CONVERSATION>

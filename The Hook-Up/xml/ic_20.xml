@@ -1,0 +1,147 @@
+<?xml version="1.0"?><CONVERSATION ID="20" NAME="Claire thinks she still has a claim on Justin." SUCCESS_METER_MAX="20" WINNING_CS_ID="806" LOSING_CS_ID="842" NPC="Claire">
+<DESCRIP><![CDATA[Show her that you're powerful and good for him, and may be all the medicine he needs.]]></DESCRIP>
+				<AXIS AXIS_ID="5" NAME="unsure" />
+				<AXIS AXIS_ID="3" NAME="believe" />
+
+
+<CARD CARD_ID="293" REQ_NUGGET_ID="0" NAME="He wants to see me again" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin was totally into me, and wants to see me again.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="346" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="90" REQ_NUGGET_ID="0" NAME="High Self Esteem" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[(You're comfortable with who you are. Your confidence makes Claire more unsure of herself.)]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="106" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="301" REQ_NUGGET_ID="0" NAME="I know how to take care of people" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I know how to take care of people, and make them feel great about themselves. You just drag everyone down.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="354" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="285" REQ_NUGGET_ID="0" NAME="I make him laugh." USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I make him laugh. Laughter is the best medicine. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="338" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="296" REQ_NUGGET_ID="0" NAME="If you really cared about Justin" USER="pc" SCOPE="all" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[If you really cared about Justin, you wouldn't stand in the way of his happiness with me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="349" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="289" REQ_NUGGET_ID="0" NAME="Justin wasn't thinking about you" USER="pc" SCOPE="all" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin sure wasn't thinking about your "special bond" when he hooked up with Stephanie! ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to unsure, -1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="342" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="4"  />
+		<EFFECT EFFECT_ID="445" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="121" REQ_NUGGET_ID="0" NAME="Not impressed." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Your yipping at me is about as impressive as that chihuahua you carry around.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="140" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="288" REQ_NUGGET_ID="0" NAME="People like me" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[People like me. They just fear you - but that's going to change.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, +1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="341" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="444" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="284" REQ_NUGGET_ID="0" NAME="What's so special about you?" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I have yet to see what's special about you - other than in the short-bus way.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="337" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="290" REQ_NUGGET_ID="0" NAME="You are obviously unhinged" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You are obviously unhinged. Justin doesn't need that in his life right now.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="343" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="283" REQ_NUGGET_ID="193" NAME="You're living in the past." USER="pc" SCOPE="all" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[You're living in the past. You've changed, and so has he.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="336" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="281" REQ_NUGGET_ID="177" NAME="You're still hung up on Justin" USER="pc" SCOPE="all" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[You're clearly still hung up on Justin. Why don't you just admit that?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="335" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="3"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="114" NAME="Biting Words" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Claire's words shake your confidence.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="133" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="303" NAME="Everyone does what I say" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Everyone in this town does what I tell them to, and Justin is no exception.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="356" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="299" NAME="Everyone thinks you're a major skank" USER="npc" TYPE="rumor" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[You may have just gotten to town but we all smelled you coming. Everyone thinks you're a major skank.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="352" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="294" NAME="He just feels sorry for you" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin probably just feels sorry for you because you don't know anyone and thinks you're pathetic.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="347" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="291" NAME="He'll always love me." USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin will always love me. Even if hell froze over and he went out with you, he'd be thinking of me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="344" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="292" NAME="He's a flirt" USER="npc" TYPE="rumor" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin loves to flirt, but he's totally laughing at you behind your back.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, -1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="345" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="450" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="302" NAME="If Justin wins, you're history" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[If Justin becomes a famous skateboarding star, he'll want someone hot by his side, and you're so NOT.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="355" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="298" NAME="No guy would ever pick you over me" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[If I'm around, no guy would ever pick you over me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="351" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="297" NAME="Stephanie knows what she did wrong" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Stephanie knows what she did wrong, and she's paying the price. Just like anyone will if they try to get in my way.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="350" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="89" NAME="Superior Attitude" USER="npc" TYPE="special" SCOPE="opponent" DURATION="perm">
+<DESCRIPTION><![CDATA[<i>Claire's big house and fancy clothes make her look down on the little people</i>
+You get less confident when you try to humiliate Claire.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my opponent's cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="105" SCOPE="opponent" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="95" NAME="Watch yourself" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm not sure you know who you're dealing with. You do not want to make me angry.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, -1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="112" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="113" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="287" NAME="We have a bond" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin and I have a bond that you could NEVER understand.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="340" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="304" NAME="Why am I even bothering with you?" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Why am I even bothering talking to you? You're just a little nothing.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="357" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="286" NAME="You're so common" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin could never love you. You're just so...common.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="339" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		</CARD>
+
+</CONVERSATION>

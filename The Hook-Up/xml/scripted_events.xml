@@ -1,0 +1,721 @@
+<SCRIPTED_EVENTS>
+<SE I="5"><N><![CDATA[Stefanie's Freakout, Phase 2]]></N>
+				<SES I="467" TYPE="moveto" X="22" Y="14" WAIT="0" NPC="Stefanie" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="345" KNOWS="27" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="404" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="405" TYPE="spawn" X="20" Y="15" WAIT="0" NPC="Sara" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="406" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="716" MAP="">
+						</SES></SE>
+	<SE I="3"><N><![CDATA[Stefanie's Freakout]]></N>
+				<SES I="3" TYPE="spawn" X="20" Y="7" WAIT="0" NPC="Stefanie" LOC="Pretty Vacant" SUB="0" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="27" KNOWS="0" UNKNOWS="22" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="117" KNOWS="64" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="13" TYPE="spawn" X="15" Y="5" WAIT="0" NPC="Clerk" LOC="Pretty Vacant" SUB="0" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="14" TYPE="moveto" X="19" Y="5" WAIT="0" NPC="Stefanie" LOC="Pretty Vacant" SUB="0" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="16" TYPE="moveto" X="16" Y="5" WAIT="0" NPC="Clerk" LOC="Pretty Vacant" SUB="0" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="15" TYPE="moveto" X="18" Y="5" WAIT="0" NPC="Stefanie" LOC="Pretty Vacant" SUB="0" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="4" TYPE="dialog" X="20" Y="5" WAIT="0" NPC="Stefanie" LOC="Pretty Vacant" SUB="0" FACE="" USE_PATH="" CS_ID="9" MAP="">
+						</SES>			<SES I="17" TYPE="moveto" X="19" Y="12" WAIT="0" NPC="Stefanie" LOC="Pretty Vacant" SUB="0" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="18" TYPE="moveto" X="14" Y="12" WAIT="0" NPC="Stefanie" LOC="Pretty Vacant" SUB="0" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="19" TYPE="moveto" X="14" Y="14" WAIT="0" NPC="Stefanie" LOC="Pretty Vacant" SUB="0" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="20" TYPE="moveto" X="15" Y="14" WAIT="0" NPC="Stefanie" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="21" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="Pretty Vacant" SUB="0" FACE="" USE_PATH="" CS_ID="15" MAP="">
+						</SES></SE>
+	<SE I="40"><N><![CDATA[Skate Tournament]]></N>
+				<SES I="483" TYPE="spawn" X="37" Y="23" WAIT="0" NPC="Stefanie" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="490" KNOWS="227" UNKNOWS="0" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="491" KNOWS="0" UNKNOWS="230" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="484" TYPE="spawn" X="5" Y="12" WAIT="0" NPC="Matthew" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="485" TYPE="spawn" X="8" Y="13" WAIT="0" NPC="Justin" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="488" TYPE="playermove" X="36" Y="24" WAIT="0" NPC="" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="486" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="872" MAP="">
+						</SES>			<SES I="487" TYPE="moveto" X="33" Y="24" WAIT="0" NPC="Matthew" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="489" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="876" MAP="">
+						</SES>			<SES I="491" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="880" MAP="">
+						</SES>			<SES I="510" TYPE="moveto" X="41" Y="23" WAIT="0" NPC="Justin" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="512" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Justin" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="895" MAP="">
+						</SES></SE>
+	<SE I="45"><N><![CDATA[Sara: Final Party]]></N>
+				<SES I="537" TYPE="spawn" X="27" Y="7" WAIT="0" NPC="Dylan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="578" KNOWS="271" UNKNOWS="0" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="538" TYPE="spawn" X="7" Y="4" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="539" TYPE="spawn" X="9" Y="4" WAIT="0" NPC="Claire" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="540" TYPE="spawn" X="18" Y="4" WAIT="0" NPC="Sara" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="541" TYPE="playermove" X="26" Y="10" WAIT="0" NPC="Dylan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="542" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="992" MAP="">
+						</SES>			<SES I="543" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="993" MAP="">
+						</SES>			<SES I="544" TYPE="playermove" X="8" Y="6" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="545" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="994" MAP="">
+						</SES>			<SES I="546" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="995" MAP="">
+						</SES>			<SES I="547" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="996" MAP="">
+						</SES>			<SES I="548" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="997" MAP="">
+						</SES>			<SES I="549" TYPE="playermove" X="15" Y="5" WAIT="0" NPC="Sara" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="550" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="998" MAP="">
+						</SES>			<SES I="551" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="999" MAP="">
+						</SES>			<SES I="552" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="You" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="1000" MAP="">
+						</SES></SE>
+	<SE I="43"><N><![CDATA[Sara: Clerk @ PV]]></N>
+				<SES I="527" TYPE="spawn" X="15" Y="4" WAIT="0" NPC="Megan" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="517" KNOWS="244" UNKNOWS="0" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="518" KNOWS="0" UNKNOWS="169" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="519" TYPE="spawn" X="19" Y="8" WAIT="0" NPC="Clerk" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="520" TYPE="playermove" X="21" Y="10" WAIT="0" NPC="" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="521" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Clerk" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="925" MAP="">
+						</SES></SE>
+	<SE I="42"><N><![CDATA[Sara: Claire IC #1]]></N>
+				<SES I="516" TYPE="spawn" X="16" Y="15" WAIT="0" NPC="Dylan" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="520" KNOWS="236" UNKNOWS="0" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="521" KNOWS="0" UNKNOWS="244" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="532" TYPE="spawn" X="25" Y="9" WAIT="0" NPC="Claire" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="517" TYPE="playermove" X="18" Y="15" WAIT="0" NPC="Dylan" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="518" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="904" MAP="">
+						</SES>			<SES I="533" TYPE="moveto" X="2" Y="12" WAIT="0" NPC="Dylan" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="534" TYPE="moveto" X="21" Y="15" WAIT="0" NPC="Claire" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="535" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="915" MAP="">
+						</SES></SE>
+	<SE I="32"><N><![CDATA[Sara Tutorial]]></N>
+				<SES I="392" TYPE="spawn" X="50" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="burbs">
+			<REQUIREMENTS><REQ I="265" KNOWS="27" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="398" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="708" MAP="">
+						</SES>			<SES I="391" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="394" TYPE="teleport" X="460" Y="3" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="town">
+						</SES>			<SES I="395" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="396" TYPE="spawn" X="485" Y="3" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="399" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="711" MAP="">
+						</SES></SE>
+	<SE I="25"><N><![CDATA[Melissa's Performance]]></N>
+				<SES I="264" TYPE="spawn" X="16" Y="8" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="195" KNOWS="104" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="196" KNOWS="0" UNKNOWS="105" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="346" KNOWS="0" UNKNOWS="148" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="265" TYPE="spawn" X="10" Y="3" WAIT="0" NPC="Claire" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="266" TYPE="spawn" X="23" Y="7" WAIT="0" NPC="Dylan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="267" TYPE="spawn" X="10" Y="4" WAIT="0" NPC="Stefanie" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="268" TYPE="spawn" X="19" Y="4" WAIT="0" NPC="Justin" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="270" TYPE="playermove" X="17" Y="8" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="269" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="449" MAP="">
+						</SES>			<SES I="271" TYPE="spawnspecial" X="1" Y="0" WAIT="0" NPC="Melissa" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="272" TYPE="moveto" X="16" Y="7" WAIT="0" NPC="Matthew" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="273" TYPE="moveto" X="10" Y="2" WAIT="0" NPC="Claire" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="274" TYPE="moveto" X="23" Y="6" WAIT="0" NPC="Dylan" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="275" TYPE="moveto" X="10" Y="3" WAIT="0" NPC="Stefanie" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="276" TYPE="moveto" X="19" Y="3" WAIT="0" NPC="Justin" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="277" TYPE="playermove" X="17" Y="7" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="278" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="450" MAP="">
+						</SES>			<SES I="279" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="280" TYPE="spawn" X="16" Y="0" WAIT="0" NPC="Melissa" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="281" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="459" MAP="">
+						</SES>			<SES I="282" TYPE="moveto" X="30" Y="0" WAIT="0" NPC="Melissa" LOC="The Club" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="283" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="284" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="462" MAP="">
+						</SES>			<SES I="285" TYPE="moveto" X="5" Y="25" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="286" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="16"><N><![CDATA[Meet Matthew at Egg]]></N>
+				<SES I="140" TYPE="spawn" X="27" Y="17" WAIT="0" NPC="Matthew" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="126" KNOWS="0" UNKNOWS="65" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="141" TYPE="moveto" X="18" Y="18" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="142" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="224" MAP="">
+						</SES></SE>
+	<SE I="17"><N><![CDATA[Matthew: Talking to Melissa at Inkwell pt. 1]]></N>
+				<SES I="143" TYPE="spawn" X="18" Y="8" WAIT="0" NPC="Melissa" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="119" KNOWS="67" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="202" KNOWS="0" UNKNOWS="68" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="316" KNOWS="0" UNKNOWS="148" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="144" TYPE="playermove" X="16" Y="8" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="145" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="241" MAP="">
+						</SES>			<SES I="146" TYPE="spawn" X="14" Y="13" WAIT="0" NPC="Claire" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="147" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="248" MAP="">
+						</SES>			<SES I="148" TYPE="moveto" X="17" Y="9" WAIT="0" NPC="Claire" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="149" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="249" MAP="">
+						</SES></SE>
+	<SE I="19"><N><![CDATA[Matthew: Talking to Melissa at Inkwell pt 2]]></N>
+				<SES I="182" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="254" MAP="">
+			<REQUIREMENTS><REQ I="125" KNOWS="27" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="179" TYPE="moveto" X="14" Y="13" WAIT="0" NPC="Claire" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="180" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Claire" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="181" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="256" MAP="">
+						</SES></SE>
+	<SE I="27"><N><![CDATA[Matthew: Showdown with Stef -> last date pt. 2]]></N>
+				<SES I="297" TYPE="moveto" X="22" Y="22" WAIT="0" NPC="Stefanie" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="201" KNOWS="27" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="298" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="299" TYPE="spawn" X="16" Y="2" WAIT="0" NPC="Matthew" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="300" TYPE="moveto" X="31" Y="10" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="301" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="489" MAP="">
+						</SES>			<SES I="302" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="303" TYPE="teleport" X="0" Y="0" WAIT="0" NPC="" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="304" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="305" TYPE="spawn" X="25" Y="27" WAIT="0" NPC="Matthew" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="306" TYPE="moveto" X="45" Y="14" WAIT="0" NPC="Matthew" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="307" TYPE="playermove" X="44" Y="15" WAIT="0" NPC="" LOC="The Park" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="308" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="493" MAP="">
+						</SES>			<SES I="309" TYPE="moveto" X="24" Y="14" WAIT="0" NPC="Matthew" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="310" TYPE="playermove" X="25" Y="14" WAIT="0" NPC="" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="311" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="498" MAP="">
+						</SES>			<SES I="312" TYPE="moveto" X="1" Y="13" WAIT="0" NPC="Matthew" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="313" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="26"><N><![CDATA[Matthew: Showdown with Stef -> last date pt. 1]]></N>
+				<SES I="287" TYPE="playermove" X="28" Y="10" WAIT="0" NPC="" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="200" KNOWS="105" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="347" KNOWS="0" UNKNOWS="148" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="367" KNOWS="0" UNKNOWS="153" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="288" TYPE="" X="0" Y="0" WAIT="300" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="289" TYPE="playermove" X="26" Y="10" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="290" TYPE="" X="0" Y="0" WAIT="300" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="291" TYPE="playermove" X="32" Y="10" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="292" TYPE="" X="0" Y="0" WAIT="400" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="293" TYPE="spawn" X="22" Y="22" WAIT="0" NPC="Stefanie" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="294" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="476" MAP="">
+						</SES>			<SES I="295" TYPE="moveto" X="33" Y="10" WAIT="0" NPC="Stefanie" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="296" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="477" MAP="">
+						</SES></SE>
+	<SE I="21"><N><![CDATA[Matthew: Melissa Research Date]]></N>
+				<SES I="183" TYPE="spawn" X="17" Y="13" WAIT="0" NPC="Melissa" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="140" KNOWS="88" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="366" KNOWS="0" UNKNOWS="161" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="184" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="331" MAP="">
+						</SES>			<SES I="185" TYPE="moveto" X="10" Y="8" WAIT="0" NPC="Melissa" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="186" TYPE="playermove" X="10" Y="7" WAIT="0" NPC="" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="187" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="316" MAP="">
+						</SES>			<SES I="188" TYPE="moveto" X="13" Y="7" WAIT="0" NPC="Melissa" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="189" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="317" MAP="">
+						</SES>			<SES I="190" TYPE="moveto" X="9" Y="6" WAIT="0" NPC="Melissa" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="191" TYPE="playermove" X="10" Y="6" WAIT="0" NPC="" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="192" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="318" MAP="">
+						</SES>			<SES I="193" TYPE="moveto" X="6" Y="0" WAIT="0" NPC="Melissa" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="194" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="195" TYPE="playermove" X="7" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="196" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="320" MAP="">
+						</SES>			<SES I="197" TYPE="playerspawnspecial" X="1" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="198" TYPE="" X="0" Y="0" WAIT="2000" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="199" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="321" MAP="">
+						</SES>			<SES I="200" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="201" TYPE="teleport" X="0" Y="0" WAIT="0" NPC="" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="218" TYPE="" X="0" Y="0" WAIT="1000" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="203" TYPE="spawn" X="27" Y="19" WAIT="0" NPC="Matthew" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="204" TYPE="spawn" X="23" Y="22" WAIT="0" NPC="Melissa" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="202" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="205" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="333" MAP="">
+						</SES>			<SES I="206" TYPE="moveto" X="41" Y="19" WAIT="0" NPC="Melissa" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="207" TYPE="playermove" X="40" Y="19" WAIT="0" NPC="" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="208" TYPE="" X="0" Y="0" WAIT="1500" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="209" TYPE="moveto" X="46" Y="19" WAIT="0" NPC="Melissa" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="210" TYPE="playermove" X="45" Y="19" WAIT="0" NPC="" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="211" TYPE="" X="0" Y="0" WAIT="2300" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="212" TYPE="moveto" X="50" Y="19" WAIT="0" NPC="Melissa" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="213" TYPE="playermove" X="49" Y="19" WAIT="0" NPC="" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="214" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="339" MAP="">
+						</SES>			<SES I="215" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="216" TYPE="teleport" X="0" Y="0" WAIT="0" NPC="" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="219" TYPE="" X="0" Y="0" WAIT="1000" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="220" TYPE="spawn" X="6" Y="22" WAIT="0" NPC="Melissa" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="221" TYPE="spawnspecial" X="1" Y="0" WAIT="0" NPC="Sara" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="222" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="223" TYPE="moveto" X="10" Y="14" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="224" TYPE="playermove" X="9" Y="14" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="225" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="345" MAP="">
+						</SES>			<SES I="226" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="352" MAP="">
+						</SES></SE>
+	<SE I="38"><N><![CDATA[Matthew: Meet at the movies to get Justin info]]></N>
+				<SES I="472" TYPE="spawn" X="21" Y="13" WAIT="0" NPC="Matthew" LOC="Cinema" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="489" KNOWS="0" UNKNOWS="186" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="496" KNOWS="199" UNKNOWS="0" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="473" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="Cinema" SUB="" FACE="" USE_PATH="" CS_ID="829" MAP="">
+						</SES></SE>
+	<SE I="24"><N><![CDATA[Matthew: Investigate nudes]]></N>
+				<SES I="250" TYPE="playermove" X="30" Y="20" WAIT="0" NPC="" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="190" KNOWS="99" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="191" KNOWS="0" UNKNOWS="100" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="320" KNOWS="0" UNKNOWS="148" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="251" TYPE="" X="0" Y="0" WAIT="500" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="252" TYPE="playermove" X="29" Y="20" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="253" TYPE="" X="0" Y="0" WAIT="600" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="254" TYPE="playermove" X="31" Y="20" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="255" TYPE="" X="0" Y="0" WAIT="500" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="256" TYPE="playermove" X="41" Y="19" WAIT="0" NPC="" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="257" TYPE="" X="0" Y="0" WAIT="2000" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="259" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="258" TYPE="teleport" X="0" Y="0" WAIT="0" NPC="" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="260" TYPE="spawnspecial" X="1" Y="0" WAIT="0" NPC="Sara" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="263" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="261" TYPE="playermove" X="7" Y="13" WAIT="0" NPC="" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="262" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="436" MAP="">
+						</SES></SE>
+	<SE I="33"><N><![CDATA[Matthew: End Party]]></N>
+				<SES I="407" TYPE="spawn" X="7" Y="6" WAIT="0" NPC="Melissa" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="268" KNOWS="146" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="410" TYPE="spawn" X="23" Y="2" WAIT="0" NPC="Justin" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="411" TYPE="spawn" X="22" Y="14" WAIT="0" NPC="Stefanie" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="412" TYPE="spawn" X="12" Y="4" WAIT="0" NPC="Megan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="413" TYPE="spawn" X="27" Y="7" WAIT="0" NPC="Dylan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="414" TYPE="spawn" X="7" Y="9" WAIT="0" NPC="Sara" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="409" TYPE="playermove" X="17" Y="9" WAIT="0" NPC="" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="415" TYPE="moveto" X="16" Y="9" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="416" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="727" MAP="">
+						</SES>			<SES I="417" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="718" MAP="">
+						</SES>			<SES I="419" TYPE="moveto" X="7" Y="6" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="421" TYPE="spawn" X="5" Y="25" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="422" TYPE="moveto" X="16" Y="9" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="423" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="741" MAP="">
+						</SES>			<SES I="424" TYPE="moveto" X="16" Y="8" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="425" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="731" MAP="">
+						</SES>			<SES I="426" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="725" MAP="">
+						</SES>			<SES I="427" TYPE="moveto" X="12" Y="4" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="428" TYPE="moveto" X="18" Y="8" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="429" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="738" MAP="">
+						</SES>			<SES I="430" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="726" MAP="">
+						</SES>			<SES I="431" TYPE="moveto" X="27" Y="7" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="432" TYPE="moveto" X="16" Y="8" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="441" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="733" MAP="">
+						</SES>			<SES I="433" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="736" MAP="">
+						</SES>			<SES I="434" TYPE="moveto" X="7" Y="9" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="435" TYPE="moveto" X="18" Y="10" WAIT="0" NPC="Stefanie" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="436" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="749" MAP="">
+						</SES>			<SES I="437" TYPE="moveto" X="22" Y="14" WAIT="0" NPC="Stefanie" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="438" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="743" MAP="">
+						</SES>			<SES I="439" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="724" MAP="">
+						</SES>			<SES I="440" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="You" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="748" MAP="">
+						</SES></SE>
+	<SE I="22"><N><![CDATA[Matthew: Buying art book]]></N>
+				<SES I="227" TYPE="spawn" X="21" Y="14" WAIT="0" NPC="Dylan" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="184" KNOWS="94" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="185" KNOWS="0" UNKNOWS="95" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="321" KNOWS="0" UNKNOWS="148" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="228" TYPE="playermove" X="22" Y="16" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="229" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="400" MAP="">
+						</SES>			<SES I="230" TYPE="moveto" X="18" Y="9" WAIT="0" NPC="Dylan" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="314" TYPE="" X="0" Y="0" WAIT="2000" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="232" TYPE="moveto" X="21" Y="16" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="233" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="406" MAP="">
+						</SES>			<SES I="234" TYPE="playermove" X="27" Y="17" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="235" TYPE="spawn" X="27" Y="18" WAIT="0" NPC="Melissa" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="236" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="407" MAP="">
+						</SES>			<SES I="237" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Melissa" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="23"><N><![CDATA[Matthew: 2nd date @ Canard Fou]]></N>
+				<SES I="238" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="188" KNOWS="97" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="204" KNOWS="0" UNKNOWS="107" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="365" KNOWS="0" UNKNOWS="148" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="239" TYPE="spawnspecial" X="2" Y="0" WAIT="0" NPC="Matthew" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="240" TYPE="playerspawnspecial" X="1" Y="0" WAIT="0" NPC="" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="241" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="242" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="420" MAP="">
+						</SES>			<SES I="243" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="244" TYPE="spawn" X="11" Y="8" WAIT="0" NPC="Matthew" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="245" TYPE="moveto" X="26" Y="21" WAIT="0" NPC="Matthew" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="246" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="247" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="248" TYPE="playerspawnspecial" X="0" Y="0" WAIT="0" NPC="" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="249" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="18"><N><![CDATA[Matthew: 1st date @ Great Wall]]></N>
+				<SES I="150" TYPE="spawn" X="3" Y="12" WAIT="0" NPC="Matthew" LOC="Great Wall" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="122" KNOWS="69" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="363" KNOWS="0" UNKNOWS="148" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="364" KNOWS="0" UNKNOWS="89" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="151" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="285" MAP="">
+						</SES>			<SES I="152" TYPE="spawn" X="4" Y="16" WAIT="0" NPC="Dylan" LOC="Great Wall" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="154" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="286" MAP="">
+						</SES>			<SES I="155" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="156" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="157" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="159" TYPE="spawnspecial" X="3" Y="0" WAIT="0" NPC="Dylan" LOC="Great Wall" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="158" TYPE="spawnspecial" X="2" Y="0" WAIT="0" NPC="Matthew" LOC="Great Wall" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="160" TYPE="playerspawnspecial" X="1" Y="0" WAIT="0" NPC="" LOC="Great Wall" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="162" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="161" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="290" MAP="">
+						</SES>			<SES I="165" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="293" MAP="">
+						</SES>			<SES I="163" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="164" TYPE="spawn" X="14" Y="9" WAIT="0" NPC="Matthew" LOC="Great Wall" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="166" TYPE="moveto" X="0" Y="9" WAIT="0" NPC="Matthew" LOC="Great Wall" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="167" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="168" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="294" MAP="">
+						</SES>			<SES I="169" TYPE="spawn" X="0" Y="9" WAIT="0" NPC="Matthew" LOC="Great Wall" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="170" TYPE="moveto" X="14" Y="9" WAIT="0" NPC="Matthew" LOC="Great Wall" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="171" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="298" MAP="">
+						</SES>			<SES I="172" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="173" TYPE="teleport" X="1715" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="town">
+						</SES>			<SES I="174" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="20"><N><![CDATA[Matthew Thank you @ Egg]]></N>
+				<SES I="175" TYPE="spawn" X="27" Y="20" WAIT="0" NPC="Matthew" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="123" KNOWS="76" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="205" KNOWS="0" UNKNOWS="109" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="350" KNOWS="0" UNKNOWS="148" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="176" TYPE="moveto" X="24" Y="22" WAIT="0" NPC="Matthew" LOC="Egg Art Gallery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="177" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="270" MAP="">
+						</SES></SE>
+	<SE I="41"><N><![CDATA[Justin: End Party]]></N>
+				<SES I="492" TYPE="spawn" X="8" Y="4" WAIT="0" NPC="Justin" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="492" KNOWS="232" UNKNOWS="0" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="493" TYPE="spawn" X="25" Y="3" WAIT="0" NPC="Stefanie" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="494" TYPE="spawn" X="24" Y="3" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="495" TYPE="spawn" X="16" Y="1" WAIT="0" NPC="Claire" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="496" TYPE="playermove" X="17" Y="9" WAIT="0" NPC="" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="505" TYPE="moveto" X="15" Y="5" WAIT="0" NPC="Claire" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="506" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="890" MAP="">
+						</SES>			<SES I="509" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="894" MAP="">
+						</SES>			<SES I="497" TYPE="moveto" X="19" Y="7" WAIT="0" NPC="Stefanie" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="499" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="884" MAP="">
+						</SES>			<SES I="498" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Stefanie" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="885" MAP="">
+						</SES>			<SES I="501" TYPE="moveto" X="18" Y="7" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="507" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="892" MAP="">
+						</SES>			<SES I="508" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="893" MAP="">
+						</SES>			<SES I="502" TYPE="moveto" X="16" Y="9" WAIT="0" NPC="Justin" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="503" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Justin" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="887" MAP="">
+						</SES>			<SES I="504" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Justin" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="889" MAP="">
+						</SES>			<SES I="500" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="You" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="886" MAP="">
+						</SES></SE>
+	<SE I="39"><N><![CDATA[Justin at the Park]]></N>
+				<SES I="478" TYPE="spawn" X="24" Y="15" WAIT="0" NPC="Justin" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="467" KNOWS="206" UNKNOWS="0" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="468" KNOWS="0" UNKNOWS="219" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="481" TYPE="spawn" X="41" Y="12" WAIT="0" NPC="Claire" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="479" TYPE="playermove" X="24" Y="19" WAIT="0" NPC="Justin" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="480" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Justin" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="846" MAP="">
+						</SES>			<SES I="482" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Justin" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="553" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="The Park" SUB="" FACE="" USE_PATH="" CS_ID="852" MAP="">
+						</SES></SE>
+	<SE I="37"><N><![CDATA[IC with Claire about Justin #1]]></N>
+				<SES I="471" TYPE="spawn" X="0" Y="0" WAIT="0" NPC="Claire" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="479" KNOWS="194" UNKNOWS="0" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="484" KNOWS="0" UNKNOWS="197" QS_DONE="" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="476" TYPE="playermove" X="4" Y="4" WAIT="0" NPC="Claire" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="474" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="844" MAP="">
+						</SES></SE>
+	<SE I="31"><N><![CDATA[Dylan: Tuff Luv SE]]></N>
+				<SES I="364" TYPE="spawn" X="19" Y="12" WAIT="0" NPC="MC Tuff Luv" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="263" KNOWS="135" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="264" KNOWS="0" UNKNOWS="134" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="365" TYPE="playermove" X="18" Y="13" WAIT="0" NPC="" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="367" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="MC Tuff Luv" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="650" MAP="">
+						</SES>			<SES I="368" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="369" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="370" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="MC Tuff Luv" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="652" MAP="">
+						</SES>			<SES I="371" TYPE="" X="0" Y="0" WAIT="500" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="372" TYPE="spawn" X="5" Y="25" WAIT="0" NPC="Stinky Joe" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="373" TYPE="moveto" X="2" Y="22" WAIT="0" NPC="Stinky Joe" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="374" TYPE="" X="0" Y="0" WAIT="50" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="375" TYPE="moveto" X="6" Y="21" WAIT="0" NPC="Stinky Joe" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="376" TYPE="" X="0" Y="0" WAIT="60" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="377" TYPE="moveto" X="4" Y="21" WAIT="0" NPC="Stinky Joe" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="378" TYPE="" X="0" Y="0" WAIT="50" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="379" TYPE="moveto" X="12" Y="13" WAIT="0" NPC="Stinky Joe" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="380" TYPE="" X="0" Y="0" WAIT="50" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="381" TYPE="moveto" X="17" Y="12" WAIT="0" NPC="Stinky Joe" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="383" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Stinky Joe" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="653" MAP="">
+						</SES>			<SES I="384" TYPE="moveto" X="5" Y="25" WAIT="0" NPC="MC Tuff Luv" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="390" TYPE="exit" X="0" Y="0" WAIT="0" NPC="MC Tuff Luv" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="386" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Stinky Joe" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="664" MAP="">
+						</SES>			<SES I="385" TYPE="spawn" X="30" Y="0" WAIT="0" NPC="Dylan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="387" TYPE="moveto" X="19" Y="13" WAIT="0" NPC="Dylan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="388" TYPE="moveto" X="14" Y="17" WAIT="0" NPC="Stinky Joe" LOC="The Club" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="389" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="665" MAP="">
+						</SES></SE>
+	<SE I="29"><N><![CDATA[Dylan: Post-standup SE @ bookstore]]></N>
+				<SES I="327" TYPE="spawn" X="28" Y="1" WAIT="0" NPC="Dylan" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="219" KNOWS="63" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="220" KNOWS="0" UNKNOWS="111" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="221" KNOWS="0" UNKNOWS="110" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="349" KNOWS="0" UNKNOWS="147" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="328" TYPE="spawn" X="27" Y="0" WAIT="0" NPC="Customer" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="329" TYPE="playermove" X="13" Y="6" WAIT="0" NPC="" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="330" TYPE="" X="0" Y="0" WAIT="600" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="331" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Customer" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="509" MAP="">
+						</SES>			<SES I="332" TYPE="moveto" X="28" Y="18" WAIT="0" NPC="Customer" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="333" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Customer" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="334" TYPE="playermove" X="27" Y="2" WAIT="0" NPC="" LOC="Bookstore" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="335" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="515" MAP="">
+						</SES></SE>
+	<SE I="30"><N><![CDATA[Dylan: Night at the club]]></N>
+				<SES I="336" TYPE="spawn" X="3" Y="16" WAIT="0" NPC="Dylan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="261" KNOWS="120" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="262" KNOWS="0" UNKNOWS="121" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="337" TYPE="spawn" X="2" Y="23" WAIT="0" NPC="Tiny" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="338" TYPE="spawn" X="3" Y="24" WAIT="0" NPC="Oogie" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="339" TYPE="spawn" X="8" Y="24" WAIT="0" NPC="Big PBJ" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="340" TYPE="spawn" X="12" Y="12" WAIT="0" NPC="Claire" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="341" TYPE="spawn" X="13" Y="12" WAIT="0" NPC="Stefanie" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="342" TYPE="spawn" X="7" Y="9" WAIT="0" NPC="Melissa" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="343" TYPE="spawn" X="10" Y="8" WAIT="0" NPC="Justin" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="344" TYPE="playermove" X="4" Y="16" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="345" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="546" MAP="">
+						</SES>			<SES I="346" TYPE="spawn" X="5" Y="25" WAIT="0" NPC="Megan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="347" TYPE="moveto" X="5" Y="24" WAIT="0" NPC="Tiny" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="348" TYPE="moveto" X="4" Y="24" WAIT="0" NPC="Oogie" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="349" TYPE="moveto" X="6" Y="24" WAIT="0" NPC="Big PBJ" LOC="" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="350" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Tiny" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="552" MAP="">
+						</SES>			<SES I="351" TYPE="playermove" X="5" Y="22" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="352" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="567" MAP="">
+						</SES>			<SES I="353" TYPE="moveto" X="3" Y="22" WAIT="0" NPC="Tiny" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="354" TYPE="moveto" X="5" Y="23" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="355" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="571" MAP="">
+						</SES>			<SES I="356" TYPE="moveto" X="5" Y="25" WAIT="0" NPC="Megan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="357" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="359" TYPE="" X="0" Y="0" WAIT="500" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="358" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="585" MAP="">
+						</SES>			<SES I="360" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="361" TYPE="teleport" X="60" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="burbs">
+						</SES>			<SES I="362" TYPE="settime" X="24" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="363" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="14"><N><![CDATA[Dylan: Megan sidequest @ PV]]></N>
+				<SES I="110" TYPE="spawn" X="19" Y="13" WAIT="0" NPC="Megan" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="95" KNOWS="60" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="356" KNOWS="0" UNKNOWS="158" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="357" KNOWS="0" UNKNOWS="147" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="111" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="186" MAP="">
+						</SES>			<SES I="112" TYPE="moveto" X="6" Y="0" WAIT="0" NPC="Megan" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="121" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="114" TYPE="playermove" X="7" Y="0" WAIT="0" NPC="" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="115" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="188" MAP="">
+						</SES>			<SES I="116" TYPE="spawn" X="6" Y="0" WAIT="0" NPC="Megan" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="117" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="195" MAP="">
+						</SES>			<SES I="118" TYPE="moveto" X="17" Y="3" WAIT="0" NPC="Megan" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="119" TYPE="" X="0" Y="0" WAIT="1500" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="120" TYPE="moveto" X="20" Y="15" WAIT="0" NPC="Megan" LOC="Pretty Vacant" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="113" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="34"><N><![CDATA[Dylan: End Party]]></N>
+				<SES I="442" TYPE="spawn" X="27" Y="8" WAIT="0" NPC="Dylan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="280" KNOWS="154" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="443" TYPE="spawn" X="7" Y="6" WAIT="0" NPC="Matthew" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="444" TYPE="spawn" X="22" Y="14" WAIT="0" NPC="Stefanie" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="445" TYPE="spawn" X="12" Y="4" WAIT="0" NPC="Megan" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="446" TYPE="spawn" X="7" Y="9" WAIT="0" NPC="Sara" LOC="The Club" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="447" TYPE="playermove" X="17" Y="9" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="448" TYPE="moveto" X="18" Y="9" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="449" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="774" MAP="">
+						</SES>			<SES I="451" TYPE="" X="0" Y="0" WAIT="1000" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="452" TYPE="moveto" X="16" Y="9" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="453" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="772" MAP="">
+						</SES>			<SES I="454" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="763" MAP="">
+						</SES>			<SES I="455" TYPE="moveto" X="12" Y="4" WAIT="0" NPC="Megan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="456" TYPE="moveto" X="16" Y="9" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="457" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="764" MAP="">
+						</SES>			<SES I="461" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="762" MAP="">
+						</SES>			<SES I="458" TYPE="moveto" X="7" Y="9" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="459" TYPE="moveto" X="16" Y="8" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="460" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="770" MAP="">
+						</SES>			<SES I="462" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="775" MAP="">
+						</SES>			<SES I="463" TYPE="moveto" X="7" Y="6" WAIT="0" NPC="Matthew" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="464" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="767" MAP="">
+						</SES>			<SES I="465" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="760" MAP="">
+						</SES>			<SES I="466" TYPE="enddialog" X="0" Y="0" WAIT="0" NPC="You" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="761" MAP="">
+						</SES></SE>
+	<SE I="28"><N><![CDATA[Dylan: Confession]]></N>
+				<SES I="316" TYPE="spawn" X="15" Y="5" WAIT="0" NPC="Dylan" LOC="Dylan's House" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="209" KNOWS="116" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="210" KNOWS="0" UNKNOWS="117" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="317" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="532" MAP="">
+						</SES>			<SES I="318" TYPE="moveto" X="15" Y="9" WAIT="0" NPC="Dylan" LOC="Dylan's House" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="319" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="533" MAP="">
+						</SES>			<SES I="320" TYPE="moveto" X="11" Y="0" WAIT="0" NPC="Dylan" LOC="Dylan's House" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="321" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="537" MAP="">
+						</SES>			<SES I="322" TYPE="moveto" X="15" Y="11" WAIT="0" NPC="Dylan" LOC="Dylan's House" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="323" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="540" MAP="">
+						</SES>			<SES I="324" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="325" TYPE="teleport" X="40" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="warehouse">
+						</SES>			<SES I="326" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="11"><N><![CDATA[Dylan: Claire Outburst to IC in Beanery]]></N>
+				<SES I="75" TYPE="spawn" X="1" Y="19" WAIT="0" NPC="Sara" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="58" KNOWS="41" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="77" KNOWS="0" UNKNOWS="52" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="113" KNOWS="0" UNKNOWS="51" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="315" KNOWS="0" UNKNOWS="147" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="76" TYPE="playermove" X="3" Y="19" WAIT="0" NPC="" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="77" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Sara" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="104" MAP="">
+						</SES>			<SES I="78" TYPE="spawn" X="5" Y="22" WAIT="0" NPC="Claire" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="82" TYPE="moveto" X="4" Y="20" WAIT="0" NPC="Claire" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="79" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="110" MAP="">
+						</SES>			<SES I="80" TYPE="moveto" X="7" Y="9" WAIT="0" NPC="Sara" LOC="The Beanery" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="81" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Claire" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="114" MAP="">
+						</SES></SE>
+	<SE I="15"><N><![CDATA[Dylan: 3rd date no-show]]></N>
+				<SES I="122" TYPE="playermove" X="11" Y="11" WAIT="0" NPC="" LOC="Cinema" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="106" KNOWS="62" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="361" KNOWS="0" UNKNOWS="63" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="362" KNOWS="0" UNKNOWS="147" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="123" TYPE="" X="0" Y="0" WAIT="3500" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="124" TYPE="playermove" X="16" Y="11" WAIT="0" NPC="" LOC="Cinema" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="125" TYPE="" X="0" Y="0" WAIT="3000" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="138" TYPE="playermove" X="14" Y="12" WAIT="0" NPC="" LOC="Cinema" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="139" TYPE="" X="0" Y="0" WAIT="1500" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="126" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="127" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="128" TYPE="spawn" X="44" Y="2" WAIT="0" NPC="Justin" LOC="Cinema" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="129" TYPE="moveto" X="22" Y="5" WAIT="0" NPC="Justin" LOC="Cinema" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="130" TYPE="moveto" X="22" Y="12" WAIT="0" NPC="Justin" LOC="Cinema" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="131" TYPE="" X="0" Y="0" WAIT="500" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="132" TYPE="moveto" X="16" Y="12" WAIT="0" NPC="Justin" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="133" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Justin" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="205" MAP="">
+						</SES>			<SES I="134" TYPE="moveto" X="15" Y="12" WAIT="0" NPC="Justin" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="135" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Justin" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="210" MAP="">
+						</SES>			<SES I="136" TYPE="moveto" X="22" Y="15" WAIT="0" NPC="Justin" LOC="Cinema" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="137" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Justin" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="9"><N><![CDATA[Dylan First Date, Part 2: Good]]></N>
+				<SES I="57" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="49" KNOWS="27" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="55" TYPE="teleport" X="630" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="burbs">
+						</SES>			<SES I="56" TYPE="spawn" X="640" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="58" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="59" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="85" MAP="">
+						</SES>			<SES I="68" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="69" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="70" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="74" TYPE="settime" X="24" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="10"><N><![CDATA[Dylan First Date, Part 2: Bad]]></N>
+				<SES I="60" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="48" KNOWS="27" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="61" TYPE="teleport" X="605" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="burbs">
+						</SES>			<SES I="62" TYPE="spawn" X="655" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="63" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="64" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="92" MAP="">
+						</SES>			<SES I="71" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="72" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="73" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="6"><N><![CDATA[Dylan First Date, Part 1]]></N>
+				<SES I="28" TYPE="spawn" X="21" Y="21" WAIT="0" NPC="Dylan" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="46" KNOWS="36" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="360" KNOWS="0" UNKNOWS="41" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="29" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="Tracks" SUB="0" FACE="" USE_PATH="" CS_ID="48" MAP="">
+						</SES>			<SES I="33" TYPE="moveto" X="11" Y="17" WAIT="0" NPC="Dylan" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="34" TYPE="playermove" X="12" Y="17" WAIT="0" NPC="" LOC="Tracks" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="35" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="52" MAP="">
+						</SES>			<SES I="36" TYPE="moveto" X="4" Y="17" WAIT="0" NPC="Dylan" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="37" TYPE="playermove" X="5" Y="17" WAIT="0" NPC="" LOC="Tracks" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="38" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="Tracks" SUB="0" FACE="" USE_PATH="" CS_ID="53" MAP="">
+						</SES>			<SES I="42" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="41" TYPE="teleport" X="1100" Y="0" WAIT="0" NPC="" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="warehouse">
+						</SES>			<SES I="43" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="44" TYPE="spawn" X="1080" Y="0" WAIT="0" NPC="Dylan" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="45" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="59" MAP="">
+						</SES>			<SES I="46" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="47" TYPE="teleport" X="0" Y="0" WAIT="0" NPC="" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="48" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="49" TYPE="spawn" X="13" Y="12" WAIT="0" NPC="Dylan" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="53" TYPE="spawn" X="10" Y="3" WAIT="0" NPC="Moe" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="50" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="Tracks" SUB="" FACE="" USE_PATH="" CS_ID="64" MAP="">
+						</SES>			<SES I="51" TYPE="moveto" X="8" Y="4" WAIT="0" NPC="Dylan" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="54" TYPE="moveto" X="9" Y="4" WAIT="0" NPC="Moe" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="52" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="69" MAP="">
+						</SES>			<SES I="65" TYPE="moveto" X="10" Y="3" WAIT="0" NPC="Moe" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="66" TYPE="playermove" X="9" Y="4" WAIT="0" NPC="" LOC="The Ink Well" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="67" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="74" MAP="">
+						</SES></SE>
+	<SE I="13"><N><![CDATA[Dylan 2nd Date: Ending 2]]></N>
+				<SES I="102" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="75" KNOWS="27" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="103" TYPE="settime" X="2" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="104" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="105" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="158" MAP="">
+						</SES>			<SES I="106" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="107" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	<SE I="12"><N><![CDATA[Dylan 2nd Date]]></N>
+				<SES I="83" TYPE="spawn" X="25" Y="19" WAIT="0" NPC="Dylan" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+			<REQUIREMENTS><REQ I="74" KNOWS="49" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			<REQ I="358" KNOWS="0" UNKNOWS="159" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""> </REQ>
+
+			</REQUIREMENTS>			</SES>			<SES I="91" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="142" MAP="">
+						</SES>			<SES I="84" TYPE="moveto" X="10" Y="7" WAIT="0" NPC="Dylan" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="87" TYPE="playermove" X="11" Y="7" WAIT="0" NPC="" LOC="Canard Fou" SUB="1" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="90" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="141" MAP="">
+						</SES>			<SES I="88" TYPE="playerspawnspecial" X="2" Y="0" WAIT="0" NPC="" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="85" TYPE="moveto" X="16" Y="8" WAIT="0" NPC="Dylan" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="86" TYPE="spawnspecial" X="1" Y="0" WAIT="0" NPC="Dylan" LOC="Canard Fou" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="92" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="143" MAP="">
+						</SES>			<SES I="93" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="94" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="95" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="150" MAP="">
+						</SES>			<SES I="96" TYPE="settime" X="24" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="97" TYPE="teleport" X="630" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="burbs">
+						</SES>			<SES I="108" TYPE="spawn" X="615" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="burbs">
+						</SES>			<SES I="98" TYPE="dialog" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="154" MAP="">
+						</SES>			<SES I="99" TYPE="fadeout" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="100" TYPE="exit" X="0" Y="0" WAIT="0" NPC="Dylan" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES>			<SES I="101" TYPE="fadein" X="0" Y="0" WAIT="0" NPC="" LOC="" SUB="" FACE="" USE_PATH="" CS_ID="0" MAP="">
+						</SES></SE>
+	</SCRIPTED_EVENTS>

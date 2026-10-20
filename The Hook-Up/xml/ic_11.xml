@@ -1,0 +1,113 @@
+<?xml version="1.0"?><CONVERSATION ID="11" NAME="Survive Claire's Attack" SUCCESS_METER_MAX="16" WINNING_CS_ID="253" LOSING_CS_ID="253" NPC="Claire">
+<DESCRIP><![CDATA[Claire has something against Melissa and you're just an innocent bystander. Try to survive the barrage.<br>CONFIDENT: Maintain your confidence.<br>HAPPY: Don't let Claire bring your down.]]></DESCRIP>
+				<AXIS AXIS_ID="4" NAME="happy" />
+				<AXIS AXIS_ID="2" NAME="confident" />
+
+
+<CARD CARD_ID="119" REQ_NUGGET_ID="0" NAME="Blissfully Ignorant." USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[You have no idea why Claire is going off. It's hard to take it seriously.  Gives a bonus to all happy dialog.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="138" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="4"  />
+		</CARD>
+<CARD CARD_ID="122" REQ_NUGGET_ID="0" NAME="Good day." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You know, I was having a pretty good day before you came in here acting like a freak.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="141" SCOPE="" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="123" REQ_NUGGET_ID="0" NAME="Have you considered therapy?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Do you always pick fights with people you don't even know? I think you need a shrink.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="142" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="120" REQ_NUGGET_ID="0" NAME="Helpful." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Melissa is one of the few people who actually seems to want to help in this town.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="139" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="124" REQ_NUGGET_ID="0" NAME="If you hate Melissa..." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[If a bitch like you hates her, Claire, Melissa must be worth being friends with.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to confident, +1 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="143" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="144" SCOPE="" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="121" REQ_NUGGET_ID="0" NAME="Not impressed." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Your yipping at me is about as impressive as that chihuahua you carry around.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="140" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="117" REQ_NUGGET_ID="0" NAME="Not my business." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[What's going on? This has got nothing to do with me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="136" SCOPE="" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="116" REQ_NUGGET_ID="0" NAME="She seems nice." USER="pc" SCOPE="" TYPE="statement" DURATION="">
+<DESCRIPTION><![CDATA[Melissa has been really nice to me since I got here.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="135" SCOPE="" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="118" REQ_NUGGET_ID="0" NAME="This isn't about me." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Shouldn't you be screaming at Melissa?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="137" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="81" REQ_NUGGET_ID="0" NAME="You don't know me" USER="pc" SCOPE="opponent" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You've got a lot of nerve talking to me like this.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="94" SCOPE="opponent" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="2"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="114" NAME="Biting Words" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Claire's words shake your confidence.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="133" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="97" NAME="Charity box much?" USER="npc" TYPE="statement" SCOPE="opponent" DURATION="perm">
+<DESCRIPTION><![CDATA[You know you're supposed to put crappy clothing INTO those metal boxes in front of the supermarket, not pull it out.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="115" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="112" NAME="Clueless." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You really have no idea what's going on, do you? Pathetic.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="131" SCOPE="" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="108" NAME="Hopeless." USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Claire is holding all the cards, she knows just what to say to cut you and Melissa down.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to all my cards of happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="128" SCOPE="self" EFFECT_AMOUNT="-2" ALL_CARDS_OF_AXIS_ID="4"  />
+		</CARD>
+<CARD CARD_ID="111" NAME="Poor judgement." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Hanging out with Melissa, new girl? It's the blind leading the stupid.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="130" SCOPE="" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="110" NAME="Rumor: A matchmaker with experience." USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Melissa helping you find a boyfriend? She's got a lot of experience with each and every guy in town. "First hand" experience.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="129" SCOPE="" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="115" NAME="Rumor: Poor Melissa." USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Has Melissa asked to borrow money yet? Or is she still hitting up her dad for pocket change?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="134" SCOPE="" SINGLE_CARD_AXIS_ID="4" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="107" NAME="Rumor: You're with stupid." USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Melissa seriously forgot her own birthday last year. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="127" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="106" NAME="Secret: New drunk in town." USER="npc" TYPE="secret" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You Melissa's new drinking buddy, new girl? Hoping to take over her job as town drunk?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-4 to confident, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="126" SCOPE="" SINGLE_CARD_AXIS_ID="2" EFFECT_AMOUNT="-4"  />
+		</CARD>
+<CARD CARD_ID="113" NAME="Stay out of it." USER="npc" TYPE="statement" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[You should mind your own business, new girl. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to all my cards of happy, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="132" SCOPE="self" EFFECT_AMOUNT="-2" ALL_CARDS_OF_AXIS_ID="4"  />
+		</CARD>
+
+</CONVERSATION>

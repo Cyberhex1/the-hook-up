@@ -1,0 +1,144 @@
+<?xml version="1.0"?><CONVERSATION ID="18" NAME="Make Dylan Understand" SUCCESS_METER_MAX="20" WINNING_CS_ID="674" LOSING_CS_ID="673" NPC="Dylan">
+<DESCRIP><![CDATA[Dylan has gone too far. After all you've put up with, he wasted the opportunity you gave him and ruined his chance with MC Tuff Luv. Make Dylan understand he needs to take you and his life seriously.<br>LOVE-Remind Dylan of all you've done for him<br>TRUST-Let Dylan know he can Trust you... and himself.]]></DESCRIP>
+				<AXIS AXIS_ID="10" NAME="trust" />
+				<AXIS AXIS_ID="11" NAME="love" />
+
+
+<CARD CARD_ID="241" REQ_NUGGET_ID="0" NAME="Grow Up!" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You're not a kid anymore it's not cute or funny when you do things that destroy yourself and the people around you.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="285" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="243" REQ_NUGGET_ID="0" NAME="I'm Trying" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I can't sit here and watch you make a wreck of your life, so far all the help I've given you just gets thrown back in my face.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="287" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="246" REQ_NUGGET_ID="0" NAME="It's not funny anymore." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I have really deep feelings for you and you're fun to be around, but now that I have seen the desperation in your "jokes" I think you're also really sad and afraid.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="292" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="252" REQ_NUGGET_ID="0" NAME="Love." USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[You care for Dylan, and he knows it. All your dialog that increases love is stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="300" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="11"  />
+		</CARD>
+<CARD CARD_ID="250" REQ_NUGGET_ID="128" NAME="Rumor: Dylan uses pranks to get attention" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[You try and get attention, good or bad, by acting like a clown.  Why not get attention with your music? Why no by being yourself?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="298" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="251" REQ_NUGGET_ID="0" NAME="Rumor: Dylan's prank gave Mr. Chen a heart attack" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[You know you go to far with this stuff, remember what happened to Mr. Chen? You practically killed him. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="299" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="249" REQ_NUGGET_ID="0" NAME="Rumor: Your pranks are distraction" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[It's obvious you use these pranks to avoid dealing with your real feelings or real issues.  Let it go, Dylan, and let me help.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to love, +1 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="296" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="297" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="253" REQ_NUGGET_ID="130" NAME="Secret: Dylan ruined his shot with Tuff Luv" USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[You knew Megan was going to set up that meeting with Tuff Luv, and you sabotaged yourself. Again. Why do you think you did that?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+4 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="301" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="4"  />
+		</CARD>
+<CARD CARD_ID="248" REQ_NUGGET_ID="129" NAME="Secret: Dylan's Dad said he was worthless." USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[Your Dad was wrong, you've got talent, I just wish you would realize it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to love, +2 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="294" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="3"  />
+		<EFFECT EFFECT_ID="295" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="254" REQ_NUGGET_ID="0" NAME="Self love" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[It's hard to love you Dylan, if you don't love youself.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="302" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="244" REQ_NUGGET_ID="0" NAME="Self-defeat." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You have been like this your whole life. You're so afraid of failing that every time you are about to get tested you come up with some way to back out.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to trust, +1 to love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="288" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="289" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="247" REQ_NUGGET_ID="0" NAME="You need to think." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[The world is full of talented people who go no where because they are too afraid to try.  Is that who you want for your life?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="293" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="263" REQ_NUGGET_ID="0" NAME="You stood me up." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You stood me up at the movies and I'll still stuck with you, you need to hear me out.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="314" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="245" REQ_NUGGET_ID="0" NAME="You're a big drama king." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You try to avoid your problems by creating all this silly drama, but in the end nothing changes.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="290" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="242" REQ_NUGGET_ID="0" NAME="You're a liar!" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Is this who you really are?  A degenerate liar?  I believed you when you said you would try for me!
+]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="286" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="2"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="260" NAME="Chiiiillllll" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Whoa!  You are blowing everything way out of proportion.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="310" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="256" NAME="Damn!" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I told you I'm glad you've been helping me, how many times am I supposed to say it?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="304" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="258" NAME="Empty promises." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Look, I'll try ok, just give me one more chance.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="307" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="255" NAME="God, you're gorgeous" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You know you're even more beautiful when you're angry.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="303" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="259" NAME="I'm clownin' baby." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[The world's way too serious shorty, I'm just having a little fun, nothing wrong with that.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to love, -2 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="308" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="309" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="257" NAME="I'm cool." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I know you worry about me, but you don't have to, I'm fine.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to love, -1 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="305" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="306" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="261" NAME="Player Still?" USER="npc" TYPE="secret" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[Dylan's Player past threatens to come out.  All dialog that reduces love is stronger.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="311" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="11"  />
+		</CARD>
+<CARD CARD_ID="264" NAME="Rumor: I'm not worth it." USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Look, I get it, I'm not worth your time.  I know you're too good for me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="315" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="265" NAME="Running away" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Maybe I should just go.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="316" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="262" NAME="You've got it all wrong" USER="npc" TYPE="secret" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Look, I know you're trying to be all psychoanalysis with me, but you've got it all wrong. I prank because it's funny, that's it.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to trust, -1 to love, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="312" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-3"  />
+		<EFFECT EFFECT_ID="313" SCOPE="" SINGLE_CARD_AXIS_ID="11" EFFECT_AMOUNT="-1"  />
+		</CARD>
+
+</CONVERSATION>

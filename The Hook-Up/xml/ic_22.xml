@@ -1,0 +1,171 @@
+<?xml version="1.0"?><CONVERSATION ID="22" NAME="Lay off me, Claire!" SUCCESS_METER_MAX="22" WINNING_CS_ID="853" LOSING_CS_ID="854" NPC="Claire">
+<DESCRIP><![CDATA[You're sorry she's hurt, but you had nothing to do with it. Being a mega-bitch isn't going to help her be happy again. If she really still cares about Justin, maybe she should let him be with the person who makes him happy – you. ]]></DESCRIP>
+				<AXIS AXIS_ID="5" NAME="unsure" />
+				<AXIS AXIS_ID="7" NAME="embarassed" />
+
+
+<CARD CARD_ID="339" REQ_NUGGET_ID="0" NAME="Crazy stalker much?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Um, crazy stalker much?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="392" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="338" REQ_NUGGET_ID="0" NAME="Do you really think Justin will find this attractive?" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Do you really think Justin will find this attractive? You just seem insane.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, +1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="391" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="437" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="295" REQ_NUGGET_ID="0" NAME="I heard you used to be nice" USER="pc" SCOPE="all" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[I heard you used to be a nice person. Did you fall and break your brain or something?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="348" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="285" REQ_NUGGET_ID="0" NAME="I make him laugh." USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I make him laugh. Laughter is the best medicine. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="338" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="343" REQ_NUGGET_ID="0" NAME="I'm embarrassed for you" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm embarrassed for you. Aren't you just a little bit ashamed of yourself? (Makes all your embarrassing dialog stronger).
+]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="439" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="7"  />
+		</CARD>
+<CARD CARD_ID="341" REQ_NUGGET_ID="0" NAME="I'm sorry that bad things happened to you but..." USER="pc" SCOPE="" TYPE="secret" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm sorry that bad things happened to you but that doesn't mean you get to be evil to everyone.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, +3 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="394" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="436" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="296" REQ_NUGGET_ID="0" NAME="If you really cared about Justin" USER="pc" SCOPE="all" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[If you really cared about Justin, you wouldn't stand in the way of his happiness with me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="349" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="342" REQ_NUGGET_ID="0" NAME="Justin is over you" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin is over you. Get that through your psycho skull.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to unsure, -1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="395" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="3"  />
+		<EFFECT EFFECT_ID="440" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="335" REQ_NUGGET_ID="0" NAME="Lay off me, Claire!" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Lay off me, Claire! Your problems are NOT my fault.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="388" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="337" REQ_NUGGET_ID="0" NAME="Move on!" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Move on, you crazy bitch! Hanging onto the past just makes you seem pathetic.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="390" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="340" REQ_NUGGET_ID="0" NAME="Ugly on the inside" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You may think you're gorgeous, but your heart is so ugly, that's all anyone can see.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="393" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="344" REQ_NUGGET_ID="0" NAME="Yawn." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Yaaawwwwn! I'm sorry - were you bitching about something again?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="397" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="290" REQ_NUGGET_ID="0" NAME="You are obviously unhinged" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[You are obviously unhinged. Justin doesn't need that in his life right now.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="343" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="300" REQ_NUGGET_ID="0" NAME="You must be threatened" USER="pc" SCOPE="all" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[If you're wasting so much time on me, you must be feeling pretty threatened.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to unsure, +1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="353" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="438" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="336" REQ_NUGGET_ID="0" NAME="You're not doing yourself any favors." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Being a mega-bitch is not going to win you anyone's favor.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="389" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="2"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="359" NAME="Even my chihuahua thinks you're a nothing" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Even my chihuahua thinks you're nothing. He's not even bothering to acknowledge your presence.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="412" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="350" NAME="Everyone thinks you're pathetic" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Everyone thinks you're totally pathetic, chasing Justin around like that.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="404" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="348" NAME="He doesn't care about you." USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin doesn't care about you. He just thinks you're an easy hook-up.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="401" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="347" NAME="He'll hurt you." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[He'll hurt you. Just like he did Stefanie.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="400" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="353" NAME="I don't care what you say" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I don't care what you say - it's totally obvious that Justin still loves me. ]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, -1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="406" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="441" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="351" NAME="I'm doing you a favor" USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm doing you a favor by telling you he's not interested. Not my fault if you're too dumb to take the hint.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, -1 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="405" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		<EFFECT EFFECT_ID="442" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="357" NAME="I'm the only one is this town who's telling you the truth" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm the only one is this town who's telling you the truth - you have ZERO chance with Justin.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="410" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="354" NAME="If you don't stay away from Justin" USER="npc" TYPE="statement" SCOPE="" DURATION="">
+<DESCRIPTION><![CDATA[If you don't stay away from Justin, I'll tell everyone you made a pass at me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="407" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="356" NAME="It's not like Justin meant that much to me" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[It's not like Justin meant that much to me, so why would I care if you chase after him?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="409" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="360" NAME="No one will even give you the time of day" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[No one will even give you the time of day if I tell them not to. Not even Justin.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="413" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="355" NAME="The only reason I'm wasting any time on you..." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[The only reason I'm wasting any time on you is that I have a soft spot for dumb little animals.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to embarassed, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="408" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="346" NAME="What was that again?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[What was that again? I'm sorry - I don't speak "Loser".
+]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="399" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="349" NAME="You don't actually interest him" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[You don't actually interest him. You're just an easy distraction. (All cards that make Claire less unsure are stronger)]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="402" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="5"  />
+		</CARD>
+<CARD CARD_ID="358" NAME="You have nothing to offer" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You have nothing to offer Justin, and he's too polite to tell you you're BORING. Everyone says so.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="411" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="345" NAME="You think you make him laugh?" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You think you make him laugh? That would be AT, loser. Not WITH.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to embarassed, -1 to unsure, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="398" SCOPE="" SINGLE_CARD_AXIS_ID="7" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="443" SCOPE="" SINGLE_CARD_AXIS_ID="5" EFFECT_AMOUNT="-1"  />
+		</CARD>
+
+</CONVERSATION>

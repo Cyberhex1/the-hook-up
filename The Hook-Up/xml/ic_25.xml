@@ -1,0 +1,141 @@
+<?xml version="1.0"?><CONVERSATION ID="25" NAME="Convince Matthew" SUCCESS_METER_MAX="20" WINNING_CS_ID="966" LOSING_CS_ID="964" NPC="Matthew">
+<DESCRIP><![CDATA[Convince Matthew that you have Sara's best interests at heart.]]></DESCRIP>
+				<AXIS AXIS_ID="10" NAME="trust" />
+				<AXIS AXIS_ID="1" NAME="like" />
+
+
+<CARD CARD_ID="396" REQ_NUGGET_ID="0" NAME="Are you threatened?" USER="pc" SCOPE="self" TYPE="special" DURATION="perm">
+<DESCRIPTION><![CDATA[Are you threatened by our mighty GRRRL power? (All your dialog that increases trust is stronger)]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to all my cards of trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="488" SCOPE="self" EFFECT_AMOUNT="1" ALL_CARDS_OF_AXIS_ID="10"  />
+		</CARD>
+<CARD CARD_ID="397" REQ_NUGGET_ID="0" NAME="Even my Barbies hooked up" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Dude – even my Barbies hooked up. Ken was just there to refill their lattes.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="489" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="402" REQ_NUGGET_ID="0" NAME="I appreciate the protective" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I appreciate the protective Papa Lion thing and all, but kitty's gotta leave the cave.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to trust, +1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="494" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="2"  />
+		<EFFECT EFFECT_ID="495" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="395" REQ_NUGGET_ID="0" NAME="I can't help but wonder" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I can't help but wonder if you DO have more than just friendly feelings for her?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to trust, -1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="486" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="3"  />
+		<EFFECT EFFECT_ID="487" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="393" REQ_NUGGET_ID="0" NAME="I really like that painting." USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I really like that painting. Is it yours? Is it hard to get a ferret to hold a pose for that long?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="484" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="398" REQ_NUGGET_ID="0" NAME="I watch Rosie's video blog" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I watch Rosie's video blog every day. Would a totally straight girl do that?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="490" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="403" REQ_NUGGET_ID="0" NAME="If you are really her friend" USER="pc" SCOPE="" TYPE="rumor" DURATION="perm">
+<DESCRIPTION><![CDATA[If you are really her friend, you'll want what's best for Sara. I'm what's best.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="496" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="404" REQ_NUGGET_ID="0" NAME="Just because you're a guy" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Just because you're a guy doesn't mean you're unnecessary. You can reach high shelves for us or something]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="497" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="399" REQ_NUGGET_ID="0" NAME="NOT your best shade" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Um, I don't know what the guy equivalent of "fag hag" is, but you're wearing that, and it's NOT your best shade.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="491" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="394" REQ_NUGGET_ID="0" NAME="Sara is a big girl" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Sara is a big girl and can make her own decisions.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="485" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="2"  />
+		</CARD>
+<CARD CARD_ID="392" REQ_NUGGET_ID="0" NAME="Sara is so lucky" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[Sara is so lucky to have a friend like you looking out for her.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+1 to trust, +1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="482" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="1"  />
+		<EFFECT EFFECT_ID="483" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="1"  />
+		</CARD>
+<CARD CARD_ID="400" REQ_NUGGET_ID="0" NAME="Total respect" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[I totally respect your friendship, and I'd never get in the way.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+3 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="492" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="3"  />
+		</CARD>
+<CARD CARD_ID="401" REQ_NUGGET_ID="0" NAME="Watch us kiss" USER="pc" SCOPE="" TYPE="statement" DURATION="perm">
+<DESCRIPTION><![CDATA[We'll even let you watch us kiss if that's what you're desperately into. And wow, I hope you're not.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[+2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="493" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="2"  />
+		</CARD>
+
+
+
+
+<CARD CARD_ID="405" NAME="Has-bian" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You could just turn out to be a has-bian like Claire and decide you're just playing around.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="498" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="413" NAME="Looking out for a friend" USER="npc" TYPE="special" SCOPE="self" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm looking out for my friend, and if you can't respect that, you might as well just have a Y-chromosome. (All of Matthew's -trust cards are stronger)]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to all my cards of trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="507" SCOPE="self" EFFECT_AMOUNT="-1" ALL_CARDS_OF_AXIS_ID="10"  />
+		</CARD>
+<CARD CARD_ID="416" NAME="Looking out for my friend" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I'm looking out for my friend, and if you can't respect that, you might as well just have a Y-chromosome.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="510" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="411" NAME="No funny blogs" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[I'd better not find out that you're just doing this for kicks and funny blog entries.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="505" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="406" NAME="No sugar mama" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Even successful poets don't make much money. You'd better not be in it for a sugar mama.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="499" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="410" NAME="Not much of interest" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You don't have much of interest to say, do you? I might as well be meditating.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="504" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="409" NAME="Not to yourself" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You may think you'll have Sara all to yourself, but I will ALWAYS be a big part of the picture.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="503" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="412" NAME="Sara never met..." USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Sara never met a stray cat or frozen vegan entree she didn't just HAVE to pick up. Can you deal?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-3 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="506" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-3"  />
+		</CARD>
+<CARD CARD_ID="415" NAME="Sara will always pick" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Sara will always pick my company over anyone else.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="509" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="408" NAME="Serious Artist" USER="npc" TYPE="rumor" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[If you were a Serious Artist like Sara and me, you'd understand that we need time and space to do our work.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to trust, -1 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="501" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-2"  />
+		<EFFECT EFFECT_ID="502" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="414" NAME="Weight test" USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[Seriously – how much can you bench?]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="508" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="407" NAME="You're here." USER="npc" TYPE="statement" SCOPE="" DURATION="perm">
+<DESCRIPTION><![CDATA[You're here. You're queer. Impress me.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to trust, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="500" SCOPE="" SINGLE_CARD_AXIS_ID="10" EFFECT_AMOUNT="-1"  />
+		</CARD>
+
+</CONVERSATION>

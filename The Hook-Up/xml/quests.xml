@@ -1,0 +1,62 @@
+<QUESTS>
+<Q I="13"><N><![CDATA[Tell Dylan you got MC Tuff Luv's number]]></N>
+				<QS I="17" END_NUG="135"><DESCRIP><![CDATA[Give Dylan the good news]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="133" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS></Q>
+	<Q I="12"><N><![CDATA[Talk to Dylan about his pranks]]></N>
+				<QS I="15" END_NUG="124"><DESCRIP><![CDATA[Ask around for support]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="123" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS>			<QS I="16" END_NUG="124"><DESCRIP><![CDATA[Get more details from Matthew]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="126" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS></Q>
+	<Q I="10"><N><![CDATA[Shake Melissa's confidence before her show]]></N>
+				<QS I="13" END_NUG="102"><DESCRIP><![CDATA[Find Melissa]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="101" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS></Q>
+	<Q I="5"><N><![CDATA[Learn more about Dylan]]></N>
+				<QS I="8" END_NUG="58"><DESCRIP><![CDATA[Ask around about Dylan]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="57" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS>			<QS I="9" END_NUG="0"><DESCRIP><![CDATA[Find out about Dylan and Megan's past]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="56" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS></Q>
+	<Q I="14"><N><![CDATA[Get Dylan a meeting with MC Tuff Luv]]></N>
+				<QS I="18" END_NUG="134"><DESCRIP><![CDATA[Go to the club]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="135" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS></Q>
+	<Q I="9"><N><![CDATA[Get art book for Matthew]]></N>
+				<QS I="12" END_NUG="95"><DESCRIP><![CDATA[]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="94" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS></Q>
+	<Q I="11"><N><![CDATA[Find out who else has Dylan's Mix CD]]></N>
+				<QS I="14" END_NUG="111"><DESCRIP><![CDATA[Ask girls in the town]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="112" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS></Q>
+	<Q I="8"><N><![CDATA[Find out if Matthew's gay]]></N>
+				<QS I="10" END_NUG="90"><DESCRIP><![CDATA[Ask around about Matthew]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="74" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS>			<QS I="11" END_NUG="93"><DESCRIP><![CDATA[Confirm Sara's rumor -- Find Megan]]></DESCRIP>
+			<REQS>
+								<REQ KNOWS="91" UNKNOWS="0" QS_DONE="0" NPC="" RESPECT="" TRUST="" DESIRE="" LIKE=""/>
+
+						</REQS></QS></Q>
+	</QUESTS>

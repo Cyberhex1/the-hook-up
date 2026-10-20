@@ -1,0 +1,35 @@
+<?xml version="1.0"?><CONVERSATION ID="8" NAME="Get Melissa to Forgive Justin." SUCCESS_METER_MAX="20" WINNING_CS_ID="134" LOSING_CS_ID="133" NPC="Melissa">
+<DESCRIP><![CDATA[Melissa thinks Justin is a dilettante who used Matthew and ditched him as soon as he lost interest in art.  Try and convince her she's wrong about him, that he's a good guy and she is over-reacting.]]></DESCRIP>
+				<AXIS AXIS_ID="1" NAME="like" />
+				<AXIS AXIS_ID="6" NAME="calm" />
+				<AXIS AXIS_ID="3" NAME="believe" />
+
+
+
+
+
+
+<CARD CARD_ID="103" NAME="He used Matthew" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Matthew is a great guy, and Justin only talked to him to learn about art.  As soon as he was done using him, he stopped coming around.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to believe, -1 to calm, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="121" SCOPE="all" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="122" SCOPE="all" SINGLE_CARD_AXIS_ID="6" EFFECT_AMOUNT="-1"  />
+		</CARD>
+<CARD CARD_ID="102" NAME="Justin has ADD" USER="npc" TYPE="statement" SCOPE="all" DURATION="perm">
+<DESCRIPTION><![CDATA[Justin can't stay interested in one thing longer than 10 seconds. He's got the attention span of a gnat.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-2 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="120" SCOPE="all" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="104" NAME="Rumor: Even the motorcycle isn't real" USER="npc" TYPE="rumor" SCOPE="" DURATION="">
+<DESCRIPTION><![CDATA[Perfect example -- Justin only got that motorcycle when he was going through some tough guy biker phase.  I think the bikers saw right through him.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-1 to like, -2 to believe, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="123" SCOPE="" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-1"  />
+		<EFFECT EFFECT_ID="124" SCOPE="" SINGLE_CARD_AXIS_ID="3" EFFECT_AMOUNT="-2"  />
+		</CARD>
+<CARD CARD_ID="105" NAME="Rumor: No wonder Stefanie dumped him." USER="npc" TYPE="rumor" SCOPE="" DURATION="">
+<DESCRIPTION><![CDATA[Justin is just so aimless. So pointless. It's no wonder Stefanie dumped him and traded up.]]></DESCRIPTION>
+<EFFECT_DESCRIBED><![CDATA[-4 to like, ]]></EFFECT_DESCRIBED>
+<EFFECT EFFECT_ID="125" SCOPE="all" SINGLE_CARD_AXIS_ID="1" EFFECT_AMOUNT="-4"  />
+		</CARD>
+
+</CONVERSATION>
