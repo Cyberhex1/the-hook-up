@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hookup-dist",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-I", "dist/play_in_browser.py", "8770", "--no-browser"],
+      "port": 8770
+    }
+  ]
+}

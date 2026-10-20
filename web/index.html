@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Hook-Up</title>
+<style>
+  /* Layout: one centered column — the 770×560 game stage scaled to fit, a slim save bar under it. */
+  :root {
+    --bg: #0d0f0c;          /* near-black with a green bias, like the game's night maps */
+    --panel: #171a15;
+    --line: #2b3127;
+    --fg: #e6e9e1;
+    --muted: #9aa392;
+    --accent: #7fc42b;      /* TheN-era lime, desaturated a touch */
+    --accent-ink: #0d0f0c;
+    --warn: #f0b44c;
+    --font-body: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    --font-display: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+    --font-mono: ui-monospace, "Cascadia Mono", Consolas, monospace;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 14px/1.5 var(--font-body);
+    padding-block: 12px 20px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  /* everything shares the stage width: the SWF's 770px, or less to fit the window height */
+  header, #stage, .bar, .help { width: min(100%, calc((100vh - 170px) * 770 / 560), 770px); min-width: min(100%, 360px); }
+  header {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  }
+  h1 {
+    margin: 0; font: italic 700 26px/1 var(--font-display); letter-spacing: -0.02em;
+  }
+  h1 span { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 12px; letter-spacing: 0.04em; }
+
+  /* the stage keeps the SWF's exact 770:560 ratio */
+  #stage {
+    aspect-ratio: 770 / 560;
+    max-width: 100%;
+    background: #000;
+    border: 1px solid var(--line);
+    position: relative;
+  }
+  #stage > * { width: 100%; height: 100%; display: block; }
+  #fallback {
+    position: absolute; inset: 0; display: grid; place-items: center; padding: 24px; text-align: center;
+    color: var(--muted);
+  }
+
+  .bar {
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    background: var(--panel); border: 1px solid var(--line); padding: 8px 10px;
+  }
+  .bar .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-right: 4px; }
+  .bar .spacer { flex: 1; }
+  #status { color: var(--muted); font-size: 12px; min-width: 0; }
+  #status.ok { color: var(--accent); }
+  #status.err { color: var(--warn); }
+  button, .button {
+    font: 600 13px/1 var(--font-body); color: var(--fg); background: transparent;
+    border: 1px solid var(--line); padding: 7px 12px; cursor: pointer;
+  }
+  button:hover, .button:hover { border-color: var(--accent); }
+  button:focus-visible, .button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  #confirm { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; width: 100%; }
+  #confirm[hidden], #status[hidden] { display: none; }
+  #confirm p { margin: 0; flex: 1 1 260px; color: var(--warn); }
+
+  .help { color: var(--muted); font-size: 13px; }
+  .help summary { cursor: pointer; color: var(--fg); width: fit-content; }
+  .help ul { margin: 6px 0 0; padding-left: 18px; max-width: 70ch; }
+  .help b { color: var(--fg); font-weight: 600; }
+  kbd { font: 12px var(--font-mono); border: 1px solid var(--line); padding: 0 4px; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>The <span>Hook-Up</span></h1>
+    <div class="meta">The N · THUP Games · v1.5.2, 2007</div>
+  </header>
+
+  <main id="stage" aria-label="The Hook-Up game">
+    <div id="fallback">Loading the player…</div>
+  </main>
+
+  <section class="bar" aria-label="Save files">
+    <span class="label">Saves</span>
+    <button type="button" id="export">Export saves</button>
+    <label class="button" for="import-file">Import saves</label>
+    <input type="file" id="import-file" accept=".json,application/json" hidden>
+    <span class="spacer"></span>
+    <span id="status" role="status" aria-live="polite">Saves live in this browser. Export them to keep a backup.</span>
+    <div id="confirm" hidden>
+      <p id="confirm-text"></p>
+      <button type="button" class="primary" id="confirm-yes">Replace and restart</button>
+      <button type="button" id="confirm-no">Cancel</button>
+    </div>
+  </section>
+
+  <details class="help">
+    <summary>How saving works</summary>
+    <ul>
+      <li><b>Save</b> from the in-game toolbar, then pick one of three slots. You can't save during a conversation, a scene, or while a text-message date is pending.</li>
+      <li><b>Autosave</b> happens every morning when you wake up, in its own slot.</li>
+      <li><b>Load</b> from the title screen. You get the same slot list, including the autosave.</li>
+      <li>Saves stay in this browser on this computer. Use <b>Export saves</b> for a backup file and <b>Import saves</b> to bring one back (this replaces the saves here and restarts the game).</li>
+      <li>Click the game once to give it keyboard focus before typing your name.</li>
+    </ul>
+  </details>
+
+<script>
+(() => {
+  "use strict";
+  const SO_NAME = "thehookup";          // SharedObject name used by the patched SWF
+  const EXPORT_FORMAT = "thehookup-saves";
+  const statusEl = document.getElementById("status");
+  const setStatus = (text, kind) => {
+    statusEl.textContent = text;
+    statusEl.className = kind || "";
+  };
+
+  // Ruffle keeps each SharedObject in localStorage under "<host>/<path>/<name>".
+  // We only ever touch keys whose last segment is our SharedObject name.
+  const isSaveKey = (k) => k.split("/").pop() === SO_NAME;
+  const saveKeys = () => {
+    const keys = [];
+    try {
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k && isSaveKey(k)) keys.push(k);
+      }
+    } catch (e) { /* storage blocked */ }
+    return keys;
+  };
+
+  // --- player -------------------------------------------------------------
+  const params = new URLSearchParams(location.search);
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.RufflePlayer.config = {
+    autoplay: "on",
+    unmuteOverlay: "hidden",
+    splashScreen: false,
+    letterbox: "on",
+    backgroundColor: "#000000",
+    menu: false,
+    contextMenu: "rightClickOnly",
+    allowScriptAccess: false,
+    openUrlMode: "confirm",
+    logLevel: params.has("debug") ? "info" : "warn",
+    maxExecutionDuration: 15,
+    base: ".",
+  };
+
+  let player = null;
+  let playing = false;   // set once the player is clicked; arms the leave-page warning
+
+  function start() {
+    const ruffle = window.RufflePlayer.newest();
+    if (!ruffle) {
+      document.getElementById("fallback").textContent = "The Ruffle player failed to load. Check that the ruffle/ folder sits next to this page.";
+      return;
+    }
+    player = ruffle.createPlayer();
+    const stage = document.getElementById("stage");
+    stage.replaceChildren(player);
+    const flashvars = params.has("debug") ? "debug=1" : "";
+    player.ruffle().load({ url: "hookup.swf", parameters: flashvars }).catch((e) => {
+      stage.replaceChildren(Object.assign(document.createElement("div"), {
+        id: "fallback",
+        textContent: "The game couldn't start: " + e.message + ". If you opened this file directly, run the local server (see README) — browsers block Flash content loaded from file://.",
+      }));
+    });
+    player.addEventListener("pointerdown", () => { playing = true; }, { once: true });
+  }
+
+  addEventListener("beforeunload", (e) => {
+    if (!playing || leaving) return;
+    e.preventDefault();
+    e.returnValue = "";
+  });
+  let leaving = false;
+
+  // Ruffle writes SharedObjects back to storage when the player shuts down, so stop
+  // the player first, then write, then reload.
+  function restartWith(writeFn) {
+    leaving = true;
+    try { player && player.remove(); } catch (e) { /* already gone */ }
+    setTimeout(() => {
+      writeFn();
+      location.reload();
+    }, 50);
+  }
+
+  // --- export -------------------------------------------------------------
+  document.getElementById("export").addEventListener("click", () => {
+    const keys = saveKeys();
+    if (!keys.length) {
+      setStatus("No saves yet. Save in-game first (toolbar → Save).", "err");
+      return;
+    }
+    const entries = {};
+    for (const k of keys) {
+      // store the path after the host so the file imports on any host or port
+      entries[k.slice(k.indexOf("/"))] = localStorage.getItem(k);
+    }
+    const payload = { format: EXPORT_FORMAT, version: 1, exportedAt: new Date().toISOString(), entries };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    const stamp = new Date().toISOString().slice(0, 16).replace(/[:T]/g, "-");
+    a.href = URL.createObjectURL(blob);
+    a.download = `hookup-saves-${stamp}.json`;
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    setStatus("Saves exported.", "ok");
+  });
+
+  // --- import -------------------------------------------------------------
+  const confirmBox = document.getElementById("confirm");
+  let pending = null;
+  document.getElementById("import-file").addEventListener("change", async (e) => {
+    const file = e.target.files[0];
+    e.target.value = "";
+    if (!file) return;
+    let data;
+    try {
+      data = JSON.parse(await file.text());
+    } catch (err) {
+      setStatus("That file isn't a saves export (it isn't valid JSON).", "err");
+      return;
+    }
+    if (!data || data.format !== EXPORT_FORMAT || typeof data.entries !== "object") {
+      setStatus("That file isn't a Hook-Up saves export.", "err");
+      return;
+    }
+    const entries = Object.entries(data.entries).filter(([k, v]) => isSaveKey(k) && typeof v === "string");
+    if (!entries.length) {
+      setStatus("That export doesn't contain any saves.", "err");
+      return;
+    }
+    pending = entries;
+    const when = data.exportedAt ? new Date(data.exportedAt).toLocaleString() : "an unknown date";
+    document.getElementById("confirm-text").textContent =
+      `Replace the saves in this browser with the export from ${when}? The game restarts, so unsaved progress is lost.`;
+    confirmBox.hidden = false;
+    statusEl.hidden = true;
+  });
+  document.getElementById("confirm-no").addEventListener("click", () => {
+    pending = null;
+    confirmBox.hidden = true;
+    statusEl.hidden = false;
+  });
+  document.getElementById("confirm-yes").addEventListener("click", () => {
+    const entries = pending;
+    restartWith(() => {
+      for (const k of saveKeys()) localStorage.removeItem(k);
+      for (const [path, value] of entries) localStorage.setItem(location.hostname + path, value);
+    });
+  });
+
+  window.addEventListener("load", start);
+})();
+</script>
+<script src="ruffle/ruffle.js"></script>
+</body>
+</html>
