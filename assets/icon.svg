@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a1f7a"/>
+      <stop offset="0.55" stop-color="#b8337e"/>
+      <stop offset="1" stop-color="#ff6f61"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.22" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#2a0a3d" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <g transform="translate(64 24)">
+  <g filter="url(#shadow)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- line -->
+    <path d="M300 -40 V96" stroke-width="10" stroke-opacity="0.85"/>
+    <!-- eye -->
+    <circle cx="300" cy="122" r="24" stroke-width="20"/>
+    <!-- shank and bend -->
+    <path d="M300 146 V312 A92 92 0 0 1 116 312 V268" stroke-width="30"/>
+  </g>
+  <!-- heart barb -->
+  <path filter="url(#shadow)" fill="#ffffff"
+        d="M116 186 C 92 150, 40 170, 52 214 C 62 248, 116 268, 116 268 C 116 268, 170 248, 180 214 C 192 170, 140 150, 116 186 Z"/>
+  <path fill="#ff4f86"
+        d="M116 200 C 98 174, 64 190, 72 218 C 79 240, 116 254, 116 254 C 116 254, 153 240, 160 218 C 168 190, 134 174, 116 200 Z"/>
+  </g>
+</svg>
