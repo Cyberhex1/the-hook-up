@@ -4,8 +4,28 @@
     {
       "name": "hookup-dist",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-I", "dist/play_in_browser.py", "8770", "--no-browser"],
+      "runtimeArgs": [
+        "-I",
+        "dist/play_in_browser.py",
+        "8770",
+        "--no-browser"
+      ],
       "port": 8770
+    },
+    {
+      "name": "hookup-site",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-I",
+        "-m",
+        "http.server",
+        "8771",
+        "--bind",
+        "127.0.0.1",
+        "-d",
+        "dist-site"
+      ],
+      "port": 8771
     }
   ]
 }

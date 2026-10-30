@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TheHookupRevived</title>
+<meta name="description" content="Play The Hook-Up (THUP Games, 2007) in your browser, with saves kept on your own PC or Steam Deck and backups you can download.">
+<meta name="theme-color" content="#140b1c">
+<meta property="og:title" content="TheHookupRevived">
+<meta property="og:description" content="The 2007 Flash dating sim The Hook-Up, restored and playable again, with local saves and downloadable backups.">
+<meta property="og:image" content="https://thehookuprevived.pages.dev/icon.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  /* Layout: the 770×560 game on the left, the save panel on the right; stacked on narrow screens. */
+  :root {
+    --bg: #140b1c;           /* night plum, from the icon's darkest stop */
+    --panel: #1e1229;
+    --panel-2: #26183a;
+    --line: #3a2650;
+    --fg: #f5ecf7;
+    --muted: #b8a6c2;
+    --accent: #ff5c8a;       /* the icon's heart */
+    --accent-2: #ff8a63;     /* the icon's coral corner */
+    --accent-ink: #1a0b14;
+    --ok: #74d6a1;
+    --warn: #ffb65c;
+    --radius: 10px;
+    --font-body: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    --font-display: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { min-height: 100%; }
+  body {
+    margin: 0;
+    background: radial-gradient(1200px 600px at 15% -10%, #3a1550 0%, transparent 60%), var(--bg);
+    background-attachment: fixed;
+    color: var(--fg);
+    font: 14px/1.5 var(--font-body);
+    padding: 0 max(16px, env(safe-area-inset-right, 0px)) 24px max(16px, env(safe-area-inset-left, 0px));
+  }
+  a { color: var(--accent); }
+  a:hover { color: var(--accent-2); }
+  button:focus-visible, .button:focus-visible, summary:focus-visible, a:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
+
+  /* ---- header ---- */
+  .top {
+    width: min(100%, 1400px); margin: 0 auto; height: 60px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--fg); min-width: 0; }
+  .brand img { width: 34px; height: 34px; border-radius: 8px; flex: none; }
+  .brand b { font: italic 700 22px/1 var(--font-display); letter-spacing: -0.02em; white-space: nowrap; }
+  .brand b span { background: linear-gradient(90deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .top nav { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+  .top nav a {
+    color: var(--muted); text-decoration: none; font-size: 13px; padding: 6px 10px; border-radius: 999px;
+    border: 1px solid transparent; white-space: nowrap;
+  }
+  .top nav a:hover { color: var(--fg); border-color: var(--line); }
+
+  /* ---- main grid ---- */
+  .app {
+    width: min(100%, 1400px); margin: 0 auto;
+    display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 16px; align-items: start;
+  }
+  .play { display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0; }
+  #stage {
+    width: min(100%, calc((100dvh - 96px) * 770 / 560));
+    aspect-ratio: 770 / 560;
+    background: #000; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+    position: relative;
+  }
+  #stage > :not(#toast) { width: 100%; height: 100%; display: block; }
+  #fallback { position: absolute; inset: 0; display: grid; place-items: center; padding: 24px; text-align: center; color: var(--muted); }
+  .play-bar { width: min(100%, calc((100dvh - 96px) * 770 / 560)); display: flex; align-items: center; gap: 12px; }
+  .tip { color: var(--muted); font-size: 12px; margin: 0; flex: 1; }
+  #fullscreen { flex: none; }
+  #fullscreen[hidden] { display: none; }
+  /* full screen: the game fills the display; Ruffle letterboxes it at 770:560 */
+  #stage:fullscreen { width: 100vw; height: 100vh; aspect-ratio: auto; border: 0; border-radius: 0; }
+  #stage:-webkit-full-screen { width: 100vw; height: 100vh; aspect-ratio: auto; border: 0; border-radius: 0; }
+  /* fallback when the browser refuses full screen: fill the window */
+  body.maximized { overflow: hidden; }
+  body.maximized #stage {
+    position: fixed; inset: 0; z-index: 50; width: 100vw; height: 100vh; height: 100dvh;
+    aspect-ratio: auto; border: 0; border-radius: 0;
+  }
+  #exit-max {
+    position: fixed; top: max(10px, env(safe-area-inset-top, 0px)); right: max(10px, env(safe-area-inset-right, 0px));
+    z-index: 51; background: rgb(20 11 28 / 0.75); backdrop-filter: blur(4px);
+  }
+  #exit-max[hidden] { display: none; }
+
+  /* ---- save panel ---- */
+  .vault { display: flex; flex-direction: column; gap: 12px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px;
+  }
+  .card h2 { margin: 0 0 4px; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .card p { margin: 0 0 10px; color: var(--muted); font-size: 13px; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 6px; font-size: 12px; padding: 3px 9px; border-radius: 999px;
+    background: var(--panel-2); color: var(--muted); margin-bottom: 10px;
+  }
+  .pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .pill.ok { color: var(--ok); }
+  .pill.warn { color: var(--warn); }
+
+  .slots { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 6px; }
+  .slots li {
+    display: grid; grid-template-columns: 74px minmax(0, 1fr); align-items: baseline; gap: 8px;
+    background: var(--panel-2); border-radius: 8px; padding: 8px 10px;
+  }
+  .slots .id { font-size: 12px; color: var(--muted); font-weight: 600; }
+  .slots .who { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .slots .who small { display: block; color: var(--muted); font-size: 12px; }
+  .slots li.empty .who { color: var(--muted); font-style: italic; }
+
+  .row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .row > * { flex: 1 1 auto; }
+  button, .button {
+    font: 600 13px/1 var(--font-body); color: var(--fg); background: transparent; text-align: center;
+    border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; cursor: pointer;
+  }
+  button:hover, .button:hover { border-color: var(--accent); }
+  button.primary { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: var(--accent-ink); border-color: transparent; }
+  button.small { padding: 6px 9px; font-size: 12px; }
+  button:disabled { opacity: 0.5; cursor: default; border-color: var(--line); }
+
+  .history { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; max-height: 300px; overflow: auto; }
+  .history li { display: flex; align-items: center; gap: 8px; background: var(--panel-2); border-radius: 8px; padding: 7px 8px 7px 10px; }
+  .history .what { flex: 1; min-width: 0; }
+  .history .what b { display: block; font-weight: 600; font-size: 13px; }
+  .history .what small { display: block; color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tag { font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 1px 4px; margin-left: 4px; vertical-align: 1px; }
+  .tag.manual { color: var(--accent); border-color: var(--accent); }
+  .muted { color: var(--muted); font-size: 13px; }
+
+  .help { color: var(--muted); font-size: 13px; }
+  .help details + details { margin-top: 8px; }
+  .help summary { cursor: pointer; color: var(--fg); font-weight: 600; }
+  .help ul { margin: 6px 0 0; padding-left: 18px; }
+  .help b { color: var(--fg); font-weight: 600; }
+
+  footer { width: min(100%, 1400px); margin: 20px auto 0; color: var(--muted); font-size: 12px; text-align: center; }
+
+  /* ---- dialog + toast ---- */
+  dialog {
+    background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 14px;
+    padding: 20px; width: min(440px, calc(100vw - 32px));
+  }
+  dialog::backdrop { background: rgb(10 4 14 / 0.7); }
+  dialog h3 { margin: 0 0 8px; font-size: 17px; }
+  dialog p { margin: 0 0 16px; color: var(--muted); }
+  dialog .row { justify-content: flex-end; }
+  dialog .row > * { flex: 0 1 auto; }
+  #toast {
+    position: fixed; right: 16px; bottom: 16px; max-width: calc(100vw - 32px);
+    background: var(--panel-2); border: 1px solid var(--line); border-left: 3px solid var(--ok);
+    border-radius: 8px; padding: 10px 14px; font-size: 13px; box-shadow: 0 10px 30px rgb(0 0 0 / 0.4);
+    transform: translateY(20px); opacity: 0; transition: transform 0.2s, opacity 0.2s; pointer-events: none; z-index: 60;
+  }
+  #toast.show { transform: none; opacity: 1; }
+  #toast.err { border-left-color: var(--warn); }
+
+  @media (max-width: 1000px) {
+    .app { grid-template-columns: minmax(0, 1fr); }
+    #stage, .play-bar { width: 100%; }
+  }
+  @media (max-width: 560px) {
+    .top nav a.optional { display: none; }
+    .brand b { font-size: 19px; }
+  }
+  @media (prefers-reduced-motion: reduce) { #toast { transition: none; } }
+</style>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="./"><img src="icon.svg" alt=""><b>TheHookup<span>Revived</span></b></a>
+    <nav aria-label="Links">
+      <a class="optional" href="https://github.com/Cyberhex1/the-hook-up/releases/latest">Desktop &amp; Steam Deck app</a>
+      <a href="https://github.com/Cyberhex1/the-hook-up">GitHub</a>
+    </nav>
+  </header>
+
+  <div class="app">
+    <section class="play">
+      <main id="stage" aria-label="The Hook-Up game">
+        <div id="fallback">Loading the game…</div>
+      </main>
+      <div class="play-bar">
+        <p class="tip">Click the game once before typing. Save from the in-game toolbar: <b>Save/Quit</b>, then pick a slot.</p>
+        <button type="button" id="fullscreen" title="Fill the screen with the game. Press Esc to leave.">Full screen</button>
+      </div>
+    </section>
+
+    <aside class="vault" aria-label="Saves and backups">
+      <section class="card" aria-labelledby="saves-h">
+        <h2 id="saves-h">Your saves</h2>
+        <span class="pill" id="persist">Saved on this device</span>
+        <ul class="slots" id="slots"></ul>
+        <div class="row">
+          <button type="button" class="primary" id="download">Download backup</button>
+          <label class="button" for="import-file">Restore from file</label>
+          <input type="file" id="import-file" accept=".json,application/json" hidden>
+        </div>
+      </section>
+
+      <section class="card" id="folder-card" aria-labelledby="folder-h" hidden>
+        <h2 id="folder-h">Save folder on this PC</h2>
+        <p id="folder-text">Pick a folder and every save is also written there as <b>thehookup-saves.json</b>, with older versions kept in <b>backups/</b>. The desktop app uses the same file, so you can point both at one folder.</p>
+        <div class="row" id="folder-actions"></div>
+      </section>
+
+      <section class="card" aria-labelledby="hist-h">
+        <h2 id="hist-h">Backup history</h2>
+        <p>Each time your saves change, a copy is kept here (the last 30, plus any you make yourself). You can download or restore any of them.</p>
+        <ul class="history" id="history"></ul>
+        <div class="row" style="margin-top:10px">
+          <button type="button" id="backup-now">Back up now</button>
+        </div>
+      </section>
+
+      <section class="card help" aria-label="Help">
+        <details>
+          <summary>How saving works</summary>
+          <ul>
+            <li><b>Save</b> from the toolbar's Save/Quit button while walking around town. You can't save inside a place, during a conversation or during a scene.</li>
+            <li><b>Autosave</b> happens every in-game morning, in its own slot.</li>
+            <li><b>Load</b> from the title screen.</li>
+            <li><b>Full screen</b>: the button under the game. Press Esc, or the button again, to leave.</li>
+            <li>Saves are stored in this browser on this device. They aren't uploaded anywhere. Download a backup now and then, or link a save folder, so clearing your browser data can't erase them.</li>
+          </ul>
+        </details>
+        <details>
+          <summary>Playing on a Steam Deck</summary>
+          <ul>
+            <li>Open this page in Chrome or Firefox: in Desktop Mode, or in Game Mode after adding the browser to Steam. The touchscreen and trackpads work as the mouse.</li>
+            <li>Saves stay in that browser on the Deck. In Chrome you can link a save folder, for example in <b>/home/deck/Documents</b>.</li>
+            <li>For full controller support, an on-screen keyboard and no browser, use the <a href="https://github.com/Cyberhex1/the-hook-up/releases/latest">native Steam Deck build</a>. Your backups from this page import into it.</li>
+          </ul>
+        </details>
+      </section>
+    </aside>
+  </div>
+
+  <footer>
+    <p><i>The Hook-Up</i> © THUP Games / TheN.com, 2007. A non-commercial fan preservation project, played with <a href="https://ruffle.rs">Ruffle</a>.
+      Source on <a href="https://github.com/Cyberhex1/the-hook-up">GitHub</a>.</p>
+  </footer>
+
+  <dialog id="dlg">
+    <h3 id="dlg-title"></h3>
+    <p id="dlg-text"></p>
+    <div class="row" id="dlg-actions"></div>
+  </dialog>
+  <button type="button" id="exit-max" hidden>Exit full screen</button>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+<script src="ruffle/ruffle.js"></script>
+</body>
+</html>

@@ -4,7 +4,7 @@
 
 <p align="center">
   A lost 2007 Flash dating and social sim, brought back to life and fully playable on Windows and the Steam Deck.<br>
-  <a href="https://github.com/Cyberhex1/the-hook-up/releases/latest"><b>Download the latest release</b></a>
+  <a href="https://thehookuprevived.pages.dev"><b>Play in your browser</b></a> · <a href="https://github.com/Cyberhex1/the-hook-up/releases/latest"><b>Download the latest release</b></a>
 </p>
 
 ---
@@ -19,7 +19,8 @@ This project reverse-engineers the original ActionScript 2 game and patches it t
 - **Crash-safe save files:** the game writes saves to a JSON file next to it, never leaves a half-written file if it crashes, and keeps the last 30 versions as backups. Saves can be exported from the web version and imported into the desktop one, and the other way around.
 - **Bug fixes:** a duplicate init, leaked load-state timers and event listeners, info prompts that unfroze the game mid-event, and appointments that blocked saving.
 - **Steam Deck ready:** a native Linux build, a pointer you move with the controller, an on-screen keyboard and a pause menu. Touchscreen and trackpads work too.
-- **Two ways to play:** a web player (Ruffle) and a standalone app (Electron 44 + Ruffle 0.7.1).
+- **Two ways to play:** the website [TheHookupRevived](https://thehookuprevived.pages.dev) and a standalone app (Electron 44 + Ruffle 0.7.1).
+- **Saves you control on the website:** saves stay in your browser on your own PC or Steam Deck. Each change is kept in a backup history you can download or restore from. One click downloads a full backup. In Chrome and Edge you can also link a folder on your computer, and every save is written there as a file. The website has a full-screen mode.
 
 ## Download
 
@@ -35,12 +36,19 @@ Setup steps, including how to add it to Steam, are in the `README.txt` inside ea
 - `patch/`: the AS2 script and XML content patches applied to the original SWF.
 - `tools/`: the build pipeline. It fetches the pinned dependencies (Ruffle, the FFDec decompiler), patches and recompiles `hookup.swf`, and writes `dist/`.
 - `web/`: the browser player, including save export and import.
+- `site/`: the TheHookupRevived website (Cloudflare Pages): the player page, the save manager and the backups.
 - `1.0/`: the standalone Electron wrapper and its packaging for Windows and Linux.
 - `PLAN.md`: the investigation, from disassembling the save system to tracking down the freeze.
 
 ```bash
 python -I tools/fetch_deps.py
 python -I "1.0/build.py"
+```
+
+To build the website and upload it to Cloudflare Pages (needs `npx wrangler login` once):
+
+```bash
+python -I tools/build_site.py --deploy
 ```
 
 ## Credits

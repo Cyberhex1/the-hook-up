@@ -6,3 +6,5 @@ __pycache__/
 # 1.0 standalone build output (python -I "1.0/build.py")
 1.0/build/
 1.0/release/
+dist-site/
+.wrangler/
