@@ -20,7 +20,7 @@ This project reverse-engineers the original ActionScript 2 game and patches it t
 - **Bug fixes:** a duplicate init, leaked load-state timers and event listeners, info prompts that unfroze the game mid-event, and appointments that blocked saving.
 - **Steam Deck ready:** a native Linux build, a pointer you move with the controller, an on-screen keyboard and a pause menu. Touchscreen and trackpads work too.
 - **Two ways to play:** the website [TheHookupRevived](https://thehookuprevived.pages.dev) and a standalone app (Electron 44 + Ruffle 0.7.1).
-- **Saves you control on the website:** saves stay in your browser on your own PC or Steam Deck. Each change is kept in a backup history you can download or restore from. One click downloads a full backup. In Chrome and Edge you can also link a folder on your computer, and every save is written there as a file. The website has a full-screen mode.
+- **Saves you control on the website:** saves stay in your browser on your own PC or Steam Deck. Each change is kept in a backup history you can download or restore from. One click downloads a full backup. In Chrome and Edge you can also link a folder on your computer, and every save is written there as a file. The website has a full-screen mode and a settings menu: volume, mute or pause when you switch away, graphics quality, stretch-to-fill, panel layout, how many backups to keep, and backup reminders.
 
 ## Download
 

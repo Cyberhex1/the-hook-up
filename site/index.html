@@ -158,8 +158,56 @@
   dialog::backdrop { background: rgb(10 4 14 / 0.7); }
   dialog h3 { margin: 0 0 8px; font-size: 17px; }
   dialog p { margin: 0 0 16px; color: var(--muted); }
-  dialog .row { justify-content: flex-end; }
-  dialog .row > * { flex: 0 1 auto; }
+  #dlg .row { justify-content: flex-end; }
+  #dlg .row > * { flex: 0 1 auto; }
+  button.danger { color: var(--warn); border-color: color-mix(in srgb, var(--warn) 50%, var(--line)); }
+  button.danger:hover { border-color: var(--warn); }
+  #dlg button.danger { background: var(--warn); color: var(--accent-ink); border-color: var(--warn); }
+
+  /* ---- header settings button ---- */
+  .nav-btn {
+    display: inline-flex; align-items: center; gap: 6px; font-weight: 500; color: var(--fg);
+    border-radius: 999px; padding: 6px 12px; background: var(--panel); white-space: nowrap;
+  }
+
+  /* ---- settings dialog ---- */
+  dialog.settings { width: min(520px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 0; }
+  .settings form { padding: 18px 20px 20px; }
+  .settings-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .settings-head h3 { margin: 0; font-size: 19px; }
+  .settings .settings-sub { margin: 4px 0 6px; font-size: 13px; }
+  .settings fieldset { border: 0; border-top: 1px solid var(--line); margin: 14px 0 0; padding: 12px 0 0; display: grid; gap: 12px; }
+  .settings legend {
+    padding: 0 8px 0 0; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600;
+  }
+  .settings .field { display: grid; gap: 6px; font-size: 14px; }
+  .settings .field output { color: var(--muted); margin-left: 4px; }
+  .settings .check { display: flex; align-items: center; gap: 10px; font-size: 14px; cursor: pointer; }
+  .settings input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent); margin: 0; flex: none; }
+  .settings input[type="range"] { width: 100%; accent-color: var(--accent); }
+  .settings select {
+    font: 14px var(--font-body); color: var(--fg); background: var(--panel-2);
+    border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%;
+  }
+  .settings select:focus-visible, .settings input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .settings .note {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 13px; color: var(--warn);
+    background: var(--panel-2); border-radius: 8px; padding: 8px 10px;
+  }
+  .settings .note span { flex: 1 1 200px; }
+  .settings .note[hidden] { display: none; }
+
+  /* ---- backup reminder ---- */
+  .reminder {
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 0 0 12px; padding: 8px 10px;
+    border-radius: 8px; background: color-mix(in srgb, var(--warn) 12%, var(--panel-2)); color: var(--warn); font-size: 13px;
+  }
+  .reminder span { flex: 1 1 160px; }
+  .reminder[hidden] { display: none; }
+
+  /* ---- save panel below the game (setting) ---- */
+  body.panel-below .app { grid-template-columns: minmax(0, 1fr); }
+  body.panel-below .vault { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: start; }
   #toast {
     position: fixed; right: 16px; bottom: 16px; max-width: calc(100vw - 32px);
     background: var(--panel-2); border: 1px solid var(--line); border-left: 3px solid var(--ok);
@@ -186,6 +234,10 @@
     <nav aria-label="Links">
       <a class="optional" href="https://github.com/Cyberhex1/the-hook-up/releases/latest">Desktop &amp; Steam Deck app</a>
       <a href="https://github.com/Cyberhex1/the-hook-up">GitHub</a>
+      <button type="button" id="open-settings" class="nav-btn" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2.1-1.6a.5.5 0 0 0 .1-.6l-2-3.5a.5.5 0 0 0-.6-.2l-2.5 1a7.4 7.4 0 0 0-1.7-1l-.4-2.6A.5.5 0 0 0 14 2h-4a.5.5 0 0 0-.5.4l-.4 2.7a7.4 7.4 0 0 0-1.7 1l-2.5-1a.5.5 0 0 0-.6.2l-2 3.5a.5.5 0 0 0 .1.6L4.6 11a7.6 7.6 0 0 0 0 2l-2.1 1.6a.5.5 0 0 0-.1.6l2 3.5a.5.5 0 0 0 .6.2l2.5-1a7.4 7.4 0 0 0 1.7 1l.4 2.7a.5.5 0 0 0 .5.4h4a.5.5 0 0 0 .5-.4l.4-2.7a7.4 7.4 0 0 0 1.7-1l2.5 1a.5.5 0 0 0 .6-.2l2-3.5a.5.5 0 0 0-.1-.6ZM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/></svg>
+        Settings
+      </button>
     </nav>
   </header>
 
@@ -205,6 +257,10 @@
         <h2 id="saves-h">Your saves</h2>
         <span class="pill" id="persist">Saved on this device</span>
         <ul class="slots" id="slots"></ul>
+        <div class="reminder" id="reminder" hidden>
+          <span id="reminder-text"></span>
+          <button type="button" class="small" id="reminder-dl">Download now</button>
+        </div>
         <div class="row">
           <button type="button" class="primary" id="download">Download backup</button>
           <label class="button" for="import-file">Restore from file</label>
@@ -220,7 +276,7 @@
 
       <section class="card" aria-labelledby="hist-h">
         <h2 id="hist-h">Backup history</h2>
-        <p>Each time your saves change, a copy is kept here (the last 30, plus any you make yourself). You can download or restore any of them.</p>
+        <p>Each time your saves change, a copy is kept here (the last <span id="keep-n">30</span>, plus any you make yourself). You can download or restore any of them.</p>
         <ul class="history" id="history"></ul>
         <div class="row" style="margin-top:10px">
           <button type="button" id="backup-now">Back up now</button>
@@ -235,6 +291,7 @@
             <li><b>Autosave</b> happens every in-game morning, in its own slot.</li>
             <li><b>Load</b> from the title screen.</li>
             <li><b>Full screen</b>: the button under the game. Press Esc, or the button again, to leave.</li>
+            <li><b>Settings</b> (top right): volume, pausing when you switch away, graphics quality, backup reminders and more.</li>
             <li>Saves are stored in this browser on this device. They aren't uploaded anywhere. Download a backup now and then, or link a save folder, so clearing your browser data can't erase them.</li>
           </ul>
         </details>
@@ -254,6 +311,94 @@
     <p><i>The Hook-Up</i> © THUP Games / TheN.com, 2007. A non-commercial fan preservation project, played with <a href="https://ruffle.rs">Ruffle</a>.
       Source on <a href="https://github.com/Cyberhex1/the-hook-up">GitHub</a>.</p>
   </footer>
+
+  <dialog id="settings" class="settings" aria-labelledby="settings-h">
+    <form method="dialog">
+      <div class="settings-head">
+        <h3 id="settings-h">Settings</h3>
+        <button class="primary small" value="done">Done</button>
+      </div>
+      <p class="settings-sub">Changes apply right away and are remembered in this browser.</p>
+
+      <fieldset>
+        <legend>Sound</legend>
+        <label class="field">
+          <span>Volume <output id="s-volume-out" for="s-volume"></output></span>
+          <input type="range" id="s-volume" min="0" max="100" step="5">
+        </label>
+        <label class="check"><input type="checkbox" id="s-muted"> Mute the game</label>
+        <label class="field">
+          <span>When you switch to another tab or app</span>
+          <select id="s-background">
+            <option value="play">Keep playing with sound</option>
+            <option value="mute">Mute the sound</option>
+            <option value="pause">Pause the game</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Display</legend>
+        <label class="field">
+          <span>Graphics quality</span>
+          <select id="s-quality">
+            <option value="low">Low: fastest, jagged edges</option>
+            <option value="medium">Medium</option>
+            <option value="high">High (recommended)</option>
+            <option value="best">Best: smoothest, slower on older PCs</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Game shape</span>
+          <select id="s-scale">
+            <option value="showAll">Keep the original shape (black bars)</option>
+            <option value="exactFit">Stretch to fill the screen</option>
+          </select>
+        </label>
+        <div class="note" id="s-restart" hidden>
+          <span>Quality and shape change when the game restarts.</span>
+          <button type="button" class="small" id="s-restart-btn">Restart game</button>
+        </div>
+        <label class="field">
+          <span>Save panel</span>
+          <select id="s-panel">
+            <option value="side">Beside the game</option>
+            <option value="below">Below the game</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Saves and backups</legend>
+        <label class="field">
+          <span>Backups to keep in this browser</span>
+          <select id="s-keep">
+            <option value="10">Last 10</option>
+            <option value="30">Last 30</option>
+            <option value="100">Last 100</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Remind me to download a backup</span>
+          <select id="s-reminder">
+            <option value="off">Never</option>
+            <option value="day">Once a day</option>
+            <option value="week">Once a week</option>
+          </select>
+        </label>
+        <label class="check"><input type="checkbox" id="s-toasts"> Show a notice each time the game saves</label>
+        <label class="check"><input type="checkbox" id="s-warn"> Warn me before I leave the page while playing</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Data on this device</legend>
+        <div class="row">
+          <button type="button" id="s-reset">Reset settings</button>
+          <button type="button" class="danger" id="s-wipe">Delete all saves and backups…</button>
+        </div>
+      </fieldset>
+    </form>
+  </dialog>
 
   <dialog id="dlg">
     <h3 id="dlg-title"></h3>

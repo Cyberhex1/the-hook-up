@@ -14,7 +14,6 @@
   const SAVE_FILE = "thehookup-saves.json";
   const SLOTS = [["slot1", "Slot 1"], ["slot2", "Slot 2"], ["slot3", "Slot 3"], ["auto", "Autosave"]];
   const POLL_MS = 1500;
-  const KEEP_AUTO = 30;          // automatic history entries kept in the browser
   const KEEP_FOLDER_BACKUPS = 30;
 
   const $ = (id) => document.getElementById(id);
@@ -23,6 +22,40 @@
     const n = Object.assign(document.createElement(tag), props || {});
     n.append(...kids);
     return n;
+  };
+
+  // ===========================================================================
+  // Settings (per browser; the key isn't a SharedObject key, so saves code ignores it)
+  // ===========================================================================
+  const SETTINGS_KEY = "thehookuprevived-settings";
+  const DEFAULTS = {
+    volume: 100, muted: false, background: "mute",
+    quality: "high", scale: "showAll", panel: "side",
+    keepBackups: 30, reminder: "week", toasts: true, warnLeave: true,
+    lastDownloadAt: 0,
+  };
+  const CHOICES = {
+    background: ["play", "mute", "pause"],
+    quality: ["low", "medium", "high", "best"],
+    scale: ["showAll", "exactFit"],
+    panel: ["side", "below"],
+    keepBackups: [10, 30, 100],
+    reminder: ["off", "day", "week"],
+  };
+  const settings = (() => {
+    let stored = {};
+    try { stored = JSON.parse(localStorage.getItem(SETTINGS_KEY)) || {}; } catch (e) { /* defaults */ }
+    const s = { ...DEFAULTS };
+    for (const k of Object.keys(DEFAULTS)) {
+      const v = stored[k];
+      if (v === undefined || typeof v !== typeof DEFAULTS[k]) continue;
+      if (CHOICES[k] && !CHOICES[k].includes(v)) continue;
+      s[k] = k === "volume" ? Math.min(100, Math.max(0, v)) : v;
+    }
+    return s;
+  })();
+  const storeSettings = () => {
+    try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings)); } catch (e) { /* storage blocked */ }
   };
 
   // ===========================================================================
@@ -187,15 +220,16 @@
     toastTimer = setTimeout(() => { t.className = isErr ? "err" : ""; }, isErr ? 6000 : 2800);
   }
 
-  // ask("Title", "text", [["yes", "Label", true], ["no", "Cancel"]]) -> resolves to the chosen key
+  // ask("Title", "text", [["yes", "Label", true], ["no", "Cancel"]]) -> resolves to the chosen key;
+  // the third item is true for the primary button, or a class name such as "danger"
   function ask(title, text, choices) {
     const dlg = $("dlg");
     $("dlg-title").textContent = title;
     $("dlg-text").textContent = text;
     return new Promise((resolve) => {
       const actions = $("dlg-actions");
-      actions.replaceChildren(...choices.map(([key, label, primary]) => {
-        const b = el("button", { type: "button", textContent: label, className: primary ? "primary" : "" });
+      actions.replaceChildren(...choices.map(([key, label, style]) => {
+        const b = el("button", { type: "button", textContent: label, className: style === true ? "primary" : (style || "") });
         b.addEventListener("click", () => dlg.close(key));
         return b;
       }));
@@ -215,6 +249,25 @@
     a.click();
     a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    settings.lastDownloadAt = Date.now();
+    storeSettings();
+    checkReminder();
+  }
+
+  // ===========================================================================
+  // Backup reminder
+  // ===========================================================================
+  const REMIND_MS = { day: 24 * 3600e3, week: 7 * 24 * 3600e3 };
+  function checkReminder() {
+    const box = $("reminder");
+    const due = settings.reminder !== "off" && hasSaves(storageSaves())
+      && Date.now() - settings.lastDownloadAt > REMIND_MS[settings.reminder];
+    box.hidden = !due;
+    if (due) {
+      $("reminder-text").textContent = settings.lastDownloadAt
+        ? `Your last downloaded backup was ${ago(settings.lastDownloadAt)}.`
+        : "You haven't downloaded a backup yet.";
+    }
   }
 
   // ===========================================================================
@@ -244,6 +297,7 @@
       all: () => run("snapshots", "readonly", (s) => s.getAll()),
       add: (snap) => run("snapshots", "readwrite", (s) => s.add(snap)),
       remove: (id) => run("snapshots", "readwrite", (s) => s.delete(id)),
+      clear: () => run("snapshots", "readwrite", (s) => s.clear()),
       get: (k) => run("kv", "readonly", (s) => s.get(k)),
       set: (k, v) => run("kv", "readwrite", (s) => s.put(v, k)),
       del: (k) => run("kv", "readwrite", (s) => s.delete(k)),
@@ -259,10 +313,15 @@
     const latest = list[list.length - 1];
     if (reason === "auto" && latest && same(latest.entries, entries)) return false;
     await db.add({ at: Date.now(), reason, entries });
-    const autos = list.filter((s) => s.reason !== "manual");
-    for (const old of autos.slice(0, Math.max(0, autos.length + 1 - KEEP_AUTO))) await db.remove(old.id);
+    await pruneHistory();
     renderHistory();
     return true;
+  }
+
+  // keep the newest settings.keepBackups entries; the ones made with "Back up now" always stay
+  async function pruneHistory() {
+    const autos = (await db.all()).filter((s) => s.reason !== "manual");
+    for (const old of autos.slice(0, Math.max(0, autos.length - settings.keepBackups))) await db.remove(old.id);
   }
 
   async function renderHistory() {
@@ -507,9 +566,10 @@
     lastSeen = json;
     renderSlots(cur);
     addSnapshot("auto", cur).then((made) => {
-      if (made && !first) toast("Game saved · backup kept" + (folder.ok ? " · written to your folder" : ""));
+      if (made && !first && settings.toasts) toast("Game saved · backup kept" + (folder.ok ? " · written to your folder" : ""));
     }, () => { /* history unavailable */ });
     mirrorToFolder(cur);
+    checkReminder();
   }
 
   // ===========================================================================
@@ -541,7 +601,8 @@
     $("stage").replaceChildren(player);
     // test switches: ?debug=1 (log to console), ?fasttime=1 (30x game clock)
     const flashvars = ["debug", "fasttime"].filter((k) => params.has(k)).map((k) => k + "=1").join("&");
-    player.ruffle().load({ url: "hookup.swf", parameters: flashvars }).catch((e) => {
+    loadedWith = { quality: settings.quality, scale: settings.scale };
+    player.ruffle().load({ url: "hookup.swf", parameters: flashvars, ...loadedWith }).then(applySound, (e) => {
       $("stage").replaceChildren(el("div", { id: "fallback", textContent: "The game couldn't start: " + e.message }));
     });
     player.addEventListener("pointerdown", () => { playing = true; }, { once: true });
@@ -596,7 +657,7 @@
   }, true);
 
   addEventListener("beforeunload", (e) => {
-    if (!playing || leaving) return;
+    if (!playing || leaving || !settings.warnLeave) return;
     e.preventDefault();
     e.returnValue = "";
   });
@@ -646,12 +707,136 @@
     renderPersist();
   }, { once: true });
 
+  // ===========================================================================
+  // Settings menu
+  // ===========================================================================
+  let loadedWith = null;      // quality and scale the running game started with
+  let pausedForBackground = false;
+
+  const api = () => { try { return player && player.ruffle(); } catch (e) { return null; } };
+
+  function applySound() {
+    const r = api();
+    if (!r) return;
+    const silent = settings.muted || (document.hidden && settings.background === "mute");
+    try { r.volume = silent ? 0 : settings.volume / 100; } catch (e) { /* player not ready */ }
+  }
+
+  document.addEventListener("visibilitychange", () => {
+    const r = api();
+    if (r && settings.background === "pause" && document.hidden && r.isPlaying) {
+      r.suspend();
+      pausedForBackground = true;
+    } else if (r && !document.hidden && pausedForBackground) {
+      r.resume();
+      pausedForBackground = false;
+    }
+    applySound();
+  });
+
+  const applyPanel = () => document.body.classList.toggle("panel-below", settings.panel === "below");
+
+  // control id -> setting; ranges and selects of numbers are stored as numbers
+  const FIELDS = {
+    "s-volume": "volume", "s-muted": "muted", "s-background": "background",
+    "s-quality": "quality", "s-scale": "scale", "s-panel": "panel",
+    "s-keep": "keepBackups", "s-reminder": "reminder", "s-toasts": "toasts", "s-warn": "warnLeave",
+  };
+
+  function renderSettings() {
+    for (const [id, key] of Object.entries(FIELDS)) {
+      const input = $(id);
+      if (input.type === "checkbox") input.checked = settings[key];
+      else input.value = String(settings[key]);
+    }
+    $("s-volume-out").textContent = settings.muted ? "muted" : settings.volume + "%";
+    $("keep-n").textContent = settings.keepBackups;
+    $("s-restart").hidden = !loadedWith || (loadedWith.quality === settings.quality && loadedWith.scale === settings.scale);
+  }
+
+  function onSettingChange(e) {
+    const key = FIELDS[e.target.id];
+    if (!key) return;
+    const input = e.target;
+    settings[key] = input.type === "checkbox" ? input.checked
+      : typeof DEFAULTS[key] === "number" ? Number(input.value) : input.value;
+    storeSettings();
+    if (key === "volume" || key === "muted" || key === "background") applySound();
+    if (key === "background" && settings.background !== "pause" && pausedForBackground) {
+      api() && api().resume();
+      pausedForBackground = false;
+    }
+    if (key === "panel") applyPanel();
+    if (key === "keepBackups") pruneHistory().then(renderHistory, () => {});
+    if (key === "reminder") checkReminder();
+    renderSettings();
+  }
+
+  async function restartGame() {
+    const c = await ask("Restart the game?", "The new display settings need a restart. Anything you haven't saved is lost.", [["no", "Cancel"], ["yes", "Restart", true]]);
+    if (c !== "yes") return;
+    leaving = true;
+    try { player && player.remove(); } catch (e) { /* already gone */ }
+    setTimeout(() => location.reload(), 150);
+  }
+
+  async function resetSettings() {
+    const c = await ask("Reset all settings?", "Sound, display and backup settings go back to their defaults. Your saves and backups aren't touched.", [["no", "Cancel"], ["yes", "Reset", true]]);
+    if (c !== "yes") return;
+    const keepDownload = settings.lastDownloadAt;
+    Object.assign(settings, DEFAULTS, { lastDownloadAt: keepDownload });
+    storeSettings();
+    applySound();
+    applyPanel();
+    pruneHistory().then(renderHistory, () => {});
+    checkReminder();
+    renderSettings();
+  }
+
+  async function deleteEverything() {
+    for (;;) {
+      const c = await ask("Delete all saves and backups?",
+        "This removes every save slot and the whole backup history from this browser, and unlinks the save folder (files already in that folder are kept). It can't be undone.",
+        [["no", "Cancel"], ["download", "Download a backup first"], ["yes", "Delete everything", "danger"]]);
+      if (c === "download") {
+        const cur = storageSaves();
+        if (hasSaves(cur)) download(cur);
+        else toast("There are no saves to download.", true);
+        continue;
+      }
+      if (c !== "yes") return;
+      break;
+    }
+    $("settings").close();
+    leaving = true;
+    try { player && player.remove(); } catch (e) { /* already gone */ }
+    setTimeout(async () => {
+      for (const k of Object.keys(localStorage)) if (isSaveKey(k)) localStorage.removeItem(k);
+      try { await db.clear(); await db.del("dir"); } catch (e) { /* history unavailable */ }
+      location.reload();
+    }, 150);
+  }
+
+  $("open-settings").addEventListener("click", () => {
+    renderSettings();
+    $("settings").showModal();
+  });
+  $("settings").addEventListener("input", onSettingChange);
+  $("settings").addEventListener("change", onSettingChange);
+  $("s-restart-btn").addEventListener("click", restartGame);
+  $("s-reset").addEventListener("click", resetSettings);
+  $("s-wipe").addEventListener("click", deleteEverything);
+  $("reminder-dl").addEventListener("click", () => $("download").click());
+
   window.addEventListener("load", () => {
+    applyPanel();
+    $("keep-n").textContent = settings.keepBackups;
     start();
     renderPersist();
     renderHistory();
     poll();
     setInterval(poll, POLL_MS);
+    setInterval(checkReminder, 10 * 60e3);
     setInterval(() => folder.ok && renderFolder(), 30000);
     initFolder();
   });
